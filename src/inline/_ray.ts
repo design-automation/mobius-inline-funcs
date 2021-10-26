@@ -1,7 +1,7 @@
-import { TRay, TPlane, Txyz } from '@assets/libs/geo-info/common';
-import { vecCross, vecMult, vecsAdd, vecSetLen, vecNorm, vecAdd, vecRot, vecFromTo, vecSub } from '@assets/libs/geom/vectors';
-import { getArrDepth } from '@assets/libs/util/arrs';
-import { multMatrix, xformMatrix } from '@assets/libs/geom/matrix';
+import { TRay, TPlane, Txyz } from '@design-automation/mobius-sim/dist/geo-info/common';
+import { vecCross, vecMult, vecsAdd, vecSetLen, vecNorm, vecAdd, vecRot, vecFromTo, vecSub } from '@design-automation/mobius-sim/dist/geom/vectors';
+import { getArrDepth } from '@design-automation/mobius-sim/dist/util/arrs';
+import { multMatrix, xformMatrix } from '@design-automation/mobius-sim/dist/geom/matrix';
 import { checkNumArgs } from '../_check_inline_args';
 
 /**

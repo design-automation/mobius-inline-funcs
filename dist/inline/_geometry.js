@@ -1,10 +1,6 @@
 import * as isect from '@design-automation/mobius-sim/dist/geom/intersect';
 import * as dist from '@design-automation/mobius-sim/dist/geom/distance';
 import { checkNumArgs } from '../_check_inline_args';
-type Txyz = [number, number, number];
-type TRay = [Txyz, Txyz];
-type TPlane = [Txyz, Txyz, Txyz];
-
 /**
  * Returns the intersection xyz between two rays, where...
     ['intersect(r1, r2)', 'Returns the intersection xyz between two infinite rays'],
@@ -21,7 +17,7 @@ type TPlane = [Txyz, Txyz, Txyz];
  * @param r2
  * @param met
  */
-export function intersect(debug: boolean, r1: TRay, r2: TRay|TPlane, met: number = 2) {
+export function intersect(debug, r1, r2, met = 2) {
     if (debug) {
         checkNumArgs('intersect', arguments, 3, 2);
     }
@@ -39,7 +35,7 @@ export function intersect(debug: boolean, r1: TRay, r2: TRay|TPlane, met: number
  * @param r
  * @param met
  */
-export function project(debug: boolean, c: Txyz, r: TRay|TPlane, met: number = 2) {
+export function project(debug, c, r, met = 2) {
     if (debug) {
         checkNumArgs('project', arguments, 3, 2);
     }
@@ -52,7 +48,7 @@ export function project(debug: boolean, c: Txyz, r: TRay|TPlane, met: number = 2
  * @param c1
  * @param c2
  */
-export function distance(debug: boolean, c1: Txyz, c2: Txyz|TRay|TPlane) {
+export function distance(debug, c1, c2) {
     if (debug) {
         checkNumArgs('distance', arguments, 2);
     }
@@ -65,7 +61,7 @@ export function distance(debug: boolean, c1: Txyz, c2: Txyz|TRay|TPlane) {
  * @param c1
  * @param c2
  */
-export function distanceM(debug: boolean, c1: Txyz, c2: Txyz|TRay|TPlane) {
+export function distanceM(debug, c1, c2) {
     if (debug) {
         checkNumArgs('distanceM', arguments, 2);
     }
@@ -78,11 +74,10 @@ export function distanceM(debug: boolean, c1: Txyz, c2: Txyz|TRay|TPlane) {
  * @param c1
  * @param c2
  */
-export function distanceMS(debug: boolean, c1: Txyz, c2: Txyz|TRay|TPlane) {
+export function distanceMS(debug, c1, c2) {
     if (debug) {
         checkNumArgs('distanceMS', arguments, 2);
     }
     return dist.distanceManhattanSq(c1, c2);
 }
-
-
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiX2dlb21ldHJ5LmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2lubGluZS9fZ2VvbWV0cnkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxLQUFLLEtBQUssTUFBTSxtREFBbUQsQ0FBQztBQUMzRSxPQUFPLEtBQUssSUFBSSxNQUFNLGtEQUFrRCxDQUFDO0FBQ3pFLE9BQU8sRUFBRSxZQUFZLEVBQUUsTUFBTSx1QkFBdUIsQ0FBQztBQUtyRDs7Ozs7Ozs7Ozs7Ozs7O0dBZUc7QUFDSCxNQUFNLFVBQVUsU0FBUyxDQUFDLEtBQWMsRUFBRSxFQUFRLEVBQUUsRUFBZSxFQUFFLE1BQWMsQ0FBQztJQUNoRixJQUFJLEtBQUssRUFBRTtRQUNQLFlBQVksQ0FBQyxXQUFXLEVBQUUsU0FBUyxFQUFFLENBQUMsRUFBRSxDQUFDLENBQUMsQ0FBQztLQUM5QztJQUNELE9BQU8sS0FBSyxDQUFDLFNBQVMsQ0FBQyxFQUFFLEVBQUUsRUFBRSxFQUFFLEdBQUcsQ0FBQyxDQUFDO0FBQ3hDLENBQUM7QUFDRDs7Ozs7Ozs7Ozs7R0FXRztBQUNILE1BQU0sVUFBVSxPQUFPLENBQUMsS0FBYyxFQUFFLENBQU8sRUFBRSxDQUFjLEVBQUUsTUFBYyxDQUFDO0lBQzVFLElBQUksS0FBSyxFQUFFO1FBQ1AsWUFBWSxDQUFDLFNBQVMsRUFBRSxTQUFTLEVBQUUsQ0FBQyxFQUFFLENBQUMsQ0FBQyxDQUFDO0tBQzVDO0lBQ0QsT0FBTyxLQUFLLENBQUMsT0FBTyxDQUFDLENBQUMsRUFBRSxDQUFDLEVBQUUsR0FBRyxDQUFDLENBQUM7QUFDcEMsQ0FBQztBQUNEOzs7Ozs7R0FNRztBQUNILE1BQU0sVUFBVSxRQUFRLENBQUMsS0FBYyxFQUFFLEVBQVEsRUFBRSxFQUFvQjtJQUNuRSxJQUFJLEtBQUssRUFBRTtRQUNQLFlBQVksQ0FBQyxVQUFVLEVBQUUsU0FBUyxFQUFFLENBQUMsQ0FBQyxDQUFDO0tBQzFDO0lBQ0QsT0FBTyxJQUFJLENBQUMsUUFBUSxDQUFDLEVBQUUsRUFBRSxFQUFFLENBQUMsQ0FBQztBQUNqQyxDQUFDO0FBQ0Q7Ozs7OztHQU1HO0FBQ0gsTUFBTSxVQUFVLFNBQVMsQ0FBQyxLQUFjLEVBQUUsRUFBUSxFQUFFLEVBQW9CO0lBQ3BFLElBQUksS0FBSyxFQUFFO1FBQ1AsWUFBWSxDQUFDLFdBQVcsRUFBRSxTQUFTLEVBQUUsQ0FBQyxDQUFDLENBQUM7S0FDM0M7SUFDRCxPQUFPLElBQUksQ0FBQyxpQkFBaUIsQ0FBQyxFQUFFLEVBQUUsRUFBRSxDQUFDLENBQUM7QUFDMUMsQ0FBQztBQUNEOzs7Ozs7R0FNRztBQUNILE1BQU0sVUFBVSxVQUFVLENBQUMsS0FBYyxFQUFFLEVBQVEsRUFBRSxFQUFvQjtJQUNyRSxJQUFJLEtBQUssRUFBRTtRQUNQLFlBQVksQ0FBQyxZQUFZLEVBQUUsU0FBUyxFQUFFLENBQUMsQ0FBQyxDQUFDO0tBQzVDO0lBQ0QsT0FBTyxJQUFJLENBQUMsbUJBQW1CLENBQUMsRUFBRSxFQUFFLEVBQUUsQ0FBQyxDQUFDO0FBQzVDLENBQUMifQ==

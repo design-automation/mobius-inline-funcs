@@ -1,7 +1,7 @@
-import * as vec from '@libs/geom/vectors';
-import { Txyz, TPlane } from '@assets/libs/geo-info/common';
-import { getArrDepth } from '@assets/libs/util/arrs';
-import { xformMatrix, multMatrix } from '@assets/libs/geom/matrix';
+import * as vec from '@design-automation/mobius-sim/dist/geom/vectors';
+import { Txyz, TPlane } from '@design-automation/mobius-sim/dist/geo-info/common';
+import { getArrDepth } from '@design-automation/mobius-sim/dist/util/arrs';
+import { xformMatrix, multMatrix } from '@design-automation/mobius-sim/dist/geom/matrix';
 import { checkNumArgs } from '../_check_inline_args';
 import { checkArgs, isXYZ, isXYZL } from '../_check_types';
 
