@@ -1,10 +1,10 @@
 {
   "name": "@design-automation/mobius-inline-funcs",
-  "version": "0.1.5",
+  "version": "0.1.0",
   "description": "Mobius Spatial Information Model",
   "main": "index.js",
   "dependencies": {
-    "@design-automation/mobius-sim": "^0.1.5",
+    "@design-automation/mobius-sim": "^0.2.0",
     "chroma-js": "^2.0.3",
     "lodash": "^4.17.21",
     "mathjs": "^5.10.3"
