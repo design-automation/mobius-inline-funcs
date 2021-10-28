@@ -1,5 +1,5 @@
 import * as ch from 'chroma-js';
-import { TColor } from '@design-automation/mobius-sim/dist/geo-info/common';
+import { TColor } from '../libs/common';
 import { checkNumArgs } from '../_check_inline_args';
 
 const false_col  = ch.scale(['blue', 'cyan', 'green', 'yellow', 'red']);

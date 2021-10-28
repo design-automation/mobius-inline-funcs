@@ -6,9 +6,9 @@
  * - origin,   x_vec[], xy_vec[]
  * - origin[], x_vec[], xy_vec[]
  */
-import { TPlane, TRay, Txyz, Txy } from '@design-automation/mobius-sim/dist/geo-info/common';
-import { vecCross, vecMult, vecsAdd, vecRot, vecNorm, vecMakeOrtho, vecAdd, vecFromTo, vecDot } from '@design-automation/mobius-sim/dist/geom/vectors';
-import { getArrDepth } from '@design-automation/mobius-sim/dist/util/arrs';
+import { TPlane, TRay, Txyz, Txy } from '../libs/common';
+import { vecCross, vecMult, vecsAdd, vecRot, vecNorm, vecMakeOrtho, vecAdd, vecFromTo, vecDot } from '../libs/vectors';
+import { getArrDepth } from '../libs/arrs';
 import { checkNumArgs } from '../_check_inline_args';
 
 

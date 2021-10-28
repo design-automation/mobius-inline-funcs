@@ -1,4 +1,4 @@
-import {XYPLANE, YZPLANE, ZXPLANE, YXPLANE, ZYPLANE, XZPLANE} from '@design-automation/mobius-sim/dist/geo-info/common';
+import {XYPLANE, YZPLANE, ZXPLANE, YXPLANE, ZYPLANE, XZPLANE} from '../libs/common';
 /**
  * The mathematical constant PI, 3.141...
  */

@@ -1,4 +1,4 @@
-import { TBBox, TColor, TEntTypeIdx, TPlane, TRay, Txy, Txyz } from '@design-automation/mobius-sim/dist/geo-info/common';
+import { TBBox, TColor, TEntTypeIdx, TPlane, TRay, Txy, Txyz } from './libs/common';
 /**
  *
  * @param fn_name

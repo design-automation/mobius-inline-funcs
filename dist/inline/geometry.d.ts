@@ -1,10 +1,6 @@
-import * as isect from '@design-automation/mobius-sim/dist/geom/intersect';
-import * as dist from '@design-automation/mobius-sim/dist/geom/distance';
-import { checkNumArgs } from '../_check_inline_args';
-type Txyz = [number, number, number];
-type TRay = [Txyz, Txyz];
-type TPlane = [Txyz, Txyz, Txyz];
-
+declare type Txyz = [number, number, number];
+declare type TRay = [Txyz, Txyz];
+declare type TPlane = [Txyz, Txyz, Txyz];
 /**
  * Returns the intersection xyz between two rays, where...
     ['intersect(r1, r2)', 'Returns the intersection xyz between two infinite rays'],
@@ -21,12 +17,7 @@ type TPlane = [Txyz, Txyz, Txyz];
  * @param r2
  * @param met
  */
-export function intersect(debug: boolean, r1: TRay, r2: TRay|TPlane, met: number = 2) {
-    if (debug) {
-        checkNumArgs('intersect', arguments, 3, 2);
-    }
-    return isect.intersect(r1, r2, met);
-}
+export declare function intersect(debug: boolean, r1: TRay, r2: TRay | TPlane, met?: number): [number, number, number];
 /**
  * Returns the xyz from projecting an xyz c onto an infinite ray r...
     ['project(c, r)', 'Returns the xyz from projecting an xyz c onto an infinite ray r'],
@@ -39,12 +30,7 @@ export function intersect(debug: boolean, r1: TRay, r2: TRay|TPlane, met: number
  * @param r
  * @param met
  */
-export function project(debug: boolean, c: Txyz, r: TRay|TPlane, met: number = 2) {
-    if (debug) {
-        checkNumArgs('project', arguments, 3, 2);
-    }
-    return isect.project(c, r, met);
-}
+export declare function project(debug: boolean, c: Txyz, r: TRay | TPlane, met?: number): [number, number, number];
 /**
  * Returns the Euclidean distance between two xyzs, c1 and c2'
  * Returns the Euclidean distance between an xyz c and an infinite ray r'
@@ -52,12 +38,7 @@ export function project(debug: boolean, c: Txyz, r: TRay|TPlane, met: number = 2
  * @param c1
  * @param c2
  */
-export function distance(debug: boolean, c1: Txyz, c2: Txyz|TRay|TPlane) {
-    if (debug) {
-        checkNumArgs('distance', arguments, 2);
-    }
-    return dist.distance(c1, c2);
-}
+export declare function distance(debug: boolean, c1: Txyz, c2: Txyz | TRay | TPlane): number;
 /**
  * Returns the Manhattan distance between two xyzs, c1 and c2
  * Returns the Manhattan distance between an xyz c and an infinite ray r'
@@ -65,12 +46,7 @@ export function distance(debug: boolean, c1: Txyz, c2: Txyz|TRay|TPlane) {
  * @param c1
  * @param c2
  */
-export function distanceM(debug: boolean, c1: Txyz, c2: Txyz|TRay|TPlane) {
-    if (debug) {
-        checkNumArgs('distanceM', arguments, 2);
-    }
-    return dist.distanceManhattan(c1, c2);
-}
+export declare function distanceM(debug: boolean, c1: Txyz, c2: Txyz | TRay | TPlane): number;
 /**
  * Returns the Manhattan squared distance between two xyzs, c1 and c2
  * Returns the Manhattan squared distance between an xyz c and an infinite ray r'
@@ -78,11 +54,5 @@ export function distanceM(debug: boolean, c1: Txyz, c2: Txyz|TRay|TPlane) {
  * @param c1
  * @param c2
  */
-export function distanceMS(debug: boolean, c1: Txyz, c2: Txyz|TRay|TPlane) {
-    if (debug) {
-        checkNumArgs('distanceMS', arguments, 2);
-    }
-    return dist.distanceManhattanSq(c1, c2);
-}
-
-
+export declare function distanceMS(debug: boolean, c1: Txyz, c2: Txyz | TRay | TPlane): number;
+export {};
