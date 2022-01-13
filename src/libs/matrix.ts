@@ -184,9 +184,6 @@ export function xformMatrix(plane: TPlane, neg: boolean): three.Matrix4 {
 //     m3.multiplyMatrices(m1, m2);
 //     return m3;
 // }
-
-
-
 // function _xformMatrixFromXYZVectors(o: Txyz, xaxis: Txyz, xyplane: Txyz, neg: boolean): three.Matrix4 {
 //     const x_vec: three.Vector3 = new three.Vector3(...xaxis).normalize();
 //     const xyplane_vec: three.Vector3 = new three.Vector3(...xyplane).normalize();

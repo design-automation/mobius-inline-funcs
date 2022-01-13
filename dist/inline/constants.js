@@ -1,30 +1,33 @@
-import { XYPLANE, YZPLANE, ZXPLANE, YXPLANE, ZYPLANE, XZPLANE } from '../libs/common';
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.XZ = exports.ZY = exports.YX = exports.ZX = exports.YZ = exports.XY = exports.PI = void 0;
+const common_1 = require("../libs/common");
 /**
  * The mathematical constant PI, 3.141...
  */
-export const PI = Math.PI;
+exports.PI = Math.PI;
 /**
  * A plane at the origin, aligned with the XY plane.
  */
-export const XY = XYPLANE;
+exports.XY = common_1.XYPLANE;
 /**
  * A plane at the origin, aligned with the YZ plane.
  */
-export const YZ = YZPLANE;
+exports.YZ = common_1.YZPLANE;
 /**
  * A plane at the origin, aligned with the ZX plane.
  */
-export const ZX = ZXPLANE;
+exports.ZX = common_1.ZXPLANE;
 /**
  * A plane at the origin, aligned with the YX plane.
  */
-export const YX = YXPLANE;
+exports.YX = common_1.YXPLANE;
 /**
  * A plane at the origin, aligned with the ZY plane.
  */
-export const ZY = ZYPLANE;
+exports.ZY = common_1.ZYPLANE;
 /**
  * A plane at the origin, aligned with the XZ plane.
  */
-export const XZ = XZPLANE;
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29uc3RhbnRzLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2lubGluZS9jb25zdGFudHMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFDLE9BQU8sRUFBRSxPQUFPLEVBQUUsT0FBTyxFQUFFLE9BQU8sRUFBRSxPQUFPLEVBQUUsT0FBTyxFQUFDLE1BQU0sZ0JBQWdCLENBQUM7QUFDcEY7O0dBRUc7QUFDSCxNQUFNLENBQUMsTUFBTSxFQUFFLEdBQUcsSUFBSSxDQUFDLEVBQUUsQ0FBQztBQUMxQjs7R0FFRztBQUNILE1BQU0sQ0FBQyxNQUFNLEVBQUUsR0FBRyxPQUFPLENBQUM7QUFDMUI7O0dBRUc7QUFDSCxNQUFNLENBQUMsTUFBTSxFQUFFLEdBQUcsT0FBTyxDQUFDO0FBQzFCOztHQUVHO0FBQ0gsTUFBTSxDQUFDLE1BQU0sRUFBRSxHQUFHLE9BQU8sQ0FBQztBQUMxQjs7R0FFRztBQUNILE1BQU0sQ0FBQyxNQUFNLEVBQUUsR0FBRyxPQUFPLENBQUM7QUFDMUI7O0dBRUc7QUFDSCxNQUFNLENBQUMsTUFBTSxFQUFFLEdBQUcsT0FBTyxDQUFDO0FBQzFCOztHQUVHO0FBQ0gsTUFBTSxDQUFDLE1BQU0sRUFBRSxHQUFHLE9BQU8sQ0FBQyJ9
+exports.XZ = common_1.XZPLANE;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29uc3RhbnRzLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL2lubGluZS9jb25zdGFudHMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7O0FBQUEsMkNBQW9GO0FBQ3BGOztHQUVHO0FBQ1UsUUFBQSxFQUFFLEdBQUcsSUFBSSxDQUFDLEVBQUUsQ0FBQztBQUMxQjs7R0FFRztBQUNVLFFBQUEsRUFBRSxHQUFHLGdCQUFPLENBQUM7QUFDMUI7O0dBRUc7QUFDVSxRQUFBLEVBQUUsR0FBRyxnQkFBTyxDQUFDO0FBQzFCOztHQUVHO0FBQ1UsUUFBQSxFQUFFLEdBQUcsZ0JBQU8sQ0FBQztBQUMxQjs7R0FFRztBQUNVLFFBQUEsRUFBRSxHQUFHLGdCQUFPLENBQUM7QUFDMUI7O0dBRUc7QUFDVSxRQUFBLEVBQUUsR0FBRyxnQkFBTyxDQUFDO0FBQzFCOztHQUVHO0FBQ1UsUUFBQSxFQUFFLEdBQUcsZ0JBQU8sQ0FBQyJ9

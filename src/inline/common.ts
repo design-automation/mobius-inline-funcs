@@ -43,17 +43,3 @@ export function equal(debug: boolean, data1: any, data2: any): boolean {
     return lodash.isEqual(data1, data2);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
