@@ -80,8 +80,8 @@ export class InlineClass {
         ... constants
     }
 
-    constructor(debug: boolean) {
-        this.__debug__ = debug
+    constructor(debug?: boolean) {
+        this.__debug__ = (debug !== false)? true: debug
 
         this.arithmetic = new arithmetic.arithmeticClass(debug)
         this.colors = new colors.colorsClass(debug)
