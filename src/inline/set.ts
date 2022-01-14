@@ -47,3 +47,27 @@ export function setDif(debug: boolean, list1: any[], list2: any[]): any[] {
     }
     return Mathjs.setDifference(list1, list2);
 }
+
+export class setClass {
+    __debug__: boolean
+    constructor(debug: boolean) {
+        this.__debug__ = debug
+    }
+
+    setMake(list) {
+        return setMake(this.__debug__, list);
+    }
+
+    setUni(list1, list2) {
+        return setUni(this.__debug__, list1, list2);
+    }
+
+    setInt(list1, list2) {
+        return setInt(this.__debug__, list1, list2);
+    }
+
+    setDif(list1, list2) {
+        return setDif(this.__debug__, list1, list2);
+    }
+}
+

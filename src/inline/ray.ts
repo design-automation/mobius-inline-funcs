@@ -1,8 +1,8 @@
-import { TRay, TPlane, Txyz } from '../libs/common';
-import { vecCross, vecMult, vecsAdd, vecSetLen, vecNorm, vecAdd, vecRot, vecFromTo, vecSub } from '../libs/vectors';
-import { getArrDepth } from '../libs/arrs';
-import { multMatrix, xformMatrix } from '../libs/matrix';
 import { checkNumArgs } from '../_check_inline_args';
+import { getArrDepth } from '../libs/arrs';
+import { TPlane, TRay, Txyz } from '../libs/common';
+import { multMatrix, xformMatrix } from '../libs/matrix';
+import { vecAdd, vecCross, vecFromTo, vecMult, vecNorm, vecRot, vecSetLen } from '../libs/vectors';
 
 /**
  * Creates a ray from an origin "o" and a direction vector "d".
@@ -292,3 +292,47 @@ function _rayXForm(debug: boolean, r: TRay|TRay[], p: TPlane|TPlane[], to_global
     throw new Error(
         'Error transforming rays: Cannot process the input lists.');
 }
+
+export class rayClass {
+    __debug__: boolean
+    constructor(debug: boolean) {
+        this.__debug__ = debug
+    }
+
+    rayMake(origin, dir, len) {
+        return rayMake(this.__debug__, origin, dir, len);
+    }
+
+    rayFromTo(xyz1, xyz2) {
+        return rayFromTo(this.__debug__, xyz1, xyz2);
+    }
+
+    rayCopy(ray) {
+        return rayCopy(this.__debug__, ray);
+    }
+
+    rayMove(ray, vec) {
+        return rayMove(this.__debug__, ray, vec);
+    }
+
+    rayRot(ray1, ray2, ang) {
+        return rayRot(this.__debug__, ray1, ray2, ang);
+    }
+
+    rayLMove(ray, dist) {
+        return rayLMove(this.__debug__, ray, dist);
+    }
+
+    rayFromPln(pln) {
+        return rayFromPln(this.__debug__, pln);
+    }
+
+    rayLtoG(r, p) {
+        return rayLtoG(this.__debug__, r, p);
+    }
+
+    rayGtoL(r, p) {
+        return rayGtoL(this.__debug__, r, p);
+    }
+}
+

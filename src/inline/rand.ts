@@ -1,5 +1,7 @@
 import * as mathjs from 'mathjs';
+
 import { checkNumArgs } from '../_check_inline_args';
+
 /**
  * Returns a random number in the specified range
  * Returns a random number in the specified range, given a numeric seed
@@ -81,5 +83,25 @@ function _randShuffleWithSeed(arr: any[], seed?: number) {
         arr[index] = temp;
     }
     return arr;
+}
+
+
+export class randClass {
+    __debug__: boolean
+    constructor(debug: boolean) {
+        this.__debug__ = debug
+    }
+
+    rand(min, max, seed) {
+        return rand(this.__debug__, min, max, seed);
+    }
+
+    randInt(min, max, seed) {
+        return randInt(this.__debug__, min, max, seed);
+    }
+
+    randPick(list, num, seed) {
+        return randPick(this.__debug__, list, num, seed);
+    }
 }
 

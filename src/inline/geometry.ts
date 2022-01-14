@@ -86,3 +86,31 @@ export function distanceMS(debug: boolean, c1: Txyz, c2: Txyz|TRay|TPlane) {
 }
 
 
+
+export class geometryClass {
+    __debug__: boolean
+    constructor(debug: boolean) {
+        this.__debug__ = debug
+    }
+
+    intersect(r1, r2, met) {
+        return intersect(this.__debug__, r1, r2, met);
+    }
+
+    project(c, r, met) {
+        return project(this.__debug__, c, r, met);
+    }
+
+    distance(c1, c2) {
+        return distance(this.__debug__, c1, c2);
+    }
+
+    distanceM(c1, c2) {
+        return distanceM(this.__debug__, c1, c2);
+    }
+
+    distanceMS(c1, c2) {
+        return distanceMS(this.__debug__, c1, c2);
+    }
+}
+

@@ -194,3 +194,79 @@ export function _isWithin(v1: any, v2: any, v3: any): boolean {
     return typeof v1 === 'number' && typeof v2 === 'number' && typeof v3 === 'number' &&
     v1 <= v2 && v2 <= v3;
 }
+
+export class types2Class {
+    __debug__: boolean
+    constructor(debug: boolean) {
+        this.__debug__ = debug
+    }
+
+    isNum(v) {
+        return isNum(this.__debug__, v);
+    }
+
+    isInt(v) {
+        return isInt(this.__debug__, v);
+    }
+
+    isFlt(v) {
+        return isFlt(this.__debug__, v);
+    }
+
+    isBool(v) {
+        return isBool(this.__debug__, v);
+    }
+
+    isStr(v) {
+        return isStr(this.__debug__, v);
+    }
+
+    isList(v) {
+        return isList(this.__debug__, v);
+    }
+
+    isDict(v) {
+        return isDict(this.__debug__, v);
+    }
+
+    isVec2(v) {
+        return isVec2(this.__debug__, v);
+    }
+
+    isVec3(v) {
+        return isVec3(this.__debug__, v);
+    }
+
+    isCol(v) {
+        return isCol(this.__debug__, v);
+    }
+
+    isRay(v) {
+        return isRay(this.__debug__, v);
+    }
+
+    isPln(v) {
+        return isPln(this.__debug__, v);
+    }
+
+    isNaN(v) {
+        return isNaN(this.__debug__, v);
+    }
+
+    isNull(v) {
+        return isNull(this.__debug__, v);
+    }
+
+    isUndef(v) {
+        return isUndef(this.__debug__, v);
+    }
+
+    _isIn(v1, v2, v3) {
+        return _isIn(v1, v2, v3);
+    }
+
+    _isWithin(v1, v2, v3) {
+        return _isWithin(v1, v2, v3);
+    }
+}
+

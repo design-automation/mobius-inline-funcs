@@ -75,3 +75,27 @@ export function numToCurr(debug: boolean, num: number|number[], currency: string
     if (Array.isArray(num)) { return num.map(a_num => a_num.toLocaleString(locale, options)) as string[]; }
     return num.toLocaleString(locale, options) as string;
 }
+
+export class conversionClass {
+    __debug__: boolean
+    constructor(debug: boolean) {
+        this.__debug__ = debug
+    }
+
+    radToDeg(rad) {
+        return radToDeg(this.__debug__, rad);
+    }
+
+    degToRad(deg) {
+        return degToRad(this.__debug__, deg);
+    }
+
+    numToStr(num, frac_digits?, locale?) {
+        return numToStr(this.__debug__, num, frac_digits, locale);
+    }
+
+    numToCurr(num, currency, locale?) {
+        return numToCurr(this.__debug__, num, currency, locale);
+    }
+}
+

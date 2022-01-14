@@ -22,8 +22,8 @@
 // tanh = Math.tanh;
 // atanh = Math.atanh;
 // atan2 = Math.atan2;
-
 import { checkNumArgs } from '../_check_inline_args';
+
 
 /**
  * Returns the smallest of the given numbers.
@@ -239,7 +239,7 @@ export function floor(debug: boolean, num: number|number[]): number|number[] {
  * abs('');       // 0
  * abs([]);       // 0
  * abs([2]);      // [2]
- * abs([1,2]);    // [1,2]]
+ * abs([1,2]);    // [1,2]
  * abs({});       // NaN
  * abs('string'); // NaN
  * abs();         // NaN
@@ -500,5 +500,113 @@ export function atanh(debug: boolean, num: number|number[]): number|number[] {
         return num.map( a_num => Math.atanh(a_num) ) as number[];
     }
     return Math.atanh(num as number);
+}
+
+
+export class mathClass {
+    __debug__: boolean
+    constructor(debug: boolean) {
+        this.__debug__ = debug
+    }
+
+    min(list) {
+        return min(this.__debug__, list);
+    }
+
+    max(list) {
+        return max(this.__debug__, list);
+    }
+
+    pow(base, xp) {
+        return pow(this.__debug__, base, xp);
+    }
+
+    sqrt(num) {
+        return sqrt(this.__debug__, num);
+    }
+
+    exp(num) {
+        return exp(this.__debug__, num);
+    }
+
+    log(base) {
+        return log(this.__debug__, base);
+    }
+
+    log10(base) {
+        return log10(this.__debug__, base);
+    }
+
+    round(num, dec_pla = 0) {
+        return round(this.__debug__, num, dec_pla = 0);
+    }
+
+    sigFig(num, sig_figs) {
+        return sigFig(this.__debug__, num, sig_figs);
+    }
+
+    ceil(num) {
+        return ceil(this.__debug__, num);
+    }
+
+    floor(num) {
+        return floor(this.__debug__, num);
+    }
+
+    abs(num) {
+        return abs(this.__debug__, num);
+    }
+
+    sin(num) {
+        return sin(this.__debug__, num);
+    }
+
+    asin(num) {
+        return asin(this.__debug__, num);
+    }
+
+    sinh(num) {
+        return sinh(this.__debug__, num);
+    }
+
+    asinh(num) {
+        return asinh(this.__debug__, num);
+    }
+
+    cos(num) {
+        return cos(this.__debug__, num);
+    }
+
+    acos(num) {
+        return acos(this.__debug__, num);
+    }
+
+    cosh(num) {
+        return cosh(this.__debug__, num);
+    }
+
+    acosh(num) {
+        return acosh(this.__debug__, num);
+    }
+
+    tan(num) {
+        return tan(this.__debug__, num);
+    }
+
+    atan(num) {
+        return atan(this.__debug__, num);
+    }
+
+    atan2(xy) {
+        return atan2(this.__debug__, xy);
+    }
+
+    tanh(num) {
+        return tanh(this.__debug__, num);
+    }
+
+    atanh(num) {
+        return atanh(this.__debug__, num);
+    }
 }
 

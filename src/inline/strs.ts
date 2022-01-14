@@ -1,8 +1,8 @@
 /**
  * Functions to work with strings.
  */
-
 import { checkNumArgs } from '../_check_inline_args';
+
 
 
 // ['strRepl(s,search,new)', 'Replace all instances of specified search string with a new string.'],
@@ -154,3 +154,55 @@ export function strEnds(debug: boolean, str: string|string[], ends: string): boo
     if (Array.isArray(str)) { return str.map(a_str => a_str.endsWith(ends)); }
     return str.endsWith(ends);
 }
+
+export class strsClass {
+    __debug__: boolean
+    constructor(debug: boolean) {
+        this.__debug__ = debug
+    }
+
+    strRepl(str, search_str, new_str) {
+        return strRepl(this.__debug__, str, search_str, new_str);
+    }
+
+    strUpp(str) {
+        return strUpp(this.__debug__, str);
+    }
+
+    strLow(str) {
+        return strLow(this.__debug__, str);
+    }
+
+    strTrim(str) {
+        return strTrim(this.__debug__, str);
+    }
+
+    strTrimR(str) {
+        return strTrimR(this.__debug__, str);
+    }
+
+    strTrimL(str) {
+        return strTrimL(this.__debug__, str);
+    }
+
+    strPadL(str, max, fill) {
+        return strPadL(this.__debug__, str, max, fill);
+    }
+
+    strPadR(str, max, fill) {
+        return strPadR(this.__debug__, str, max, fill);
+    }
+
+    strSub(str, from, length) {
+        return strSub(this.__debug__, str, from, length);
+    }
+
+    strStarts(str, starts) {
+        return strStarts(this.__debug__, str, starts);
+    }
+
+    strEnds(str, ends) {
+        return strEnds(this.__debug__, str, ends);
+    }
+}
+

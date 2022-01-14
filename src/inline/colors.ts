@@ -54,3 +54,19 @@ export function colScale(debug: boolean, vals: number|number[], min: number, max
         return cols;
     }
 }
+
+export class colorsClass {
+    __debug__: boolean
+    constructor(debug: boolean) {
+        this.__debug__ = debug
+    }
+
+    colFalse(vals, min, max) {
+        return colFalse(this.__debug__, vals, min, max);
+    }
+
+    colScale(vals, min, max, scale) {
+        return colScale(this.__debug__, vals, min, max, scale);
+    }
+}
+

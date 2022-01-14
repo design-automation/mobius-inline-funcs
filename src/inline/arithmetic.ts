@@ -17,3 +17,15 @@ export function remap(debug: boolean, num: number|number[], d1: number[], d2: nu
         )
     );
 }
+
+export class arithmeticClass {
+    __debug__: boolean
+    constructor(debug: boolean) {
+        this.__debug__ = debug
+    }
+
+    remap(num, d1, d2) {
+        return remap(this.__debug__, num, d1, d2);
+    }
+}
+

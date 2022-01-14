@@ -315,3 +315,47 @@ export function plnFromRay(debug: boolean, ray: TRay|TRay[]): TPlane|TPlane[] {
     const y_axis: Txyz = vecCross(x_axis, z_vec);
     return [ray[0].slice() as Txyz, x_axis, y_axis];
 }
+
+export class planeClass {
+    __debug__: boolean
+    constructor(debug: boolean) {
+        this.__debug__ = debug
+    }
+
+    plnMake(origin, x_vec, xy_vec) {
+        return plnMake(this.__debug__, origin, x_vec, xy_vec);
+    }
+
+    plnCopy(pln) {
+        return plnCopy(this.__debug__, pln);
+    }
+
+    plnMove(pln, vec) {
+        return plnMove(this.__debug__, pln, vec);
+    }
+
+    plnRot(pln, ray, ang) {
+        return plnRot(this.__debug__, pln, ray, ang);
+    }
+
+    plnLMove(pln, vec) {
+        return plnLMove(this.__debug__, pln, vec);
+    }
+
+    plnLRotX(pln, ang) {
+        return plnLRotX(this.__debug__, pln, ang);
+    }
+
+    plnLRotY(pln, ang) {
+        return plnLRotY(this.__debug__, pln, ang);
+    }
+
+    plnLRotZ(pln, ang) {
+        return plnLRotZ(this.__debug__, pln, ang);
+    }
+
+    plnFromRay(ray) {
+        return plnFromRay(this.__debug__, ray);
+    }
+}
+

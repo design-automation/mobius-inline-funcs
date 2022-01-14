@@ -1,9 +1,11 @@
+import lodash from 'lodash';
+
+import { checkListsSameLen, checkNumArgs } from '../_check_inline_args';
+import * as chk from '../_check_types';
+
 /**
  * list functions that obtain and return information from an input list. Does not modify input list.
  */
-import lodash from 'lodash';
-import * as chk from '../_check_types';
-import { checkListsSameLen, checkNumArgs } from '../_check_inline_args';
 /**
  * Generates a list of integers, from start to end, with a step size of 1
  * Generates a list of integers, from start to end, with a specified step size
@@ -324,5 +326,77 @@ export function listEq(debug: boolean, list1: any[], list2: any[]): boolean {
         chk.checkArgs('listEq', 'list2', list2, [chk.isList]);
     }
     return lodash.isEqual(list1, list2);
+}
+
+
+export class listClass {
+    __debug__: boolean
+    constructor(debug: boolean) {
+        this.__debug__ = debug
+    }
+
+    range(start, end, step) {
+        return range(this.__debug__, start, end, step);
+    }
+
+    listCount(list, val) {
+        return listCount(this.__debug__, list, val);
+    }
+
+    listCopy(list) {
+        return listCopy(this.__debug__, list);
+    }
+
+    listRep(list, n) {
+        return listRep(this.__debug__, list, n);
+    }
+
+    listGet(list, idx) {
+        return listGet(this.__debug__, list, idx);
+    }
+
+    listFind(list, val) {
+        return listFind(this.__debug__, list, val);
+    }
+
+    listHas(list, val) {
+        return listHas(this.__debug__, list, val);
+    }
+
+    listJoin(list1, list2) {
+        return listJoin(this.__debug__, list1, list2);
+    }
+
+    listFlat(list, depth) {
+        return listFlat(this.__debug__, list, depth);
+    }
+
+    listRot(list, rot) {
+        return listRot(this.__debug__, list, rot);
+    }
+
+    listSlice(list, start, end) {
+        return listSlice(this.__debug__, list, start, end);
+    }
+
+    listRev(list) {
+        return listRev(this.__debug__, list);
+    }
+
+    listCull(list1, list2) {
+        return listCull(this.__debug__, list1, list2);
+    }
+
+    listSort(list1, list2) {
+        return listSort(this.__debug__, list1, list2);
+    }
+
+    listZip(list1, list2) {
+        return listZip(this.__debug__, list1, list2);
+    }
+
+    listEq(list1, list2) {
+        return listEq(this.__debug__, list1, list2);
+    }
 }
 

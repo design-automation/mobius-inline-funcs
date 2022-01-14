@@ -696,3 +696,83 @@ function _vecXForm(v: Txyz|Txyz[], p: TPlane|TPlane[], to_global: boolean): Txyz
 }
 
 
+
+export class vecClass {
+    __debug__: boolean
+    constructor(debug: boolean) {
+        this.__debug__ = debug
+    }
+
+    vecSum(...v) {
+        return vecSum(this.__debug__, ...v);
+    }
+
+    vecAdd(v1, v2, norm) {
+        return vecAdd(this.__debug__, v1, v2, norm);
+    }
+
+    vecSub(v1, v2, norm) {
+        return vecSub(this.__debug__, v1, v2, norm);
+    }
+
+    vecDiv(v, num) {
+        return vecDiv(this.__debug__, v, num);
+    }
+
+    vecMult(v, num) {
+        return vecMult(this.__debug__, v, num);
+    }
+
+    vecSetLen(v, num) {
+        return vecSetLen(this.__debug__, v, num);
+    }
+
+    vecDot(v1, v2) {
+        return vecDot(this.__debug__, v1, v2);
+    }
+
+    vecCross(v1, v2) {
+        return vecCross(this.__debug__, v1, v2);
+    }
+
+    vecAng(v1, v2) {
+        return vecAng(this.__debug__, v1, v2);
+    }
+
+    vecFromTo(xyz1, xyz2) {
+        return vecFromTo(this.__debug__, xyz1, xyz2);
+    }
+
+    vecEqual(v1, v2, tol) {
+        return vecEqual(this.__debug__, v1, v2, tol);
+    }
+
+    vecAng2(v1, v2, v3) {
+        return vecAng2(this.__debug__, v1, v2, v3);
+    }
+
+    vecRot(v1, v2, ang) {
+        return vecRot(this.__debug__, v1, v2, ang);
+    }
+
+    vecLen(v) {
+        return vecLen(this.__debug__, v);
+    }
+
+    vecNorm(v) {
+        return vecNorm(this.__debug__, v);
+    }
+
+    vecRev(v) {
+        return vecRev(this.__debug__, v);
+    }
+
+    vecLtoG(v, p) {
+        return vecLtoG(this.__debug__, v, p);
+    }
+
+    vecGtoL(v, p) {
+        return vecGtoL(this.__debug__, v, p);
+    }
+}
+

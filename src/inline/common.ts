@@ -43,3 +43,23 @@ export function equal(debug: boolean, data1: any, data2: any): boolean {
     return lodash.isEqual(data1, data2);
 }
 
+
+export class commonClass {
+    __debug__: boolean
+    constructor(debug: boolean) {
+        this.__debug__ = debug
+    }
+
+    len(data) {
+        return len(this.__debug__, data);
+    }
+
+    copy(data) {
+        return copy(this.__debug__, data);
+    }
+
+    equal(data1, data2) {
+        return equal(this.__debug__, data1, data2);
+    }
+}
+

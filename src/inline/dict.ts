@@ -127,3 +127,43 @@ export function dictEq(debug: boolean, dict1: any[], dict2: any[]): boolean {
     return lodash.isEqual(dict1, dict2);
 }
 
+
+export class dictClass {
+    __debug__: boolean
+    constructor(debug: boolean) {
+        this.__debug__ = debug
+    }
+
+    dictGet(dict, key) {
+        return dictGet(this.__debug__, dict, key);
+    }
+
+    dictKeys(dict) {
+        return dictKeys(this.__debug__, dict);
+    }
+
+    dictVals(dict) {
+        return dictVals(this.__debug__, dict);
+    }
+
+    dictHasKey(dict, key) {
+        return dictHasKey(this.__debug__, dict, key);
+    }
+
+    dictHasVal(dict, val) {
+        return dictHasVal(this.__debug__, dict, val);
+    }
+
+    dictFind(dict, val) {
+        return dictFind(this.__debug__, dict, val);
+    }
+
+    dictCopy(dict) {
+        return dictCopy(this.__debug__, dict);
+    }
+
+    dictEq(dict1, dict2) {
+        return dictEq(this.__debug__, dict1, dict2);
+    }
+}
+

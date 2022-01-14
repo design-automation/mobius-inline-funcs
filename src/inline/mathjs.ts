@@ -150,3 +150,71 @@ export function cube(debug: boolean, list: number) {
     }
     return Mathjs.cube(list);
 }
+
+export class mathjsClass {
+    __debug__: boolean
+    constructor(debug: boolean) {
+        this.__debug__ = debug
+    }
+
+    boolean(val) {
+        return boolean(this.__debug__, val);
+    }
+
+    number(val) {
+        return number(this.__debug__, val);
+    }
+
+    string(val) {
+        return string(this.__debug__, val);
+    }
+
+    mad(list) {
+        return mad(this.__debug__, list);
+    }
+
+    mean(list) {
+        return mean(this.__debug__, list);
+    }
+
+    median(list) {
+        return median(this.__debug__, list);
+    }
+
+    mode(list) {
+        return mode(this.__debug__, list);
+    }
+
+    prod(list) {
+        return prod(this.__debug__, list);
+    }
+
+    std(list) {
+        return std(this.__debug__, list);
+    }
+
+    vari(list) {
+        return vari(this.__debug__, list);
+    }
+
+    sum(list) {
+        return sum(this.__debug__, list);
+    }
+
+    hypot(list) {
+        return hypot(this.__debug__, list);
+    }
+
+    norm(list) {
+        return norm(this.__debug__, list);
+    }
+
+    square(list) {
+        return square(this.__debug__, list);
+    }
+
+    cube(list) {
+        return cube(this.__debug__, list);
+    }
+}
+
