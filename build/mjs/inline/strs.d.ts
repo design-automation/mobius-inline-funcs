@@ -70,7 +70,7 @@ export declare function strEnds(debug: boolean, str: string | string[], ends: st
  * Returns a JSON object parsed from an input string.
  * @param str
  */
-export declare function strToJSON(debug: boolean, str: string): boolean | boolean[];
+export declare function strToJSON(debug: boolean, str: string): any;
 export declare class strsClass {
     __debug__: boolean;
     constructor(debug: boolean);
@@ -85,5 +85,5 @@ export declare class strsClass {
     strSub(str: any, from: any, length: any): string | string[];
     strStarts(str: any, starts: any): boolean | boolean[];
     strEnds(str: any, ends: any): boolean | boolean[];
-    strToJSON(str: any): boolean | boolean[];
+    strToJSON(str: any): any;
 }
