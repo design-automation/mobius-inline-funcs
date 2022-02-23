@@ -64,5 +64,5 @@ export declare class InlineClass {
         ZY: import("./libs/common").TPlane;
         XZ: import("./libs/common").TPlane;
     };
-    constructor(debug: boolean);
+    constructor(debug?: boolean);
 }

@@ -261,6 +261,7 @@ strStarts = __inline__.strs.strStarts;
 strEnds = __inline__.strs.strEnds;
 strPadL = __inline__.strs.strPadL;
 strPadR = __inline__.strs.strPadR;
+strToJSON = __inline__.strs.strToJSON;
 isApprox = __inline__.util.isApprox;
 isIn = __inline__.util.isIn;
 isWithin = __inline__.util.isWithin;

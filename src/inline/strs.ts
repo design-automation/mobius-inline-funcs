@@ -147,12 +147,22 @@ export function strStarts(debug: boolean, str: string|string[], starts: string):
  * @param str
  * @param ends
  */
-export function strEnds(debug: boolean, str: string|string[], ends: string): boolean|boolean[] {
+ export function strEnds(debug: boolean, str: string|string[], ends: string): boolean|boolean[] {
     if (debug) {
         checkNumArgs('strEnds', arguments, 2);
     }
     if (Array.isArray(str)) { return str.map(a_str => a_str.endsWith(ends)); }
     return str.endsWith(ends);
+}
+/**
+ * Returns a JSON object parsed from an input string.
+ * @param str
+ */
+ export function strToJSON(debug: boolean, str: string): any {
+    if (debug) {
+        checkNumArgs('strToJSON', arguments, 1);
+    }
+    return JSON.parse(str);
 }
 
 export class strsClass {
@@ -203,6 +213,9 @@ export class strsClass {
 
     strEnds(str, ends) {
         return strEnds(this.__debug__, str, ends);
+    }
+    strToJSON(str) {
+        return strToJSON(this.__debug__, str);
     }
 }
 
