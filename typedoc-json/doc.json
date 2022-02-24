@@ -1290,7 +1290,9 @@
 					"name": "PI",
 					"kind": 32,
 					"kindString": "Variable",
-					"flags": {},
+					"flags": {
+						"isConst": true
+					},
 					"comment": {
 						"shortText": "The mathematical constant PI, 3.141..."
 					},
@@ -1305,14 +1307,16 @@
 						"type": "intrinsic",
 						"name": "number"
 					},
-					"defaultValue": "..."
+					"defaultValue": "Math.PI"
 				},
 				{
 					"id": 1376,
 					"name": "XY",
 					"kind": 32,
 					"kindString": "Variable",
-					"flags": {},
+					"flags": {
+						"isConst": true
+					},
 					"comment": {
 						"shortText": "A plane at the origin, aligned with the XY plane."
 					},
@@ -1327,14 +1331,16 @@
 						"type": "reference",
 						"name": "TPlane"
 					},
-					"defaultValue": "..."
+					"defaultValue": "XYPLANE"
 				},
 				{
 					"id": 1381,
 					"name": "XZ",
 					"kind": 32,
 					"kindString": "Variable",
-					"flags": {},
+					"flags": {
+						"isConst": true
+					},
 					"comment": {
 						"shortText": "A plane at the origin, aligned with the XZ plane."
 					},
@@ -1349,14 +1355,16 @@
 						"type": "reference",
 						"name": "TPlane"
 					},
-					"defaultValue": "..."
+					"defaultValue": "XZPLANE"
 				},
 				{
 					"id": 1379,
 					"name": "YX",
 					"kind": 32,
 					"kindString": "Variable",
-					"flags": {},
+					"flags": {
+						"isConst": true
+					},
 					"comment": {
 						"shortText": "A plane at the origin, aligned with the YX plane."
 					},
@@ -1371,14 +1379,16 @@
 						"type": "reference",
 						"name": "TPlane"
 					},
-					"defaultValue": "..."
+					"defaultValue": "YXPLANE"
 				},
 				{
 					"id": 1377,
 					"name": "YZ",
 					"kind": 32,
 					"kindString": "Variable",
-					"flags": {},
+					"flags": {
+						"isConst": true
+					},
 					"comment": {
 						"shortText": "A plane at the origin, aligned with the YZ plane."
 					},
@@ -1393,14 +1403,16 @@
 						"type": "reference",
 						"name": "TPlane"
 					},
-					"defaultValue": "..."
+					"defaultValue": "YZPLANE"
 				},
 				{
 					"id": 1378,
 					"name": "ZX",
 					"kind": 32,
 					"kindString": "Variable",
-					"flags": {},
+					"flags": {
+						"isConst": true
+					},
 					"comment": {
 						"shortText": "A plane at the origin, aligned with the ZX plane."
 					},
@@ -1415,14 +1427,16 @@
 						"type": "reference",
 						"name": "TPlane"
 					},
-					"defaultValue": "..."
+					"defaultValue": "ZXPLANE"
 				},
 				{
 					"id": 1380,
 					"name": "ZY",
 					"kind": 32,
 					"kindString": "Variable",
-					"flags": {},
+					"flags": {
+						"isConst": true
+					},
 					"comment": {
 						"shortText": "A plane at the origin, aligned with the ZY plane."
 					},
@@ -1437,7 +1451,7 @@
 						"type": "reference",
 						"name": "TPlane"
 					},
-					"defaultValue": "..."
+					"defaultValue": "ZYPLANE"
 				}
 			],
 			"groups": [
@@ -23894,7 +23908,7 @@
 										"type": "intrinsic",
 										"name": "number"
 									},
-									"defaultValue": "..."
+									"defaultValue": "Math.PI"
 								},
 								{
 									"id": 26,
@@ -23906,7 +23920,7 @@
 										"type": "reference",
 										"name": "TPlane"
 									},
-									"defaultValue": "..."
+									"defaultValue": "XYPLANE"
 								},
 								{
 									"id": 31,
@@ -23918,7 +23932,7 @@
 										"type": "reference",
 										"name": "TPlane"
 									},
-									"defaultValue": "..."
+									"defaultValue": "XZPLANE"
 								},
 								{
 									"id": 29,
@@ -23930,7 +23944,7 @@
 										"type": "reference",
 										"name": "TPlane"
 									},
-									"defaultValue": "..."
+									"defaultValue": "YXPLANE"
 								},
 								{
 									"id": 27,
@@ -23942,7 +23956,7 @@
 										"type": "reference",
 										"name": "TPlane"
 									},
-									"defaultValue": "..."
+									"defaultValue": "YZPLANE"
 								},
 								{
 									"id": 28,
@@ -23954,7 +23968,7 @@
 										"type": "reference",
 										"name": "TPlane"
 									},
-									"defaultValue": "..."
+									"defaultValue": "ZXPLANE"
 								},
 								{
 									"id": 30,
@@ -23966,7 +23980,7 @@
 										"type": "reference",
 										"name": "TPlane"
 									},
-									"defaultValue": "..."
+									"defaultValue": "ZYPLANE"
 								}
 							],
 							"groups": [
@@ -24302,7 +24316,9 @@
 			"name": "inlineVarString",
 			"kind": 32,
 			"kindString": "Variable",
-			"flags": {},
+			"flags": {
+				"isConst": true
+			},
 			"sources": [
 				{
 					"fileName": "inline/inline.ts",
@@ -24321,7 +24337,9 @@
 			"name": "inline_func",
 			"kind": 32,
 			"kindString": "Variable",
-			"flags": {},
+			"flags": {
+				"isConst": true
+			},
 			"sources": [
 				{
 					"fileName": "inline/inline.ts",
