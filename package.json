@@ -11,13 +11,13 @@
     }
   },
   "dependencies": {
-    "@types/three": "^0.135.0",
     "chroma-js": "^2.0.3",
     "lodash": "^4.17.21",
     "mathjs": "^5.10.3",
     "three": "^0.135.0"
   },
   "devDependencies": {
+    "@types/three": "^0.135.0",
     "@types/chroma-js": "^1.4.1",
     "@types/lodash": "^4.14.175",
     "@types/node": "^16.0.0",
