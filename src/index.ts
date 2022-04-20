@@ -5,7 +5,7 @@ import * as constants from './inline/constants';
 import * as conversion from './inline/conversion';
 import * as dict from './inline/dict';
 import * as geometry from './inline/geometry';
-import { inline_func, inlineVarString } from './inline/inline';
+import { inline_func } from './inline/inline';
 import * as list from './inline/list';
 import * as math from './inline/math';
 import * as mathjs from './inline/mathjs';
@@ -18,7 +18,7 @@ import * as types from './inline/types';
 import * as util from './inline/util';
 import * as vec from './inline/vec';
 
-export {inlineVarString, inline_func};
+export { inline_func};
 
 export {math};
 
