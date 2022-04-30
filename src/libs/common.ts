@@ -11,6 +11,15 @@ export const YXPLANE: TPlane = [[0, 0, 0], [0, 1, 0], [1, 0, 0]];
 export const ZYPLANE: TPlane = [[0, 0, 0], [0, 0, 1], [0, 1, 0]];
 export const XZPLANE: TPlane = [[0, 0, 0], [1, 0, 0], [0, 0, 1]];
 
+export const XVEC: Txyz = [1, 0, 0];
+export const YVEC: Txyz = [0, 1, 0];
+export const ZVEC: Txyz = [0, 0, 1];
+export const OVEC: Txyz = [0, 0, 0];
+
+export const XRAY: TRay = [[0, 0, 0], [1, 0, 0]];
+export const YRAY: TRay = [[0, 0, 0], [0, 1, 0]];
+export const ZRAY: TRay = [[0, 0, 0], [0, 0, 1]];
+
 // EEntType and an index
 export type TEntTypeIdx = [EEntType, number];
 
