@@ -89,6 +89,17 @@ export function vecAvg(vecs: Txyz[]): Txyz {
     ];
 }
 
+export function vecAvgDir(vecs: Txyz[]): Txyz {
+    const vec_sum: Txyz = [0, 0, 0];
+    for (const vec of vecs) {
+        const vec2 = vecNorm(vec);
+        vec_sum[0] += vec2[0];
+        vec_sum[1] += vec2[1];
+        vec_sum[2] += vec2[2];
+    }
+    return vecNorm(vec_sum);
+}
+
 export function vecDiv(vec: Txyz, divisor: number): Txyz {
     return [
         vec[0] / divisor,

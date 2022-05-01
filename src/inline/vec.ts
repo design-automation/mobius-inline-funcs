@@ -25,7 +25,12 @@ import { checkArgs, isXYZ, isXYZL } from '../_check_types';
 // ================================================================================================
 /**
  * Add multiple vectors
- * @param v
+ * \n
+ * The function can be called in two ways:
+ * `vec = vecSum([vec1, vec2, vec3])`
+ * `vec = vecSum(vec1, vec2, vec3)`
+ * \n
+ * @param v A list of vectors. 
  */
 export function vecSum(debug: boolean, ...v: Txyz[]): Txyz {
     const depth1: number = getArrDepth(v);
@@ -40,6 +45,61 @@ export function vecSum(debug: boolean, ...v: Txyz[]): Txyz {
     }
     // return the sum
     return vec.vecSum(v, false) as Txyz;
+}
+// ================================================================================================
+/**
+ * Calculates the average vector given a list of vectors.
+ * \n
+ * The input vectors and resulting average vecotr are all normalised.
+ * \n
+ * The function can be called in two ways:
+ * `vec = vecAvg([vec1, vec2, vec3])`
+ * `vec = vecAvg(vec1, vec2, vec3)`
+ * \n 
+ * @param v
+ */
+ export function vecAvg(debug: boolean, ...v: Txyz[]): Txyz {
+    const depth1: number = getArrDepth(v);
+    if (depth1 > 2) {
+        // @ts-ignore
+        v = v.slice().flat(depth1 - 2);
+    } else if (depth1 < 2) {
+        throw new Error('Error averaging vectors: The vectors are bad.' + JSON.stringify(v));
+    }
+    if (debug) {
+        checkArgs('vecAvg', 'v', v, [isXYZL]);
+    }
+    // return the average vector
+    return vec.vecAvg(v) as Txyz;
+}
+// ================================================================================================
+/**
+ * Calculates a normalised vector with a direction that is the average of the directions of the input vectors.
+ * \n
+ * The result is equivalent to:
+ * `vec = vecNorm(vecSum(vecNorm(v)))`
+ * \n
+ * Note that if the input vectors cancel each other out, the result will be `[0,0,0]`. 
+ * \n
+ * The function can be called in two ways:
+ * `vec = vecAvgDir([vec1, vec2, vec3])`
+ * `vec = vecAvgDir(vec1, vec2, vec3)`
+ * \n
+ * @param v A list of input vectors.
+ */
+ export function vecAvgDir(debug: boolean, ...v: Txyz[]): Txyz {
+    const depth1: number = getArrDepth(v);
+    if (depth1 > 2) {
+        // @ts-ignore
+        v = v.slice().flat(depth1 - 2);
+    } else if (depth1 < 2) {
+        throw new Error('Error averaging vectors: The vectors are bad.' + JSON.stringify(v));
+    }
+    if (debug) {
+        checkArgs('vecAvgDir', 'v', v, [isXYZL]);
+    }
+    // return the average vector
+    return vec.vecAvgDir(v) as Txyz;
 }
 // ================================================================================================
 /**
@@ -705,6 +765,14 @@ export class vecClass {
 
     vecSum(...v) {
         return vecSum(this.__debug__, ...v);
+    }
+
+    vecAvg(...v) {
+        return vecAvg(this.__debug__, ...v);
+    }
+
+    vecAvgDir(...v) {
+        return vecAvgDir(this.__debug__, ...v);
     }
 
     vecAdd(v1, v2, norm) {

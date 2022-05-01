@@ -91,6 +91,8 @@ const dictionaries = [
     'vecDiv(v, num)',
     'vecMult(v, num)',
     'vecSum(...v)',
+    'vecAvg(...v)',
+    'vecAvgDir(...v)',
     'vecLen(v)',
     'vecSetLen(v, num)',
     'vecNorm(v)',
