@@ -1,9 +1,41 @@
 import { Txyz, TPlane } from '../libs/common';
 /**
  * Add multiple vectors
- * @param v
+ * \n
+ * The function can be called in two ways:
+ * `vec = vecSum([vec1, vec2, vec3])`
+ * `vec = vecSum(vec1, vec2, vec3)`
+ * \n
+ * @param v A list of vectors.
  */
 export declare function vecSum(debug: boolean, ...v: Txyz[]): Txyz;
+/**
+ * Calculates the average vector given a list of vectors.
+ * \n
+ * The input vectors and resulting average vecotr are all normalised.
+ * \n
+ * The function can be called in two ways:
+ * `vec = vecAvg([vec1, vec2, vec3])`
+ * `vec = vecAvg(vec1, vec2, vec3)`
+ * \n
+ * @param v
+ */
+export declare function vecAvg(debug: boolean, ...v: Txyz[]): Txyz;
+/**
+ * Calculates a normalised vector with a direction that is the average of the directions of the input vectors.
+ * \n
+ * The result is equivalent to:
+ * `vec = vecNorm(vecSum(vecNorm(v)))`
+ * \n
+ * Note that if the input vectors cancel each other out, the result will be `[0,0,0]`.
+ * \n
+ * The function can be called in two ways:
+ * `vec = vecAvgDir([vec1, vec2, vec3])`
+ * `vec = vecAvgDir(vec1, vec2, vec3)`
+ * \n
+ * @param v A list of input vectors.
+ */
+export declare function vecAvgDir(debug: boolean, ...v: Txyz[]): Txyz;
 /**
  * Adds two vectors
  * @param v1
@@ -120,6 +152,8 @@ export declare class vecClass {
     __debug__: boolean;
     constructor(debug: boolean);
     vecSum(...v: any[]): Txyz;
+    vecAvg(...v: any[]): Txyz;
+    vecAvgDir(...v: any[]): Txyz;
     vecAdd(v1: any, v2: any, norm: any): Txyz | Txyz[];
     vecSub(v1: any, v2: any, norm: any): Txyz | Txyz[];
     vecDiv(v: any, num: any): Txyz | Txyz[];

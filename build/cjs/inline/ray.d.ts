@@ -20,6 +20,9 @@ export declare function rayFromTo(debug: boolean, xyz1: Txyz | Txyz[], xyz2: Txy
 export declare function rayCopy(debug: boolean, ray: TRay | TRay[]): TRay | TRay[];
 /**
  * Move the ray "r" relative to the global X, Y, and Z axes, by vector "v".
+ * \n
+ * Overloaded.
+ * \n
  * @param ray
  * @param vec
  */

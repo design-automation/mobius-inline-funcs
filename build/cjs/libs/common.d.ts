@@ -5,6 +5,13 @@ export declare const ZXPLANE: TPlane;
 export declare const YXPLANE: TPlane;
 export declare const ZYPLANE: TPlane;
 export declare const XZPLANE: TPlane;
+export declare const XVEC: Txyz;
+export declare const YVEC: Txyz;
+export declare const ZVEC: Txyz;
+export declare const OVEC: Txyz;
+export declare const XRAY: TRay;
+export declare const YRAY: TRay;
+export declare const ZRAY: TRay;
 export declare type TEntTypeIdx = [EEntType, number];
 export interface IEntSets {
     ps?: Set<number>;

@@ -6,6 +6,7 @@ export declare function vecAdd(v1: Txyz, v2: Txyz, norm?: boolean): Txyz;
 export declare function vecsAdd(vecs: Txyz[], norm?: boolean): Txyz;
 export declare function vecSum(vecs: Txyz[], norm?: boolean): Txyz;
 export declare function vecAvg(vecs: Txyz[]): Txyz;
+export declare function vecAvgDir(vecs: Txyz[]): Txyz;
 export declare function vecDiv(vec: Txyz, divisor: number): Txyz;
 export declare function vecMult(vec: Txyz, multiplier: number): Txyz;
 export declare function vecCross(v1: Txyz, v2: Txyz, norm?: boolean): Txyz;

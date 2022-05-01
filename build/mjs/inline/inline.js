@@ -6,6 +6,13 @@ const inline_query_expr = [
 ];
 const constants = [
     'PI',
+    'VX',
+    'VY',
+    'VZ',
+    'VO',
+    'RX',
+    'RY',
+    'RZ',
     'XY',
     'YZ',
     'ZX',
@@ -76,6 +83,8 @@ const vectors = [
     'vecDiv(v, num)',
     'vecMult(v, num)',
     'vecSum(...v)',
+    'vecAvg(...v)',
+    'vecAvgDir(...v)',
     'vecLen(v)',
     'vecSetLen(v, num)',
     'vecNorm(v)',
@@ -208,157 +217,4 @@ export const inline_func = [
     ['random', random],
     ['types', types],
 ];
-export const inlineVarString = `PI = __inline__.constants.PI;
-XY = __inline__.constants.XY;
-YZ = __inline__.constants.YZ;
-ZX = __inline__.constants.ZX;
-YX = __inline__.constants.YX;
-ZY = __inline__.constants.ZY;
-XZ = __inline__.constants.XZ;
-isNum = __inline__.types.isNum;
-isInt = __inline__.types.isInt;
-isFlt = __inline__.types.isFlt;
-isBool = __inline__.types.isBool;
-isStr = __inline__.types.isStr;
-isList = __inline__.types.isList;
-isDict = __inline__.types.isDict;
-isVec2 = __inline__.types.isVec2;
-isVec3 = __inline__.types.isVec3;
-isCol = __inline__.types.isCol;
-isRay = __inline__.types.isRay;
-isPln = __inline__.types.isPln;
-isNaN = __inline__.types.isNaN;
-isNull = __inline__.types.isNull;
-isUndef = __inline__.types.isUndef;
-strRepl = __inline__.strs.strRepl;
-strUpp = __inline__.strs.strUpp;
-strLow = __inline__.strs.strLow;
-strTrim = __inline__.strs.strTrim;
-strTrimR = __inline__.strs.strTrimR;
-strTrimL = __inline__.strs.strTrimL;
-strSub = __inline__.strs.strSub;
-strStarts = __inline__.strs.strStarts;
-strEnds = __inline__.strs.strEnds;
-strPadL = __inline__.strs.strPadL;
-strPadR = __inline__.strs.strPadR;
-strToJSON = __inline__.strs.strToJSON;
-isApprox = __inline__.util.isApprox;
-isIn = __inline__.util.isIn;
-isWithin = __inline__.util.isWithin;
-min = __inline__.math.min;
-max = __inline__.math.max;
-pow = __inline__.math.pow;
-sqrt = __inline__.math.sqrt;
-exp = __inline__.math.exp;
-log = __inline__.math.log;
-round = __inline__.math.round;
-sigFig = __inline__.math.sigFig;
-ceil = __inline__.math.ceil;
-floor = __inline__.math.floor;
-abs = __inline__.math.abs;
-sin = __inline__.math.sin;
-asin = __inline__.math.asin;
-sinh = __inline__.math.sinh;
-asinh = __inline__.math.asinh;
-cos = __inline__.math.cos;
-acos = __inline__.math.acos;
-cosh = __inline__.math.cosh;
-acosh = __inline__.math.acosh;
-tan = __inline__.math.tan;
-atan = __inline__.math.atan;
-tanh = __inline__.math.tanh;
-atanh = __inline__.math.atanh;
-atan2 = __inline__.math.atan2;
-boolean = __inline__.mathjs.boolean;
-number = __inline__.mathjs.number;
-string = __inline__.mathjs.string;
-mad = __inline__.mathjs.mad;
-mean = __inline__.mathjs.mean;
-median = __inline__.mathjs.median;
-mode = __inline__.mathjs.mode;
-prod = __inline__.mathjs.prod;
-std = __inline__.mathjs.std;
-vari = __inline__.mathjs.vari;
-sum = __inline__.mathjs.sum;
-hypot = __inline__.mathjs.hypot;
-norm = __inline__.mathjs.norm;
-square = __inline__.mathjs.square;
-cube = __inline__.mathjs.cube;
-remap = __inline__.arithmetic.remap;
-distance = __inline__.geometry.distance;
-distanceM = __inline__.geometry.distanceM;
-distanceMS = __inline__.geometry.distanceMS;
-intersect = __inline__.geometry.intersect;
-project = __inline__.geometry.project;
-range = __inline__.list.range;
-len = __inline__.common.len;
-listCount = __inline__.list.listCount;
-listCopy = __inline__.list.listCopy;
-listRep = __inline__.list.listRep;
-listLast = __inline__.list.listLast;
-listGet = __inline__.list.listGet;
-listFind = __inline__.list.listFind;
-listHas = __inline__.list.listHas;
-listJoin = __inline__.list.listJoin;
-listFlat = __inline__.list.listFlat;
-listRot = __inline__.list.listRot;
-listSlice = __inline__.list.listSlice;
-listRev = __inline__.list.listRev;
-listCull = __inline__.list.listCull;
-listSort = __inline__.list.listSort;
-listZip = __inline__.list.listZip;
-listEq = __inline__.list.listEq;
-dictGet = __inline__.dict.dictGet;
-dictKeys = __inline__.dict.dictKeys;
-dictVals = __inline__.dict.dictVals;
-dictHasKey = __inline__.dict.dictHasKey;
-dictHasVal = __inline__.dict.dictHasVal;
-dictFind = __inline__.dict.dictFind;
-dictCopy = __inline__.dict.dictCopy;
-dictEq = __inline__.dict.dictEq;
-setMake = __inline__.set.setMake;
-setUni = __inline__.set.setUni;
-setInt = __inline__.set.setInt;
-setDif = __inline__.set.setDif;
-vecAdd = __inline__.vec.vecAdd;
-vecSub = __inline__.vec.vecSub;
-vecDiv = __inline__.vec.vecDiv;
-vecMult = __inline__.vec.vecMult;
-vecSum = __inline__.vec.vecSum;
-vecLen = __inline__.vec.vecLen;
-vecSetLen = __inline__.vec.vecSetLen;
-vecNorm = __inline__.vec.vecNorm;
-vecRev = __inline__.vec.vecRev;
-vecFromTo = __inline__.vec.vecFromTo;
-vecAng = __inline__.vec.vecAng;
-vecAng2 = __inline__.vec.vecAng2;
-vecDot = __inline__.vec.vecDot;
-vecCross = __inline__.vec.vecCross;
-vecEqual = __inline__.vec.vecEqual;
-vecLtoG = __inline__.vec.vecLtoG;
-vecGtoL = __inline__.vec.vecGtoL;
-plnMake = __inline__.plane.plnMake;
-plnCopy = __inline__.plane.plnCopy;
-plnMove = __inline__.plane.plnMove;
-plnRot = __inline__.plane.plnRot;
-plnLMove = __inline__.plane.plnLMove;
-plnLRotX = __inline__.plane.plnLRotX;
-plnLRotY = __inline__.plane.plnLRotY;
-plnLRotZ = __inline__.plane.plnLRotZ;
-rayMake = __inline__.ray.rayMake;
-rayCopy = __inline__.ray.rayCopy;
-rayMove = __inline__.ray.rayMove;
-rayRot = __inline__.ray.rayRot;
-rayLMove = __inline__.ray.rayLMove;
-rayFromPln = __inline__.ray.rayFromPln;
-rayLtoG = __inline__.ray.rayLtoG;
-rayGtoL = __inline__.ray.rayGtoL;
-colFalse = __inline__.colors.colFalse;
-colScale = __inline__.colors.colScale;
-radToDeg = __inline__.conversion.radToDeg;
-degToRad = __inline__.conversion.degToRad;
-numToStr = __inline__.conversion.numToStr;
-rand = __inline__.rand.rand;
-randInt = __inline__.rand.randInt;
-randPick = __inline__.rand.randPick;`;
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5saW5lLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vc3JjL2lubGluZS9pbmxpbmUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0EsTUFBTSxpQkFBaUIsR0FBRztJQUN0QixDQUFDLEtBQUssRUFBRSw4akJBQThqQixDQUFDO0lBQ3ZrQixDQUFDLFdBQVcsRUFBRSwwc0NBQTBzQyxDQUFDO0lBQ3p0QyxDQUFDLGFBQWEsRUFBRSw0Z0JBQTRnQixDQUFDO0lBQzdoQixDQUFDLGlCQUFpQixFQUFFLHNyQkFBc3JCLENBQUM7Q0FDOXNCLENBQUM7QUFFRixNQUFNLFNBQVMsR0FBRztJQUNkLElBQUk7SUFDSixJQUFJO0lBQ0osSUFBSTtJQUNKLElBQUk7SUFDSixJQUFJO0lBQ0osSUFBSTtJQUNKLElBQUk7Q0FDUCxDQUFDO0FBRUYsTUFBTSxVQUFVLEdBQUc7SUFDZixjQUFjO0lBQ2QsYUFBYTtJQUNiLGFBQWE7SUFDYixlQUFlO0lBQ2YsZUFBZTtJQUNmLGVBQWU7Q0FDbEIsQ0FBQztBQUVGLE1BQU0sT0FBTyxHQUFHO0lBQ1osUUFBUTtJQUNSLFdBQVc7SUFDWCxXQUFXO0lBQ1gsWUFBWTtJQUNaLGFBQWE7SUFDYixhQUFhO0lBQ2IsZ0JBQWdCO0lBQ2hCLGdCQUFnQjtJQUNoQixxQkFBcUI7SUFDckIsaUJBQWlCO0lBQ2pCLG1CQUFtQjtJQUNuQixpQkFBaUI7Q0FDcEIsQ0FBQztBQUVGLE1BQU0sS0FBSyxHQUFHO0lBQ1YsV0FBVztJQUNYLG1CQUFtQjtJQUNuQixzQkFBc0I7SUFDdEIscUJBQXFCO0lBQ3JCLG9CQUFvQjtJQUNwQixzQkFBc0I7SUFDdEIsZ0JBQWdCO0lBQ2hCLG9CQUFvQjtJQUNwQix3QkFBd0I7SUFDeEIsZ0JBQWdCO0lBQ2hCLG9CQUFvQjtJQUNwQiw4QkFBOEI7SUFDOUIsZUFBZTtJQUNmLHdCQUF3QjtJQUN4Qix3QkFBd0I7SUFDeEIsZ0JBQWdCO0lBQ2hCLHNCQUFzQjtDQUN6QixDQUFDO0FB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
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5saW5lLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vc3JjL2lubGluZS9pbmxpbmUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0EsTUFBTSxpQkFBaUIsR0FBRztJQUN0QixDQUFDLEtBQUssRUFBRSw4akJBQThqQixDQUFDO0lBQ3ZrQixDQUFDLFdBQVcsRUFBRSwwc0NBQTBzQyxDQUFDO0lBQ3p0QyxDQUFDLGFBQWEsRUFBRSw0Z0JBQTRnQixDQUFDO0lBQzdoQixDQUFDLGlCQUFpQixFQUFFLHNyQkFBc3JCLENBQUM7Q0FDOXNCLENBQUM7QUFFRixNQUFNLFNBQVMsR0FBRztJQUNkLElBQUk7SUFDSixJQUFJO0lBQ0osSUFBSTtJQUNKLElBQUk7SUFDSixJQUFJO0lBQ0osSUFBSTtJQUNKLElBQUk7SUFDSixJQUFJO0lBQ0osSUFBSTtJQUNKLElBQUk7SUFDSixJQUFJO0lBQ0osSUFBSTtJQUNKLElBQUk7SUFDSixJQUFJO0NBQ1AsQ0FBQztBQUVGLE1BQU0sVUFBVSxHQUFHO0lBQ2YsY0FBYztJQUNkLGFBQWE7SUFDYixhQUFhO0lBQ2IsZUFBZTtJQUNmLGVBQWU7SUFDZixlQUFlO0NBQ2xCLENBQUM7QUFFRixNQUFNLE9BQU8sR0FBRztJQUNaLFFBQVE7SUFDUixXQUFXO0lBQ1gsV0FBVztJQUNYLFlBQVk7SUFDWixhQUFhO0lBQ2IsYUFBYTtJQUNiLGdCQUFnQjtJQUNoQixnQkFBZ0I7SUFDaEIscUJBQXFCO0lBQ3JCLGlCQUFpQjtJQUNqQixtQkFBbUI7SUFDbkIsaUJBQWlCO0NBQ3BCLENBQUM7QUFFRixNQUFNLEtBQUssR0FBRztJQUNWLFdBQVc7SUFDWCxtQkFBbUI7SUFDbkIsc0JBQXNCO0lBQ3RCLHFCQUFxQjtJQUNyQixvQkFBb0I7SUFDcEIsc0JBQXNCO0lBQ3RCLGdCQUFnQjtJQUNoQixvQkFBb0I7SUFDcEIsd0JBQXdCO0lBQ3hCLGdCQUFnQjtJQUNoQixvQkFBb0I7SUFDcEIsOEJBQThCO0lBQzlC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
