@@ -1,8 +1,15 @@
 import { listCopy } from './listCopy';
+import { listClass } from '../list';
 
 test('Copy a list', () => {
     expect(listCopy([1,2,3])).toStrictEqual([1,2,3]);
 });
+
+// test('Copy a list wrong number of args', () => {
+//     const list_class = new listClass(true);
+//     //@ts-ignore
+//     expect(list_class.listCopy([1,2,3], 123)).toThrow();
+// });
 
 test('Copy a list and change value', () => {
     const list1 = [1,2,3];
