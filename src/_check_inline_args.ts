@@ -36,6 +36,42 @@ export function checkNumArgs(fn_name: string, args: IArguments, max: number, min
 }
 /**
  * 
+ * @param fn_name
+ * @param args
+ * @param expected
+ */
+ export function checkNumArgs_noDebug(fn_name: string, args: IArguments, max: number, min?: number) {
+    if (min === undefined ) {
+        if (args.length !== (max)) {
+            throw new Error(
+                'Inline function "' + fn_name + '()": wrong number of arguments. ' +
+                'The required number of arguments is ' + max + '. ' +
+                'but ' + (args.length - 1) + ' arguments were given.' +
+                'Please check the documentation for the "' + fn_name + '()" function.'
+            );
+        }
+    } else {
+        if (args.length > max) {
+            console.log("Throw error...")
+            throw new Error(
+                'Inline function "' + fn_name + '()": too many arguments. ' +
+                'The maximum number of arguments is ' + max + '. ' +
+                'but ' + (args.length - 1) + ' arguments were given.' +
+                'Please check the documentation for the "' + fn_name + '()" function.'
+            );
+        }
+        if (args.length < min) {
+            throw new Error(
+                'Inline function "' + fn_name + '()": too few arguments. ' +
+                'The minimum number of arguments is ' + max + '. ' +
+                'but ' + (args.length - 1) + ' arguments were given. ' +
+                'Please check the documentation for the "' + fn_name + '()" function.'
+            );
+        }
+    }
+}
+/**
+ * 
  * @param fn_name 
  * @param args 
  */
