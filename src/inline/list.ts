@@ -156,17 +156,30 @@ export function listHas(debug: boolean, list: any[], val: any): boolean {
  *
  * If the arguments are not lists, then they will be converted into lists.
  *
- * This functions accepts any number of arguments.
+ * This functions accepts any number of arguments. The values in the lists can have any datatype.
  *
- * @param list1 The first list.
- * @param list2 The second list. (More lists can be added as additional arguments.)
+ * @param lists Multiple lists.
  * @returns The combined list. 
+ * 
+ * @example `list = listJoin([1, 2], [3, 4], [5, 6])`
+ * @example_info Returns `[1, 2, 3, 4, 5, 6]`.
+ * 
+ * @example `list = listJoin([1, 2, 3], 4)`
+ * @example_info Returns `[1, 2, 3, 4]`.
+ * 
+ * @example `list = listJoin(1, 2, 3)`
+ * @example_info Returns `[1, 2, 3]`.
+ * 
+ * @example `list = listJoin(1, [2, 3], [[4, 5, 6]])`
+ * @example_info Returns `[1, 2, 3, [4, 5, 6]]`.
  */
-export function listJoin(debug: boolean, list1: any[], list2: any[]): any[] {
+export function listJoin(debug: boolean, ...lists: any[]): any[] {
     if (debug) {
         // nothing to check
     }
     const new_list: any[] = [];
+    console.log(">>>", arguments);
+    console.log(">>>", lists);
     for (let i = 1; i < arguments.length; i++) {
         const arg: any = arguments[i];
         if (Array.isArray(arg)) {
@@ -390,8 +403,8 @@ export class listClass {
         return listHas(this.__debug__, list, val);
     }
 
-    listJoin(list1, list2) {
-        return listJoin(this.__debug__, list1, list2);
+    listJoin(...lists) {
+        return listJoin(this.__debug__, ...lists);
     }
 
     listFlat(list, depth) {
