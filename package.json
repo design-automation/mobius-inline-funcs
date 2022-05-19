@@ -17,16 +17,19 @@
     "three": "^0.135.0"
   },
   "devDependencies": {
-    "@types/three": "^0.135.0",
     "@types/chroma-js": "^1.4.1",
+    "@types/jest": "^27.5.1",
     "@types/lodash": "^4.14.175",
     "@types/node": "^16.0.0",
+    "@types/three": "^0.135.0",
     "@types/webgl2": "0.0.5",
+    "jest": "^28.1.0",
+    "ts-jest": "^28.0.2",
     "typedoc": "^0.22.5",
     "typescript": "^4.4.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build": "npm run build-del && npm run build-mjs && npm run build-cjs && fixup.sh",
     "build-del": "del /s /q build\\*",
     "build-mjs": "tsc -p tsconfig.json",
