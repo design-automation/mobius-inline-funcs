@@ -22,9 +22,11 @@ import { checkNumArgs } from '../_check_inline_args';
 
 /**
  * Replace all instances of specified search string with a new string. The search string can be a regular expression.
- * @param str
- * @param search_str
- * @param new_str
+ * 
+ * @param str String to search through and modify.
+ * @param search_str String to search for and replace.
+ * @param new_str New string to replace search\_str.
+ * @returns The modified string. 
  */
 export function strRepl(debug: boolean, str: string|string[], search_str: string, new_str: string): string|string[] {
     if (debug) {
@@ -35,7 +37,8 @@ export function strRepl(debug: boolean, str: string|string[], search_str: string
 }
 /**
  * Converts all the alphabetic characters in a string to uppercase.
- * @param str
+ * @param str Input string.
+ * @returns The modified uppercase string. 
  */
 export function strUpp(debug: boolean, str: string|string[]): string|string[] {
     if (debug) {
@@ -46,7 +49,8 @@ export function strUpp(debug: boolean, str: string|string[]): string|string[] {
 }
 /**
  * Converts all the alphabetic characters in a string to lowercase.
- * @param str
+ * @param str Input string.
+ * @returns The modified lowercase string. 
  */
 export function strLow(debug: boolean, str: string|string[]): string|string[] {
     if (debug) {
@@ -57,7 +61,15 @@ export function strLow(debug: boolean, str: string|string[]): string|string[] {
 }
 /**
  * Removes the leading and trailing white space and line terminator characters from a string.
- * @param str
+ * ```
+ * strTrim("This\ is a \sentence")         
+ * \\ "This is a sentence" (\ is considered a line terminator character.)
+ * 
+ * strTrim("           This used to have whitespace        ")    
+ * \\ "This used to have whitespace"
+ * ```
+ * @param str Input string.
+ * @returns The modified string. 
  */
 export function strTrim(debug: boolean, str: string|string[]): string|string[] {
     if (debug) {
@@ -68,7 +80,8 @@ export function strTrim(debug: boolean, str: string|string[]): string|string[] {
 }
 /**
  * Removes whitespace from the right end of a string.
- * @param str
+ * @param str Input string.
+ * @returns The modified string.
  */
 export function strTrimR(debug: boolean, str: string|string[]): string|string[] {
     if (debug) {
@@ -79,7 +92,8 @@ export function strTrimR(debug: boolean, str: string|string[]): string|string[] 
 }
 /**
  * Removes whitespace from the left end of a string.
- * @param str
+ * @param str Input string.
+ * @returns The modified string.
  */
 export function strTrimL(debug: boolean, str: string|string[]): string|string[] {
     if (debug) {
@@ -91,9 +105,10 @@ export function strTrimL(debug: boolean, str: string|string[]): string|string[] 
 /**
  * Pads the start of the s1 string with white spaces so that the resulting string reaches a given length.
  * Pads the start of the s1 string with the s2 string so that the resulting string reaches a given length.
- * @param str
- * @param max
- * @param fill
+ * @param str "s1", Input string.
+ * @param max An integer (the desired length).
+ * @param fill (Optional) "s2", The string to pad the input string with, starting from the left of s1. 
+ * @returns The modified string.
  */
 export function strPadL(debug: boolean, str: string|string[], max: number, fill?: string): string|string[] {
     if (debug) {
@@ -105,9 +120,10 @@ export function strPadL(debug: boolean, str: string|string[], max: number, fill?
 /**
  * Pads the end of the s1 string with white spaces so that the resulting string reaches a given length.
  * Pads the end of the s1 string with the s2 string so that the resulting string reaches a given length.
- * @param str
- * @param max
- * @param fill
+ * @param str "s1", Input string.
+ * @param max An integer (the desired length).
+ * @param fill (Optional) "s2", The string to pad the input string with, starting from the right of s1.
+ * @returns The modified string.
  */
 export function strPadR(debug: boolean, str: string|string[], max: number, fill?: string): string|string[] {
     if (debug) {
@@ -117,11 +133,12 @@ export function strPadR(debug: boolean, str: string|string[], max: number, fill?
     return str.padEnd(max, fill);
 }
 /**
- * Gets a substring beginning at the specified location.
- * Gets a substring beginning at the specified location and having the specified length.
- * @param str
- * @param from
- * @param length
+ * Gets a substring beginning at the specified index and ending at the end of the string.
+ * If `length` is set: Gets a substring beginning at the specified index and having the specified length.
+ * @param str A string.
+ * @param from An integer corresponding to the starting index. 
+ * @param length (Optional) An integer for the specified length. 
+ * @returns The modified string.
  */
 export function strSub(debug: boolean, str: string|string[], from: number, length?: number): string|string[] {
     if (debug) {
@@ -132,8 +149,9 @@ export function strSub(debug: boolean, str: string|string[], from: number, lengt
 }
 /**
  * Returns true if the string s1 starts with s2, false otherwise.
- * @param str
- * @param starts
+ * @param str A string, "s1".
+ * @param starts A string, "s2".
+ * @returns True or False.
  */
 export function strStarts(debug: boolean, str: string|string[], starts: string): boolean|boolean[] {
     if (debug) {
@@ -144,8 +162,10 @@ export function strStarts(debug: boolean, str: string|string[], starts: string):
 }
 /**
  * Returns true if the string s1 ends with s2, false otherwise.
- * @param str
- * @param ends
+ * @param str A string, "s1".
+ * @param ends A string, "s2".
+ * @returns True or False.
+ * 
  */
  export function strEnds(debug: boolean, str: string|string[], ends: string): boolean|boolean[] {
     if (debug) {
@@ -156,7 +176,18 @@ export function strStarts(debug: boolean, str: string|string[], starts: string):
 }
 /**
  * Returns a JSON object parsed from an input string.
- * @param str
+ * \n
+ * <a href ="https://www.w3schools.com/js/js_json_objects.asp" target="_blank">See w3schools for more info on JSON objects. </a>
+ * \n
+ * ```
+ * strToJSON("{\"name\":\"John\",\"age\":\"30\"}")  
+ * ```
+ * \n  
+ * \\ {"<b>name</b>": "John", "<b>age</b>": "30"}
+ *
+ * 
+ * @param str Input string. 
+ * @returns A JSON object. 
  */
  export function strToJSON(debug: boolean, str: string): any {
     if (debug) {

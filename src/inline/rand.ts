@@ -3,11 +3,12 @@ import * as mathjs from 'mathjs';
 import { checkNumArgs } from '../_check_inline_args';
 
 /**
- * Returns a random number in the specified range
- * Returns a random number in the specified range, given a numeric seed
- * @param min
- * @param max
- * @param seed
+ * Returns a random number in the specified range.
+ * If `seed` is set: Returns a random number (with decimals) in the specified range, given a numeric seed.
+ * @param min The minimum number (inclusive).
+ * @param max The maximum number (exclusive).
+ * @param seed (Optional) If a seed is given, the result will be the same for the same seed. 
+ * @returns A number (with decimals).
  */
 export function rand(debug: boolean, min: number, max: number, seed?: number): number {
     if (debug) {
@@ -20,11 +21,12 @@ export function rand(debug: boolean, min: number, max: number, seed?: number): n
     }
 }
 /**
- * Returns a random integer in the specified range
- * Returns a random integer in the specified range, given a numeric seed
- * @param min
- * @param max
- * @param seed
+ * Returns a random integer in the specified range.
+ * If `seed` is set: Returns a random integer in the specified range, given a numeric seed.
+ * @param min The minimum integer (inclusive).
+ * @param max The maximum integer (exclusive).
+ * @param seed (Optional) A number. If a seed is given, the result will be the same for the same seed. 
+ * @returns An integer. 
  */
 export function randInt(debug: boolean, min: number, max: number, seed?: number): number {
     if (debug) {
@@ -37,11 +39,13 @@ export function randInt(debug: boolean, min: number, max: number, seed?: number)
     }
 }
 /**
- * Returns a random set of items from the list
- * Returns a random set of items from the list, given a numeric seed
- * @param list
- * @param num
- * @param seed
+ * Returns a random set of items from the list.
+ * If `seed` is set: Returns a random set of items from the list, based on the numeric seed.
+ * 
+ * @param list A list. The set of items that can be returned. 
+ * @param num  An integer. The number of items to return from the list. 
+ * @param seed (Optional) A number. If a seed is given, the result will be the same for the same seed. 
+ * @returns A list, or a value (if num is set to 1).
  */
 export function randPick(debug: boolean, list: any[], num: number, seed?: number): number|number[] {
     if (debug) {

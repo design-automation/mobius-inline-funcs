@@ -6,13 +6,18 @@ import * as chk from '../_check_types';
 /**
  * list functions that obtain and return information from an input list. Does not modify input list.
  */
+
+
 /**
- * Generates a list of integers, from start to end, with a step size of 1
- * Generates a list of integers, from start to end, with a specified step size
- *
+ * Generates a list of integers, from start to end, with a step size of 1.
+ * If `step` has been set: Generates a list of integers, from start to end, with a specified step size.
+ * ```
+ * range(1, 6)        // [1, 2, 3, 4, 5]
+ *```
  * @param start The start of the range, inclusive.
  * @param end (Optional) The end of the range, exclusive.
  * @param step (Optional) The step size.
+ * @returns A list. 
  */
 export function range(debug: boolean, start: number, end?: number, step?: number): number[] {
     if (debug) {
@@ -39,10 +44,11 @@ export function range(debug: boolean, start: number, end?: number, step?: number
     return list;
 }
 /**
- * Returns the number of times the value is in the list
+ * Returns the number of times the value is in the list.
  *
  * @param list The list.
- * @param val The value, can be aby type.
+ * @param val The value, can be any type.
+ * @returns An integer. 
  */
 export function listCount(debug: boolean, list: any[], val: any): number {
     if (debug) {
@@ -59,8 +65,12 @@ export function listCount(debug: boolean, list: any[], val: any): number {
 }
 /**
  * Returns a shallow copy of the list.
+ * \n
+ * A shallow copy means that changing primitive entities (e.g. numbers, strings) in the
+ * copied list will not affect the original list.
  *
  * @param list The list.
+ * @returns The copy of the list. 
  */
 export function listCopy(debug: boolean, list: any[]): any[] {
     if (debug) {
@@ -73,7 +83,8 @@ export function listCopy(debug: boolean, list: any[]): any[] {
  * Returns a new list that repeats the contents of the input list n times.
  *
  * @param list The list.
- * @param n
+ * @param n The number of repetitons. 
+ * @returns A new list. 
  */
 export function listRep(debug: boolean, list: any, n: number): any[] {
     if (debug) {
@@ -94,6 +105,7 @@ export function listRep(debug: boolean, list: any, n: number): any[] {
  *
  * @param list  The list.
  * @param idx The index, an integer or a list of integers.
+ * @returns The specified item. 
  */
 export function listGet(debug: boolean, list: any[], idx: number|number[]): any|any[] {
     if (debug) {
@@ -112,6 +124,7 @@ export function listGet(debug: boolean, list: any[], idx: number|number[]): any|
  *
  * @param list The list.
  * @param val The value, can be of any type.
+ * @returns The index of the first occurence of the value, or null.
  */
 export function listFind(debug: boolean, list: any[], val: any): number {
     if (debug) {
@@ -125,10 +138,11 @@ export function listFind(debug: boolean, list: any[], val: any): number {
     return index;
 }
 /**
- * Returns true if the list contains the value, false otherwise
+ * Returns true if the list contains the value, false otherwise.
  *
  * @param list The list.
  * @param val The value, can be any type.
+ * @returns True or False. 
  */
 export function listHas(debug: boolean, list: any[], val: any): boolean {
     if (debug) {
@@ -145,7 +159,8 @@ export function listHas(debug: boolean, list: any[], val: any): boolean {
  * This functions accepts any number of arguments.
  *
  * @param list1 The first list.
- * @param list2 The second list.
+ * @param list2 The second list. (More lists can be added as additional arguments.)
+ * @returns The combined list. 
  */
 export function listJoin(debug: boolean, list1: any[], list2: any[]): any[] {
     if (debug) {
@@ -165,12 +180,17 @@ export function listJoin(debug: boolean, list1: any[], list2: any[]): any[] {
     return new_list;
 }
 /**
- * Returns a flattened copy of the list.
+ * Returns a flattened copy of the list. If the input list has lists nested within it, the values of
+ * the nested lists will be unnested.
  *
- * If no depth is specified, then it is flattened my the maximum amount.
- *
+ * If no depth is specified, then it is flattened by the maximum amount.
+ * ```
+ * listFlat([1,2,3,[4,[5],6],7])           // [1, 2, 3, 4, 5, 6, 7]
+ * listFlat([1,2,3,[4,[5, [6] ], 7] ], 1)  // [1,2,3,4, [5, [6]], 7]
+ *```
  * @param list The list.
  * @param depth (Optional) The depth to flatten to, an integer.
+ * @returns The flattened list. 
  */
 export function listFlat(debug: boolean, list: any[], depth?: number): any[] {
     if (debug) {
@@ -179,17 +199,18 @@ export function listFlat(debug: boolean, list: any[], depth?: number): any[] {
         if (depth !== undefined) { chk.checkArgs('listFlat', 'depth', depth, [chk.isInt]); }
     }
     if (depth !== undefined) {
-        return lodash.flattenDepth(list);
+        return lodash.flattenDepth(list, depth);
     }
     return lodash.flattenDeep(list);
 }
 /**
  * Return a list that is rotated, i.e. items from the end of the list are moved to the start of the list.
- * For a positive rotation, items are move from the end to the start of the list.
+ * For a positive rotation, items are moved from the end to the start of the list.
  * For a negative rotation, items are moved from the start to the end of the list.
  *
  * @param list The list.
  * @param rot The number of items to rotate, an integer.
+ * @returns The rotated list.
  */
 export function listRot(debug: boolean, list: any[], rot: number): any[] {
     if (debug) {
@@ -209,6 +230,7 @@ export function listRot(debug: boolean, list: any[], rot: number): any[] {
  * @param list The list.
  * @param start The start index of the slice operation, an integer.
  * @param end (Optional) The end index of the slice operation, an integer. Defaults to the length of the list.
+ * @returns The sub-list.
  */
 export function listSlice(debug: boolean, list: any[], start: number, end?: number): any[] {
     if (debug) {
@@ -223,6 +245,7 @@ export function listSlice(debug: boolean, list: any[], start: number, end?: numb
  * Creates a new list, with the items in reverse order.
  *
  * @param lists  The list to reverse.
+ * @returns A new list.
  */
 export function listRev(debug: boolean, list: any[]): any[] {
     if (debug) {
@@ -239,6 +262,7 @@ export function listRev(debug: boolean, list: any[]): any[] {
  *
  * @param list1 The list.
  * @param list2 (Optional) A list of values, to be used to cull the first list.
+ * @returns A new list. 
  */
 export function listCull(debug: boolean, list1: any[], list2?: any[]): any[] {
     if (debug) {
@@ -266,6 +290,7 @@ export function listCull(debug: boolean, list1: any[], list2?: any[]): any[] {
  * In this case, the first list is sorted according to ascending order of the values in the second list.
  *
  * @param lists  The list of lists.
+ * @returns A new list. 
  */
 export function listSort(debug: boolean, list1: any[], list2?: any[]): any[] {
     if (debug) {
@@ -287,7 +312,7 @@ export function listSort(debug: boolean, list1: any[], list2?: any[]): any[] {
 /**
  * Converts a set of lists from rows into columns.
  *
- * If no second argument is provided, it assume the the first argument consists of a list of lists.
+ * If no second argument is provided, it assumes the first argument consists of a list of lists.
  *
  * If a second argument is provided, then it should be a list of the same length as the first argument.
  * In this case, the items in the first and second lists are reaarranged to generate a new set of lists.
@@ -296,6 +321,7 @@ export function listSort(debug: boolean, list1: any[], list2?: any[]): any[] {
  *
  * @param list1  The first row list.
  * @param list2  (Optional) The second row list, which must have the same length as the first.
+ * @returns A new list. 
  */
 export function listZip(debug: boolean, list1: any[], list2?: any[]): any[] {
     if (debug) {
@@ -318,6 +344,7 @@ export function listZip(debug: boolean, list1: any[], list2?: any[]): any[] {
  *
  * @param list1 The first list.
  * @param list2 The second list.
+ * @returns True or False. 
  */
 export function listEq(debug: boolean, list1: any[], list2: any[]): boolean {
     if (debug) {

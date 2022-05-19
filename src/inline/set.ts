@@ -5,8 +5,11 @@
 import * as Mathjs from 'mathjs';
 import { checkNumArgs } from '../_check_inline_args';
 /**
- * Generates a list of unique items.
- * @param list
+ * Returns a new list of unique items from the input list.
+ * \n
+ * - `setMake([1,1,1,2,2,3])`          // returns [1,2,3]
+ * @param list The input list.
+ * @returns A new list with no repeated values. 
  */
 export function setMake(debug: boolean, list: any[]): any[] {
     if (debug) {
@@ -15,9 +18,11 @@ export function setMake(debug: boolean, list: any[]): any[] {
     return Array.from(new Set(list));
 }
 /**
- * Generates a list of unique items from the union of the two input lists.
- * @param list1
- * @param list2
+ * Returns a new list of unique items from the union of the two input lists.
+ * 
+ * @param list1 The first list.
+ * @param list2 The second list.
+ * @returns A new list with no repeated values. 
  */
 export function setUni(debug: boolean, list1: any[], list2: any[]): any[] {
     if (debug) {
@@ -26,9 +31,10 @@ export function setUni(debug: boolean, list1: any[], list2: any[]): any[] {
     return Mathjs.setUnion(list1, list2);
 }
 /**
- * Generates a list of unique items from the intersection of the two input lists.
- * @param list1
- * @param list2
+ * Returns a new list of unique items from the intersection of the two input lists.
+ * @param list1 The first list.
+ * @param list2 The second list.
+ * @returns A new list with no repeated values. 
  */
 export function setInt(debug: boolean, list1: any[], list2: any[]): any[] {
     if (debug) {
@@ -37,9 +43,10 @@ export function setInt(debug: boolean, list1: any[], list2: any[]): any[] {
     return Mathjs.setIntersect(list1, list2);
 }
 /**
- * Generates a list of unique items from the difference of the two input lists.
- * @param list1
- * @param list2
+ * Returns a new list of unique items from the difference of the two input lists.
+ * @param list1 The first list.
+ * @param list2 The second list.
+ * @returns A new list with no repeated values. 
  */
 export function setDif(debug: boolean, list1: any[], list2: any[]): any[] {
     if (debug) {

@@ -8,12 +8,13 @@ import { checkNumArgs } from '../_check_inline_args';
 
 /**
  * Returns the item in the dictionary specified by key.
- * If the key does nto exist, undefined is returned.
+ * If the key does not exist, undefined is returned.
  *
  * If a list of keys is provided, then a list of values will be returned.
  *
  * @param dict The dictionary.
  * @param key The key, either a single string or a list of strings.
+ * @returns The value (or list of values) associated with the given key. 
  */
 export function dictGet(debug: boolean, dict: object, key: string|string[]): any|any[] {
     if (debug) {
@@ -26,9 +27,14 @@ export function dictGet(debug: boolean, dict: object, key: string|string[]): any
 }
 /**
  * Returns an array of all the keys in a dictionary.
+ * 
+ * - dict1 = {"key1": 1, "key2": 2}
+ * - dictKeys(dict1)        \\ ["key1", "key2"]
  *
  * @param dict The dictionary.
+ * @returns A list. 
  */
+
 export function dictKeys(debug: boolean, dict: object): string[] {
     if (debug) {
         checkNumArgs('dictKeys', arguments, 1);
@@ -38,8 +44,12 @@ export function dictKeys(debug: boolean, dict: object): string[] {
 }
 /**
  * Returns an array of all the values in a dictionary.
+ * 
+ * - dict1 = {"key1": 1, "key2": 2}
+ * - dictVals(dict1)        \\ [1, 2]
  *
  * @param dict The dictionary.
+ * @returns A list. 
  */
 export function dictVals(debug: boolean, dict: object): string[] {
     if (debug) {
@@ -55,6 +65,7 @@ export function dictVals(debug: boolean, dict: object): string[] {
  *
  * @param dict The dictionary.
  * @param key The key, either a string or a list of strings.
+ * @returns True or False, or a list of True/False values. 
  */
 export function dictHasKey(debug: boolean, dict: object, key: string|string[]): boolean|boolean[] {
     if (debug) {
@@ -70,6 +81,7 @@ export function dictHasKey(debug: boolean, dict: object, key: string|string[]): 
  *
  * @param dict The dictionary.
  * @param val The value to seach for, can be any type.
+ * @returns True or False.
  */
 export function dictHasVal(debug: boolean, dict: object, val: any): boolean {
     if (debug) {
@@ -85,6 +97,7 @@ export function dictHasVal(debug: boolean, dict: object, val: any): boolean {
  *
  * @param dict The dictionary.
  * @param val The value, can be any type.
+ * @returns The first key, or null. 
  */
 export function dictFind(debug: boolean, dict: object, val: any|any[]): string {
     if (debug) {
@@ -98,10 +111,11 @@ export function dictFind(debug: boolean, dict: object, val: any|any[]): string {
 }
 /**
  * Returns a deep copy of the dictionary.
- *
+ * \n
  * A deep copy means that changing values in the copied dictionary will not affect the original dictionary.
  *
  * @param dict The dictionary.
+ * @returns The copied dictionary.
  */
 export function dictCopy(debug: boolean, dict: object): object {
     if (debug) {
@@ -117,6 +131,7 @@ export function dictCopy(debug: boolean, dict: object): object {
  *
  * @param dict1 The first dictionary.
  * @param dict2 The second dictionary.
+ * @returns True or False.
  */
 export function dictEq(debug: boolean, dict1: any[], dict2: any[]): boolean {
     if (debug) {

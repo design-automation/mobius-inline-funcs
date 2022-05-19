@@ -6,10 +6,14 @@ import { vecAdd, vecCross, vecFromTo, vecMult, vecNorm, vecRot, vecSetLen } from
 
 /**
  * Creates a ray from an origin "o" and a direction vector "d".
- * Creates a ray from an origin "o", a direction vector "d", and length "l".
- * @param origin
- * @param dir
- * @param len
+ * If `len` is set: Creates a ray from an origin "o", a direction vector "d", and length "l".
+ * 
+ * Can be overloaded. 
+ * 
+ * @param origin Coordinates in the form of [x, y, z].
+ * @param dir A vector that provides the direction.  
+ * @param len (Optional) An integer for the length. 
+ * @returns A new ray. 
  */
 export function rayMake(debug: boolean, origin: Txyz|Txyz[], dir: Txyz|Txyz[], len?: number): TRay|TRay[] {
     if (debug) {
@@ -43,9 +47,13 @@ export function rayMake(debug: boolean, origin: Txyz|Txyz[], dir: Txyz|Txyz[], l
     return [origin.slice() as Txyz, ray_vec];
 }
 /**
- * Creates a ray between to points.
- * @param xyz1
- * @param xyz2
+ * Creates a ray between two points.
+ * 
+ * Can be overloaded. 
+ * 
+ * @param xyz1 Point 1.
+ * @param xyz2 Point 2. 
+ * @returns The created ray that has xyz1 as an origin and xyz2 as an endpoint. 
  */
 export function rayFromTo(debug: boolean, xyz1: Txyz|Txyz[], xyz2: Txyz|Txyz[]): TRay|TRay[] {
     if (debug) {
@@ -79,8 +87,12 @@ export function rayFromTo(debug: boolean, xyz1: Txyz|Txyz[], xyz2: Txyz|Txyz[]):
     return [xyz1, vecFromTo(xyz1 as Txyz, xyz2 as Txyz)] as TRay;
 }
 /**
- * Make a copy of the ray "r"
- * @param ray
+ * Make a copy of the ray "r".
+ * 
+ * Can be overloaded. 
+ * 
+ * @param ray The original ray to be copied.
+ * @returns A copy of the original ray.
  */
 export function rayCopy(debug: boolean, ray: TRay|TRay[]): TRay|TRay[] {
     if (debug) {
@@ -95,10 +107,11 @@ export function rayCopy(debug: boolean, ray: TRay|TRay[]): TRay|TRay[] {
 /**
  * Move the ray "r" relative to the global X, Y, and Z axes, by vector "v".
  * \n
- * Overloaded.
+ * Can be overloaded. 
  * \n
- * @param ray
- * @param vec
+ * @param ray The ray to be moved. 
+ * @param vec The vector to move the ray with. 
+ * @returns The new, moved ray. 
  */
 export function rayMove(debug: boolean, ray: TRay|TRay[], vec: Txyz|Txyz[]): TRay|TRay[] {
     if (debug) {
@@ -129,9 +142,13 @@ export function rayMove(debug: boolean, ray: TRay|TRay[], vec: Txyz|Txyz[]): TRa
 }
 /**
  * Rotate the ray "r1" around the ray "r2", by angle "a" (in radians).
- * @param ray1
- * @param ray2
- * @param ang
+ * 
+ * Can be overloaded. 
+ * 
+ * @param ray1 The ray to be rotated.
+ * @param ray2 The ray to be used as the axis of rotation. 
+ * @param ang The angle (in radians) to rotate r1 by. 
+ * @returns The new, rotated ray. 
  */
 export function rayRot(debug: boolean, ray1: TRay|TRay[], ray2: TRay|TRay[], ang: number|number[]): TRay|TRay[] {
     if (debug) {
@@ -169,8 +186,12 @@ export function rayRot(debug: boolean, ray1: TRay|TRay[], ray2: TRay|TRay[], ang
 }
 /**
  * Move the ray "r" relative to the ray direction vector, by distance "d".
- * @param ray
- * @param dist
+ * 
+ * Can be overloaded. 
+ * 
+ * @param ray The ray to be moved. 
+ * @param dist The distance to move the ray by.
+ * @returns The new, moved ray. 
  */
 export function rayLMove(debug: boolean, ray: TRay|TRay[], dist: number|number[]): TRay|TRay[] {
     if (debug) {
@@ -201,8 +222,12 @@ export function rayLMove(debug: boolean, ray: TRay|TRay[], dist: number|number[]
     return [vecAdd(ray[0], vec), ray[1].slice() as Txyz];
 }
 /**
- * Create a ray from a plane "p", with the same origin and with a direction along the plane z axis.
- * @param pln
+ * Create a ray from a plane "p", with the same origin and with a direction along the plane's z axis.
+ * 
+ * Can be overloaded.
+ * 
+ * @param pln The input plane to create a ray from. 
+ * @returns A ray. 
  */
 export function rayFromPln(debug: boolean, pln: TPlane|TPlane[]): TRay|TRay[] {
     if (debug) {
@@ -216,9 +241,13 @@ export function rayFromPln(debug: boolean, pln: TPlane|TPlane[]): TRay|TRay[] {
     return [pln[0].slice() as Txyz, vecCross(pln[1], pln[2])];
 }
 /**
- * Transforms a ray from a local coordinate system define by plane "p" to the global coordinate system.
- * @param r
- * @param p
+ * Transforms a ray from a local coordinate system defined by plane "p" to the global coordinate system.
+ * 
+ * Can be overloaded. 
+ * 
+ * @param r The ray to be transformed. 
+ * @param p The source plane. 
+ * @returns A new ray. 
  */
 export function rayLtoG(debug: boolean, r: TRay|TRay[], p: TPlane|TPlane[]): TRay|TRay[] {
     if (debug) {
@@ -227,9 +256,13 @@ export function rayLtoG(debug: boolean, r: TRay|TRay[], p: TPlane|TPlane[]): TRa
     return _rayXForm(debug, r, p, true);
 }
 /**
- * Transforms a ray from the global coordinate system to a local coordinate system define by plane "p".
- * @param r
- * @param p
+ * Transforms a ray from the global coordinate system to a local coordinate system defined by plane "p".
+ * 
+ * Can be overloaded.
+ * 
+ * @param r The ray to be transformed. 
+ * @param p The target plane. 
+ * @returns A new ray. 
  */
 export function rayGtoL(debug: boolean, r: TRay|TRay[], p: TPlane|TPlane[]): TRay|TRay[] {
     if (debug) {

@@ -1,5 +1,5 @@
 /**
- * Plane functions that modify planes. These functions do not modify input plane.
+ * Plane functions that modify planes. These functions do not modify the input plane.
  *
  * Overloaded:
  * - origin[], x_vec,   xy_vec
@@ -14,9 +14,13 @@ import { checkNumArgs } from '../_check_inline_args';
 
 /**
  * Creates a plane from an origin "o", an "x" axis vector, and any other vector in the "xy" plane.
- * @param origin
- * @param x_vec
- * @param xy_vec
+ * 
+ * Can be overloaded. 
+ * 
+ * @param origin A point/position or list of points/positions. 
+ * @param x_vec A vector or a list of vectors.
+ * @param xy_vec Another vector or list of vectors.
+ * @returns A plane. 
  */
 export function plnMake(debug: boolean, origin: Txyz|Txyz[], x_vec: Txyz|Txyz[], xy_vec: Txyz|Txyz[]): TPlane|TPlane[] {
     if (debug) {
@@ -60,8 +64,12 @@ export function plnMake(debug: boolean, origin: Txyz|Txyz[], x_vec: Txyz|Txyz[],
     return [origin.slice() as Txyz, x_axis, y_axis] as TPlane;
 }
 /**
- * Make a copy of the plane "p"
- * @param pln
+ * Make a copy of the plane "p".
+ * 
+ * Can be overloaded. 
+ * 
+ * @param pln The plane to be copied. 
+ * @returns The copied plane. 
  */
 export function plnCopy(debug: boolean, pln: TPlane|TPlane[]): TPlane|TPlane[] {
     if (debug) {
@@ -76,8 +84,12 @@ export function plnCopy(debug: boolean, pln: TPlane|TPlane[]): TPlane|TPlane[] {
 }
 /**
  * Move the plane "p" relative to the global X, Y, and Z axes, by vector "v".
- * @param pln
- * @param vec
+ * 
+ * Can be overloaded. 
+ * 
+ * @param pln The plane to be moved.
+ * @param vec The vector to move the plane by.
+ * @returns A new plane that has been moved. 
  */
 export function plnMove(debug: boolean, pln: TPlane|TPlane[], vec: Txyz|Txyz[]): TPlane|TPlane[] {
     if (debug) {
@@ -108,9 +120,13 @@ export function plnMove(debug: boolean, pln: TPlane|TPlane[], vec: Txyz|Txyz[]):
 }
 /**
  * Rotate the plane "p" around the ray "r", by angle "a" (in radians).
- * @param pln
- * @param ray
- * @param ang
+ * 
+ * Can be overloaded.
+ * 
+ * @param pln The plane to be rotated.
+ * @param ray The ray to rotate the plane around. 
+ * @param ang The angle to rotate the plane, in radians. 
+ * @returns A new, rotated plane. 
  */
 export function plnRot(debug: boolean, pln: TPlane|TPlane[], ray: TRay|TRay[], ang: number|number[]): TPlane|TPlane[] {
     if (debug) {
@@ -148,8 +164,12 @@ export function plnRot(debug: boolean, pln: TPlane|TPlane[], ray: TRay|TRay[], a
 }
 /**
  * Move the plane "p" relative to the local X, Y, and Z axes, by vector "v".
- * @param pln
- * @param vec
+ * 
+ * Can be overloaded. 
+ * 
+ * @param pln The plane to be moved. 
+ * @param vec The vector to move the plane by. 
+ * @returns The new, moved plane. 
  */
 export function plnLMove(debug: boolean, pln: TPlane|TPlane[], vec: Txyz|Txyz[]): TPlane|TPlane[] {
     if (debug) {
@@ -185,8 +205,12 @@ export function plnLMove(debug: boolean, pln: TPlane|TPlane[], vec: Txyz|Txyz[])
 }
 /**
  * Rotate the plane "p" around the local X axis, by angle "a" (in radians).
- * @param pln
- * @param ang
+ * 
+ * Can be overloaded. 
+ * 
+ * @param pln Plane to be rotated (around the X axis).
+ * @param ang Angle to rotate plane by, in radians. 
+ * @returns The new, rotated plane. 
  */
 export function plnLRotX(debug: boolean, pln: TPlane|TPlane[], ang: number|number[]): TPlane|TPlane[] {
     if (debug) {
@@ -221,8 +245,13 @@ export function plnLRotX(debug: boolean, pln: TPlane|TPlane[], ang: number|numbe
 }
 /**
  * Rotate the plane "p" around the local Y axis, by angle "a" (in radians).
- * @param pln
- * @param ang
+ * 
+ * Can be overloaded. 
+ * 
+ * @param pln Plane to be rotated (around the Y axis).
+ * @param ang Angle to rotate plane by, in radians. 
+ * @returns The new, rotated plane. 
+ * 
  */
 export function plnLRotY(debug: boolean, pln: TPlane|TPlane[], ang: number|number[]): TPlane|TPlane[] {
     if (debug) {
@@ -257,8 +286,12 @@ export function plnLRotY(debug: boolean, pln: TPlane|TPlane[], ang: number|numbe
 }
 /**
  * Rotate the plane "p" around the local Z axis, by angle "a" (in radians).
- * @param pln
- * @param ang
+ * 
+ * Can be overloaded.
+ * 
+ * @param pln Plane to be rotated (around the Z axis).
+ * @param ang Angle to rotate plane by, in radians. 
+ * @returns The new, rotated plane. 
  */
 export function plnLRotZ(debug: boolean, pln: TPlane|TPlane[], ang: number|number[]): TPlane|TPlane[] {
     if (debug) {
@@ -294,8 +327,13 @@ export function plnLRotZ(debug: boolean, pln: TPlane|TPlane[], ang: number|numbe
     return [pln[0].slice() as Txyz, x_axis, y_axis];
 }
 /**
- * Generate a plane from a ray...
- * @param ray
+ * Generate a plane from a ray. The plane is perpendicular to the ray, 
+ * and the origin of the plane will be the same as the ray. 
+ * 
+ * Can be overloaded. 
+ * 
+ * @param ray Input ray (or list of rays) to generate a plane (or list of planes) from. 
+ * @returns A plane or list of planes.
  */
 export function plnFromRay(debug: boolean, ray: TRay|TRay[]): TPlane|TPlane[] {
     if (debug) {

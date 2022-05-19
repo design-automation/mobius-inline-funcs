@@ -1,4 +1,4 @@
-import * as three from 'three';
+import * as vectors from 'three';
 import * as mathjs from 'mathjs';
 type Txyz = [number, number, number];
 const EPS = 1e-6;
@@ -135,8 +135,8 @@ export function vecNorm(v: Txyz): Txyz {
 }
 
 export function vecRot(vec: Txyz, axis: Txyz, ang: number): Txyz {
-    const vec_tjs: three.Vector3 = new three.Vector3(...vec);
-    const axis_tjs: three.Vector3 = new three.Vector3(...axis);
+    const vec_tjs: vectors.Vector3 = new vectors.Vector3(...vec);
+    const axis_tjs: vectors.Vector3 = new vectors.Vector3(...axis);
     vec_tjs.applyAxisAngle(axis_tjs, ang);
     return [vec_tjs.x, vec_tjs.y, vec_tjs.z];
 }

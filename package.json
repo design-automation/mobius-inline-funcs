@@ -33,6 +33,7 @@
     "build-cjs": "tsc -p tsconfig-cjs.json",
     "mobius": "node copy_to_mobius.js",
     "deploy": "npm run build && npm run typedoc && npm publish --access public",
+    "moduleDocs": "npm run typedoc",
     "typedoc": "typedoc --json typedoc-json/doc.json src"
   },
   "repository": {

@@ -7,19 +7,22 @@ type TPlane = [Txyz, Txyz, Txyz];
 
 /**
  * Returns the intersection xyz between two rays, where...
-    ['intersect(r1, r2)', 'Returns the intersection xyz between two infinite rays'],
-    ['intersect(r1, r2, m)', 'Returns the intersection xyz between two rays, where ' +
-        'if m=2, rays are infinite in both directions, ' +
-        'if m=1 rays are infinite in one direction, ' +
-        'and if m=0, rays are not infinite.'],
-    ['intersect(r, p)', 'Returns the intersection xyz between an infinite ray r and an infinite plane p'],
+ * 
+ * 
+ * - 'intersect(r1, r2)', Returns the intersection xyz between two infinite rays.
+ * - 'intersect(r1, r2, m)', 'Returns the intersection xyz between two rays, where:
+      - if m=2, rays are infinite in both directions
+      - if m=1 rays are infinite in one direction
+      - if m=0, rays are not infinite.
+    'intersect(r, p)', 'Returns the intersection xyz between an infinite ray r and an infinite plane p'],
     ['intersect(r, p, m)', 'Returns the intersection xyz between a ray r and an infinite plane p, where ' +
         'if m=2, the ray is infinite in both directions, ' +
         'if m=1 the ray is infinite in one direction, ' +
         'and if m=0, the ray is not infinite.'],
- * @param r1
- * @param r2
- * @param met
+ * @param r1 The first ray.
+ * @param r2 The second ray. 
+ * @param met (Optional) Creates certain conditions, as seen above.
+ * @returns The intersection, xyz (a list that represents a point/position) between two ways.
  */
 export function intersect(debug: boolean, r1: TRay, r2: TRay|TPlane, met: number = 2) {
     if (debug) {
@@ -32,12 +35,13 @@ export function intersect(debug: boolean, r1: TRay, r2: TRay|TPlane, met: number
     ['project(c, r)', 'Returns the xyz from projecting an xyz c onto an infinite ray r'],
     ['project(c, r, m)', 'Returns the xyz from projecting an xyz c onto an infinite ray r, where ' +
         'if m=2, the ray is infinite in both directions, ' +
-        'if m=1 the ray is infinite in one direction, ' +
+        'if m=1 the ray is infinite in one direction, s' +
         'and if m=0, the ray is not infinite.'],
     ['project(c, p)', 'Returns the xyz from projecting an xyz c onto an infinite plane p']
- * @param c
- * @param r
- * @param met
+ * @param c A point/position.
+ * @param r A ray. 
+ * @param met (Optional) Creates certain conditions, as seen above.
+ * @returns A list of 3 numbers, representing the xyz point. 
  */
 export function project(debug: boolean, c: Txyz, r: TRay|TPlane, met: number = 2) {
     if (debug) {
@@ -46,24 +50,29 @@ export function project(debug: boolean, c: Txyz, r: TRay|TPlane, met: number = 2
     return isect.project(c, r, met);
 }
 /**
- * Returns the Euclidean distance between two xyzs, c1 and c2'
- * Returns the Euclidean distance between an xyz c and an infinite ray r'
- * Returns the Euclidean distance between an xyz c and an infinite plane p'
- * @param c1
- * @param c2
+ * Returns the Euclidean distance between two xyzs, a and b'
+ * Returns the Euclidean distance between an xyz a and an infinite ray b'
+ * Returns the Euclidean distance between an xyz a and an infinite plane b'
+ * @param a The first point/position.
+ * @param b The second xyz, an infinite ray, or an infinite plane. 
+ * @returns A number, the distance. 
  */
-export function distance(debug: boolean, c1: Txyz, c2: Txyz|TRay|TPlane) {
+export function distance(debug: boolean, a: Txyz, b: Txyz|TRay|TPlane) {
     if (debug) {
         checkNumArgs('distance', arguments, 2);
     }
-    return dist.distance(c1, c2);
+    return dist.distance(a, b);
 }
 /**
  * Returns the Manhattan distance between two xyzs, c1 and c2
  * Returns the Manhattan distance between an xyz c and an infinite ray r'
  * Returns the Manhattan distance between an xyz c and an infinite plane p'
- * @param c1
- * @param c2
+ * 
+ * <a href="https://www.omnicalculator.com/math/manhattan-distance#what-is-the-manhattan-distance" target="_blank"> See here for an explanation on the Manhattan distance. </a>
+ * 
+ * @param c1 The first point/position.
+ * @param c2 The second point/position.
+ * @returns A number. The Manhattan distance between the points. 
  */
 export function distanceM(debug: boolean, c1: Txyz, c2: Txyz|TRay|TPlane) {
     if (debug) {
@@ -75,8 +84,12 @@ export function distanceM(debug: boolean, c1: Txyz, c2: Txyz|TRay|TPlane) {
  * Returns the Manhattan squared distance between two xyzs, c1 and c2
  * Returns the Manhattan squared distance between an xyz c and an infinite ray r'
  * Returns the Manhattan squared distance between an xyz c and an infinite plane p'
- * @param c1
- * @param c2
+ * 
+ * <a href="https://www.omnicalculator.com/math/manhattan-distance#what-is-the-manhattan-distance" target="_blank"> See here for an explanation on the Manhattan distance. </a>
+ * 
+ * @param c1 The first point/position.
+ * @param c2 The second point/position.
+ * @returns A number. The Manhattan squared distance between the points. 
  */
 export function distanceMS(debug: boolean, c1: Txyz, c2: Txyz|TRay|TPlane) {
     if (debug) {
