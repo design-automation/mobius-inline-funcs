@@ -67,7 +67,8 @@ export function mad(debug: boolean, list: number[]) {
     return Mathjs.mad(list);
 }
 /**
- * Returns the mean value of the list.
+ * Returns the mean value of the list. 
+ * If the list contains sublists, then the returned list will have the same number of sublists.
  * @param list A list containing numbers.
  * @returns A number (The mean).
  */

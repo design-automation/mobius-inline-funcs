@@ -8,7 +8,6 @@
  *
  * @param lists Multiple lists.
  * @returns The combined list. 
- * 
  * @example `list = listJoin([1, 2], [3, 4], [5, 6])`
  * @example_info Returns `[1, 2, 3, 4, 5, 6]`.
  * 
@@ -23,7 +22,7 @@
  */
  export function listJoin(...lists: any[]): any[] {
     const new_list: any[] = [];
-    for (let i = 1; i < arguments.length; i++) {
+    for (let i = 0; i < arguments.length; i++) {
         const arg: any = arguments[i];
         if (Array.isArray(arg)) {
             for (const item of arg) {

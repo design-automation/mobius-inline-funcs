@@ -3,7 +3,7 @@
  * Returns a new list that repeats the contents of the input list n times.
  *
  * @param list The list.
- * @param n The number of repetitons. 
+ * @param n An integer. The number of repetitons. 
  * @returns A new list. 
  */
  export function listRep(list: any, n: number): any[] {

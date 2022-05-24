@@ -10,7 +10,7 @@ export function checkNumArgs(fn_name: string, args: IArguments, max: number, min
         if (args.length !== (max + 1)) {
             throw new Error(
                 'Inline function "' + fn_name + '()": wrong number of arguments. ' +
-                'The required number of arguments is ' + max + '. ' +
+                'The required number of arguments is ' + max + ', ' +
                 'but ' + (args.length - 1) + ' arguments were given.' +
                 'Please check the documentation for the "' + fn_name + '()" function.'
             );
@@ -19,7 +19,7 @@ export function checkNumArgs(fn_name: string, args: IArguments, max: number, min
         if (args.length > max + 1) {
             throw new Error(
                 'Inline function "' + fn_name + '()": too many arguments. ' +
-                'The maximum number of arguments is ' + max + '. ' +
+                'The maximum number of arguments is ' + max + ', ' +
                 'but ' + (args.length - 1) + ' arguments were given.' +
                 'Please check the documentation for the "' + fn_name + '()" function.'
             );
@@ -27,7 +27,7 @@ export function checkNumArgs(fn_name: string, args: IArguments, max: number, min
         if (args.length < min + 1) {
             throw new Error(
                 'Inline function "' + fn_name + '()": too few arguments. ' +
-                'The minimum number of arguments is ' + max + '. ' +
+                'The minimum number of arguments is ' + max + ', ' +
                 'but ' + (args.length - 1) + ' arguments were given. ' +
                 'Please check the documentation for the "' + fn_name + '()" function.'
             );
@@ -36,7 +36,7 @@ export function checkNumArgs(fn_name: string, args: IArguments, max: number, min
 }
 /**
  * 
- * @param fn_name
+ * @param fn_names
  * @param args
  * @param expected
  */
@@ -45,8 +45,8 @@ export function checkNumArgs(fn_name: string, args: IArguments, max: number, min
         if (args.length !== (max)) {
             throw new Error(
                 'Inline function "' + fn_name + '()": wrong number of arguments. ' +
-                'The required number of arguments is ' + max + '. ' +
-                'but ' + (args.length - 1) + ' arguments were given.' +
+                'The required number of arguments is ' + max + ', ' +
+                'but ' + (args.length) + ' arguments were given. ' +
                 'Please check the documentation for the "' + fn_name + '()" function.'
             );
         }
@@ -55,16 +55,16 @@ export function checkNumArgs(fn_name: string, args: IArguments, max: number, min
             console.log("Throw error...")
             throw new Error(
                 'Inline function "' + fn_name + '()": too many arguments. ' +
-                'The maximum number of arguments is ' + max + '. ' +
-                'but ' + (args.length - 1) + ' arguments were given.' +
+                'The maximum number of arguments is ' + max + ', ' +
+                'but ' + (args.length) + ' arguments were given. ' +
                 'Please check the documentation for the "' + fn_name + '()" function.'
             );
         }
         if (args.length < min) {
             throw new Error(
                 'Inline function "' + fn_name + '()": too few arguments. ' +
-                'The minimum number of arguments is ' + max + '. ' +
-                'but ' + (args.length - 1) + ' arguments were given. ' +
+                'The minimum number of arguments is ' + max + ', ' +
+                'but ' + (args.length) + ' arguments were given. ' +
                 'Please check the documentation for the "' + fn_name + '()" function.'
             );
         }

@@ -7,7 +7,8 @@ import lodash from 'lodash';
  * If a second argument is provided, then it should be a list of the same length as the first argument.
  * In this case, the first list is sorted according to ascending order of the values in the second list.
  *
- * @param lists  The list of lists.
+ * @param list1  The input list.
+ * @param list2  (Optional) A list indicating the order to sort list 1 in. 
  * @returns A new list. 
  */
  export function listSort(list1: any[], list2?: any[]): any[] {

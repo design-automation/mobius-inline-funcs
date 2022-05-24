@@ -61,12 +61,10 @@ export function strLow(debug: boolean, str: string|string[]): string|string[] {
 }
 /**
  * Removes the leading and trailing white space and line terminator characters from a string.
+ * For example, \ is considered a line terminator character.
  * ```
- * strTrim("This\ is a \sentence")         
- * \\ "This is a sentence" (\ is considered a line terminator character.)
- * 
- * strTrim("           This used to have whitespace        ")    
- * \\ "This used to have whitespace"
+ * strTrim("This\ is a \sentence")                \\ "This is a sentence" 
+ * strTrim("   This used to have whitespace   ")  \\ "This used to have whitespace"
  * ```
  * @param str Input string.
  * @returns The modified string. 

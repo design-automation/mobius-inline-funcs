@@ -9,14 +9,14 @@ import lodash from 'lodash';
  *
  * This function also accepts additional lists of arguments.
  *
- * @param list1  The first row list.
+ * @param list1  The list of lists, or first row list.
  * @param list2  (Optional) The second row list, which must have the same length as the first.
  * @returns A new list. 
  */
  export function listZip(list1: any[], list2?: any[]): any[] {
-    if (arguments.length === 2) {
+    if (arguments.length === 1) {
         return lodash.unzip(list1);
     }
-    const lists = Array.from(arguments).slice(1);
+    const lists = Array.from(arguments);
     return lodash.zip(...lists);
 }
