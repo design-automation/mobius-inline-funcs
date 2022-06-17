@@ -151,17 +151,17 @@ export class listClass {
         }
         return listSort(list1, list2);
     }
-    listZip(list1: any[], list2: any[]) {
-        if (this.__debug__) {
-            if (list2 === undefined) {
-                chk.checkArgs('listZip', 'list1', list1, [chk.isLList]);
-            } else {
-                chk.checkArgs('listZip', 'list1', list1, [chk.isList]);
-                chk.checkArgs('listZip', 'list2', list2, [chk.isList]);
-                checkListsSameLen('listZip', arguments);
-            }
-        }
-        return listZip(list1, list2);
+    listZip(...list: any[]) {
+        // if (this.__debug__) {
+        //     if (list2 === undefined) {
+        //         chk.checkArgs('listZip', 'list1', list1, [chk.isLList]);
+        //     } else {
+        //         chk.checkArgs('listZip', 'list1', list1, [chk.isList]);
+        //         chk.checkArgs('listZip', 'list2', list2, [chk.isList]);
+        //         checkListsSameLen('listZip', arguments);
+        //     }
+        // }
+        return listZip(...list);
     }
     range(start: number, end: number, step: number) {
         if (this.__debug__) {
