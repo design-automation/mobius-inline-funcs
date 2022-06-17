@@ -7,21 +7,21 @@
 	"originalName": "",
 	"children": [
 		{
-			"id": 1265,
+			"id": 1245,
 			"name": "arithmetic",
 			"kind": 4,
 			"kindString": "Namespace",
 			"flags": {},
 			"children": [
 				{
-					"id": 1337,
+					"id": 1318,
 					"name": "arithmeticClass",
 					"kind": 128,
 					"kindString": "Class",
 					"flags": {},
 					"children": [
 						{
-							"id": 1338,
+							"id": 1319,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -35,14 +35,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1339,
+									"id": 1320,
 									"name": "new arithmeticClass",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1340,
+											"id": 1321,
 											"name": "debug",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -55,14 +55,14 @@
 									],
 									"type": {
 										"type": "reference",
-										"id": 1337,
+										"id": 1318,
 										"name": "arithmeticClass"
 									}
 								}
 							]
 						},
 						{
-							"id": 1341,
+							"id": 1322,
 							"name": "__debug__",
 							"kind": 1024,
 							"kindString": "Property",
@@ -80,7 +80,7 @@
 							}
 						},
 						{
-							"id": 1342,
+							"id": 1323,
 							"name": "abs",
 							"kind": 2048,
 							"kindString": "Method",
@@ -94,14 +94,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1343,
+									"id": 1324,
 									"name": "abs",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1344,
+											"id": 1325,
 											"name": "num",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -132,7 +132,7 @@
 							]
 						},
 						{
-							"id": 1375,
+							"id": 1356,
 							"name": "ceil",
 							"kind": 2048,
 							"kindString": "Method",
@@ -146,14 +146,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1376,
+									"id": 1357,
 									"name": "ceil",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1377,
+											"id": 1358,
 											"name": "num",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -184,7 +184,7 @@
 							]
 						},
 						{
-							"id": 1348,
+							"id": 1329,
 							"name": "cube",
 							"kind": 2048,
 							"kindString": "Method",
@@ -198,14 +198,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1349,
+									"id": 1330,
 									"name": "cube",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1350,
+											"id": 1331,
 											"name": "list",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -224,7 +224,7 @@
 							]
 						},
 						{
-							"id": 1358,
+							"id": 1339,
 							"name": "exp",
 							"kind": 2048,
 							"kindString": "Method",
@@ -238,14 +238,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1359,
+									"id": 1340,
 									"name": "exp",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1360,
+											"id": 1341,
 											"name": "num",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -276,7 +276,7 @@
 							]
 						},
 						{
-							"id": 1378,
+							"id": 1359,
 							"name": "floor",
 							"kind": 2048,
 							"kindString": "Method",
@@ -290,14 +290,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1379,
+									"id": 1360,
 									"name": "floor",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1380,
+											"id": 1361,
 											"name": "num",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -328,7 +328,7 @@
 							]
 						},
 						{
-							"id": 1387,
+							"id": 1368,
 							"name": "hypot",
 							"kind": 2048,
 							"kindString": "Method",
@@ -342,14 +342,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1388,
+									"id": 1369,
 									"name": "hypot",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1389,
+											"id": 1370,
 											"name": "list",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -368,7 +368,7 @@
 							]
 						},
 						{
-							"id": 1393,
+							"id": 1374,
 							"name": "isApprox",
 							"kind": 2048,
 							"kindString": "Method",
@@ -382,14 +382,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1394,
+									"id": 1375,
 									"name": "isApprox",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1395,
+											"id": 1376,
 											"name": "n1",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -400,7 +400,7 @@
 											}
 										},
 										{
-											"id": 1396,
+											"id": 1377,
 											"name": "n2",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -411,7 +411,7 @@
 											}
 										},
 										{
-											"id": 1397,
+											"id": 1378,
 											"name": "t",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -430,7 +430,7 @@
 							]
 						},
 						{
-							"id": 1398,
+							"id": 1379,
 							"name": "isIn",
 							"kind": 2048,
 							"kindString": "Method",
@@ -444,14 +444,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1399,
+									"id": 1380,
 									"name": "isIn",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1400,
+											"id": 1381,
 											"name": "v1",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -462,7 +462,7 @@
 											}
 										},
 										{
-											"id": 1401,
+											"id": 1382,
 											"name": "v2",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -473,7 +473,7 @@
 											}
 										},
 										{
-											"id": 1402,
+											"id": 1383,
 											"name": "v3",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -492,7 +492,7 @@
 							]
 						},
 						{
-							"id": 1403,
+							"id": 1384,
 							"name": "isWithin",
 							"kind": 2048,
 							"kindString": "Method",
@@ -506,14 +506,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1404,
+									"id": 1385,
 									"name": "isWithin",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1405,
+											"id": 1386,
 											"name": "v1",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -524,7 +524,7 @@
 											}
 										},
 										{
-											"id": 1406,
+											"id": 1387,
 											"name": "v2",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -535,7 +535,7 @@
 											}
 										},
 										{
-											"id": 1407,
+											"id": 1388,
 											"name": "v3",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -554,7 +554,7 @@
 							]
 						},
 						{
-							"id": 1361,
+							"id": 1342,
 							"name": "log",
 							"kind": 2048,
 							"kindString": "Method",
@@ -568,14 +568,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1362,
+									"id": 1343,
 									"name": "log",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1363,
+											"id": 1344,
 											"name": "base",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -606,7 +606,7 @@
 							]
 						},
 						{
-							"id": 1364,
+							"id": 1345,
 							"name": "log10",
 							"kind": 2048,
 							"kindString": "Method",
@@ -620,14 +620,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1365,
+									"id": 1346,
 									"name": "log10",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1366,
+											"id": 1347,
 											"name": "base",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -658,7 +658,7 @@
 							]
 						},
 						{
-							"id": 1390,
+							"id": 1371,
 							"name": "norm",
 							"kind": 2048,
 							"kindString": "Method",
@@ -672,14 +672,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1391,
+									"id": 1372,
 									"name": "norm",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1392,
+											"id": 1373,
 											"name": "list",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -698,7 +698,7 @@
 							]
 						},
 						{
-							"id": 1351,
+							"id": 1332,
 							"name": "pow",
 							"kind": 2048,
 							"kindString": "Method",
@@ -712,14 +712,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1352,
+									"id": 1333,
 									"name": "pow",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1353,
+											"id": 1334,
 											"name": "base",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -730,7 +730,7 @@
 											}
 										},
 										{
-											"id": 1354,
+											"id": 1335,
 											"name": "xp",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -761,7 +761,7 @@
 							]
 						},
 						{
-							"id": 1384,
+							"id": 1365,
 							"name": "prod",
 							"kind": 2048,
 							"kindString": "Method",
@@ -775,14 +775,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1385,
+									"id": 1366,
 									"name": "prod",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1386,
+											"id": 1367,
 											"name": "list",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -801,7 +801,7 @@
 							]
 						},
 						{
-							"id": 1408,
+							"id": 1389,
 							"name": "remap",
 							"kind": 2048,
 							"kindString": "Method",
@@ -815,14 +815,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1409,
+									"id": 1390,
 									"name": "remap",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1410,
+											"id": 1391,
 											"name": "num",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -833,7 +833,7 @@
 											}
 										},
 										{
-											"id": 1411,
+											"id": 1392,
 											"name": "d1",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -844,7 +844,7 @@
 											}
 										},
 										{
-											"id": 1412,
+											"id": 1393,
 											"name": "d2",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -875,7 +875,7 @@
 							]
 						},
 						{
-							"id": 1367,
+							"id": 1348,
 							"name": "round",
 							"kind": 2048,
 							"kindString": "Method",
@@ -889,14 +889,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1368,
+									"id": 1349,
 									"name": "round",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1369,
+											"id": 1350,
 											"name": "num",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -907,7 +907,7 @@
 											}
 										},
 										{
-											"id": 1370,
+											"id": 1351,
 											"name": "dec_pla",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -939,7 +939,7 @@
 							]
 						},
 						{
-							"id": 1371,
+							"id": 1352,
 							"name": "sigFig",
 							"kind": 2048,
 							"kindString": "Method",
@@ -953,14 +953,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1372,
+									"id": 1353,
 									"name": "sigFig",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1373,
+											"id": 1354,
 											"name": "num",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -971,7 +971,7 @@
 											}
 										},
 										{
-											"id": 1374,
+											"id": 1355,
 											"name": "sig_figs",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1002,7 +1002,7 @@
 							]
 						},
 						{
-							"id": 1355,
+							"id": 1336,
 							"name": "sqrt",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1016,14 +1016,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1356,
+									"id": 1337,
 									"name": "sqrt",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1357,
+											"id": 1338,
 											"name": "num",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1054,7 +1054,7 @@
 							]
 						},
 						{
-							"id": 1345,
+							"id": 1326,
 							"name": "square",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1068,14 +1068,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1346,
+									"id": 1327,
 									"name": "square",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1347,
+											"id": 1328,
 											"name": "list",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1094,7 +1094,7 @@
 							]
 						},
 						{
-							"id": 1381,
+							"id": 1362,
 							"name": "sum",
 							"kind": 2048,
 							"kindString": "Method",
@@ -1108,14 +1108,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1382,
+									"id": 1363,
 									"name": "sum",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1383,
+											"id": 1364,
 											"name": "list",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1139,40 +1139,40 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								1338
+								1319
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1341
+								1322
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								1342,
-								1375,
-								1348,
-								1358,
-								1378,
-								1387,
-								1393,
-								1398,
-								1403,
-								1361,
-								1364,
-								1390,
-								1351,
+								1323,
+								1356,
+								1329,
+								1339,
+								1359,
+								1368,
+								1374,
+								1379,
 								1384,
-								1408,
-								1367,
-								1371,
-								1355,
+								1342,
 								1345,
-								1381
+								1371,
+								1332,
+								1365,
+								1389,
+								1348,
+								1352,
+								1336,
+								1326,
+								1362
 							]
 						}
 					],
@@ -1185,7 +1185,7 @@
 					]
 				},
 				{
-					"id": 1266,
+					"id": 1246,
 					"name": "abs",
 					"kind": 64,
 					"kindString": "Function",
@@ -1199,7 +1199,7 @@
 					],
 					"signatures": [
 						{
-							"id": 1267,
+							"id": 1247,
 							"name": "abs",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -1210,7 +1210,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1268,
+									"id": 1248,
 									"name": "num",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -1233,1135 +1233,6 @@
 												}
 											}
 										]
-									}
-								}
-							],
-							"type": {
-								"type": "union",
-								"types": [
-									{
-										"type": "intrinsic",
-										"name": "number"
-									},
-									{
-										"type": "array",
-										"elementType": {
-											"type": "intrinsic",
-											"name": "number"
-										}
-									}
-								]
-							}
-						}
-					]
-				},
-				{
-					"id": 1299,
-					"name": "ceil",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {},
-					"sources": [
-						{
-							"fileName": "inline/arithmetic/ceil.ts",
-							"line": 15,
-							"character": 17
-						}
-					],
-					"signatures": [
-						{
-							"id": 1300,
-							"name": "ceil",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Returns the smallest integer greater than or equal to the given number.\n```\nceil(.95);    // 1\nceil(4);      // 4\nceil(7.004);  // 8\nceil(-0.95);  // -0\nceil(-4);     // -4\nceil(-7.004); // -7\n```",
-								"returns": "An integer or list of integers.\n"
-							},
-							"parameters": [
-								{
-									"id": 1301,
-									"name": "num",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"shortText": "A number or list of numbers."
-									},
-									"type": {
-										"type": "union",
-										"types": [
-											{
-												"type": "intrinsic",
-												"name": "number"
-											},
-											{
-												"type": "array",
-												"elementType": {
-													"type": "intrinsic",
-													"name": "number"
-												}
-											}
-										]
-									}
-								}
-							],
-							"type": {
-								"type": "union",
-								"types": [
-									{
-										"type": "intrinsic",
-										"name": "number"
-									},
-									{
-										"type": "array",
-										"elementType": {
-											"type": "intrinsic",
-											"name": "number"
-										}
-									}
-								]
-							}
-						}
-					]
-				},
-				{
-					"id": 1272,
-					"name": "cube",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {},
-					"sources": [
-						{
-							"fileName": "inline/arithmetic/cube.ts",
-							"line": 15,
-							"character": 17
-						}
-					],
-					"signatures": [
-						{
-							"id": 1273,
-							"name": "cube",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Returns the cube of the number.\n\\n\nIf the input is a list, the result will also be a list.\n\\n\n```\ncube([1, 2, 3, 4])   // [1, 8, 27, 64]\ncube(5)              // 125\n```",
-								"returns": "A number or a list containing numbers.\n"
-							},
-							"parameters": [
-								{
-									"id": 1274,
-									"name": "list",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"shortText": "A number or a list containing numbers."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "any"
-							}
-						}
-					]
-				},
-				{
-					"id": 1282,
-					"name": "exp",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {},
-					"sources": [
-						{
-							"fileName": "inline/arithmetic/exp.ts",
-							"line": 7,
-							"character": 17
-						}
-					],
-					"signatures": [
-						{
-							"id": 1283,
-							"name": "exp",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Returns a number representing e raised to the power of x, where e is Euler's number and x is the argument.",
-								"returns": "A number or a list of numbers.\n"
-							},
-							"parameters": [
-								{
-									"id": 1284,
-									"name": "num",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"shortText": "A number or list of numbers."
-									},
-									"type": {
-										"type": "union",
-										"types": [
-											{
-												"type": "intrinsic",
-												"name": "number"
-											},
-											{
-												"type": "array",
-												"elementType": {
-													"type": "intrinsic",
-													"name": "number"
-												}
-											}
-										]
-									}
-								}
-							],
-							"type": {
-								"type": "union",
-								"types": [
-									{
-										"type": "intrinsic",
-										"name": "number"
-									},
-									{
-										"type": "array",
-										"elementType": {
-											"type": "intrinsic",
-											"name": "number"
-										}
-									}
-								]
-							}
-						}
-					]
-				},
-				{
-					"id": 1302,
-					"name": "floor",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {},
-					"sources": [
-						{
-							"fileName": "inline/arithmetic/floor.ts",
-							"line": 14,
-							"character": 17
-						}
-					],
-					"signatures": [
-						{
-							"id": 1303,
-							"name": "floor",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Returns the largest integer less than or equal to the specified number.\n```\nfloor( 45.95); //  45\nfloor( 45.05); //  45\nfloor(  4   ); //   4\nfloor(-45.05); // -46\nfloor(-45.95); // -46\n```",
-								"returns": "An integer or list of integers.\n"
-							},
-							"parameters": [
-								{
-									"id": 1304,
-									"name": "num",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"shortText": "A number or list of numbers."
-									},
-									"type": {
-										"type": "union",
-										"types": [
-											{
-												"type": "intrinsic",
-												"name": "number"
-											},
-											{
-												"type": "array",
-												"elementType": {
-													"type": "intrinsic",
-													"name": "number"
-												}
-											}
-										]
-									}
-								}
-							],
-							"type": {
-								"type": "union",
-								"types": [
-									{
-										"type": "intrinsic",
-										"name": "number"
-									},
-									{
-										"type": "array",
-										"elementType": {
-											"type": "intrinsic",
-											"name": "number"
-										}
-									}
-								]
-							}
-						}
-					]
-				},
-				{
-					"id": 1311,
-					"name": "hypot",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {},
-					"sources": [
-						{
-							"fileName": "inline/arithmetic/hypot.ts",
-							"line": 8,
-							"character": 17
-						}
-					],
-					"signatures": [
-						{
-							"id": 1312,
-							"name": "hypot",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Returns the hypotenuse of all values in a list.",
-								"returns": "A number (The hypotenuse).\n"
-							},
-							"parameters": [
-								{
-									"id": 1313,
-									"name": "list",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"shortText": "A list containing numbers."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "any"
-							}
-						}
-					]
-				},
-				{
-					"id": 1317,
-					"name": "isApprox",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {},
-					"sources": [
-						{
-							"fileName": "inline/arithmetic/isApprox.ts",
-							"line": 8,
-							"character": 17
-						}
-					],
-					"signatures": [
-						{
-							"id": 1318,
-							"name": "isApprox",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Returns true if the absolute difference between the two numbers is less than the tolerance, t.",
-								"returns": "True or False.\n"
-							},
-							"parameters": [
-								{
-									"id": 1319,
-									"name": "n1",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"shortText": "The first number."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									}
-								},
-								{
-									"id": 1320,
-									"name": "n2",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"shortText": "The second number."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									}
-								},
-								{
-									"id": 1321,
-									"name": "t",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"shortText": "The tolerance."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "boolean"
-							}
-						}
-					]
-				},
-				{
-					"id": 1322,
-					"name": "isIn",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {},
-					"sources": [
-						{
-							"fileName": "inline/arithmetic/isIn.ts",
-							"line": 8,
-							"character": 17
-						}
-					],
-					"signatures": [
-						{
-							"id": 1323,
-							"name": "isIn",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Returns v1 < v2 < v3 (True/False).",
-								"returns": "True or False.\n"
-							},
-							"parameters": [
-								{
-									"id": 1324,
-									"name": "v1",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"shortText": "The first value."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "any"
-									}
-								},
-								{
-									"id": 1325,
-									"name": "v2",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"shortText": "The second value."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "any"
-									}
-								},
-								{
-									"id": 1326,
-									"name": "v3",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"shortText": "The third value."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "any"
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "boolean"
-							}
-						}
-					]
-				},
-				{
-					"id": 1327,
-					"name": "isWithin",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {},
-					"sources": [
-						{
-							"fileName": "inline/arithmetic/isWithin.ts",
-							"line": 8,
-							"character": 17
-						}
-					],
-					"signatures": [
-						{
-							"id": 1328,
-							"name": "isWithin",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Returns v1 <= v2 <= v3 (True/False).",
-								"returns": "True or False.\n"
-							},
-							"parameters": [
-								{
-									"id": 1329,
-									"name": "v1",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"shortText": "The first value."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "any"
-									}
-								},
-								{
-									"id": 1330,
-									"name": "v2",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"shortText": "The second value."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "any"
-									}
-								},
-								{
-									"id": 1331,
-									"name": "v3",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"shortText": "The third value."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "any"
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "boolean"
-							}
-						}
-					]
-				},
-				{
-					"id": 1285,
-					"name": "log",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {},
-					"sources": [
-						{
-							"fileName": "inline/arithmetic/log.ts",
-							"line": 7,
-							"character": 17
-						}
-					],
-					"signatures": [
-						{
-							"id": 1286,
-							"name": "log",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Returns the natural logarithm (base e) of the given number. If the number is negative, NaN is returned.",
-								"returns": "A number, list of numbers or NaN.\n"
-							},
-							"parameters": [
-								{
-									"id": 1287,
-									"name": "base",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"shortText": "A number or list of numbers."
-									},
-									"type": {
-										"type": "union",
-										"types": [
-											{
-												"type": "intrinsic",
-												"name": "number"
-											},
-											{
-												"type": "array",
-												"elementType": {
-													"type": "intrinsic",
-													"name": "number"
-												}
-											}
-										]
-									}
-								}
-							],
-							"type": {
-								"type": "union",
-								"types": [
-									{
-										"type": "intrinsic",
-										"name": "number"
-									},
-									{
-										"type": "array",
-										"elementType": {
-											"type": "intrinsic",
-											"name": "number"
-										}
-									}
-								]
-							}
-						}
-					]
-				},
-				{
-					"id": 1288,
-					"name": "log10",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {},
-					"sources": [
-						{
-							"fileName": "inline/arithmetic/log10.ts",
-							"line": 7,
-							"character": 17
-						}
-					],
-					"signatures": [
-						{
-							"id": 1289,
-							"name": "log10",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Returns the base 10 logarithm (base e) of the given number. If the number is negative, NaN is returned.",
-								"returns": "A number, list of numbers or NaN.\n"
-							},
-							"parameters": [
-								{
-									"id": 1290,
-									"name": "base",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"shortText": "A number or list of numbers."
-									},
-									"type": {
-										"type": "union",
-										"types": [
-											{
-												"type": "intrinsic",
-												"name": "number"
-											},
-											{
-												"type": "array",
-												"elementType": {
-													"type": "intrinsic",
-													"name": "number"
-												}
-											}
-										]
-									}
-								}
-							],
-							"type": {
-								"type": "union",
-								"types": [
-									{
-										"type": "intrinsic",
-										"name": "number"
-									},
-									{
-										"type": "array",
-										"elementType": {
-											"type": "intrinsic",
-											"name": "number"
-										}
-									}
-								]
-							}
-						}
-					]
-				},
-				{
-					"id": 1314,
-					"name": "norm",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {},
-					"sources": [
-						{
-							"fileName": "inline/arithmetic/norm.ts",
-							"line": 8,
-							"character": 17
-						}
-					],
-					"signatures": [
-						{
-							"id": 1315,
-							"name": "norm",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Returns the norm of a list.",
-								"returns": "A number (The norm).\n"
-							},
-							"parameters": [
-								{
-									"id": 1316,
-									"name": "list",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"shortText": "A list containing numbers."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "any"
-							}
-						}
-					]
-				},
-				{
-					"id": 1275,
-					"name": "pow",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {},
-					"sources": [
-						{
-							"fileName": "inline/arithmetic/pow.ts",
-							"line": 8,
-							"character": 17
-						}
-					],
-					"signatures": [
-						{
-							"id": 1276,
-							"name": "pow",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Returns a number representing the given base taken to the power of the given exponent.",
-								"returns": "A number or a list of numbers.\n"
-							},
-							"parameters": [
-								{
-									"id": 1277,
-									"name": "base",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"shortText": "A number or list of numbers."
-									},
-									"type": {
-										"type": "union",
-										"types": [
-											{
-												"type": "intrinsic",
-												"name": "number"
-											},
-											{
-												"type": "array",
-												"elementType": {
-													"type": "intrinsic",
-													"name": "number"
-												}
-											}
-										]
-									}
-								},
-								{
-									"id": 1278,
-									"name": "xp",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"shortText": "The exponent used to raise the base."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									}
-								}
-							],
-							"type": {
-								"type": "union",
-								"types": [
-									{
-										"type": "intrinsic",
-										"name": "number"
-									},
-									{
-										"type": "array",
-										"elementType": {
-											"type": "intrinsic",
-											"name": "number"
-										}
-									}
-								]
-							}
-						}
-					]
-				},
-				{
-					"id": 1308,
-					"name": "prod",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {},
-					"sources": [
-						{
-							"fileName": "inline/arithmetic/prod.ts",
-							"line": 8,
-							"character": 17
-						}
-					],
-					"signatures": [
-						{
-							"id": 1309,
-							"name": "prod",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Returns the product of all values in a list.",
-								"returns": "A number (The total product).\n"
-							},
-							"parameters": [
-								{
-									"id": 1310,
-									"name": "list",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"shortText": "A list containing numbers."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "any"
-							}
-						}
-					]
-				},
-				{
-					"id": 1332,
-					"name": "remap",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {},
-					"sources": [
-						{
-							"fileName": "inline/arithmetic/remap.ts",
-							"line": 17,
-							"character": 17
-						}
-					],
-					"signatures": [
-						{
-							"id": 1333,
-							"name": "remap",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Maps a number from the d1 domain to the d2 domain.\n\\n\nThis can be thought of as a percentage.\nThe percentage of num in d1's range is calculated,\nthen used to find the equivalent value for num in d2.\n\\n\n```\nremap(10, [0, 100], [100,200]) // 10 is 10% of 0-100. Hence, 10% of 100-200 is 110.\nremap(40, [20, 80], [0, 30])   // 40 is 33.3% of 20-80. Hence, 33.3% of 0-30 is 10.\n```",
-								"returns": "The remapped number.\n"
-							},
-							"parameters": [
-								{
-									"id": 1334,
-									"name": "num",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"shortText": "The number/integer to be remapped."
-									},
-									"type": {
-										"type": "union",
-										"types": [
-											{
-												"type": "intrinsic",
-												"name": "number"
-											},
-											{
-												"type": "array",
-												"elementType": {
-													"type": "intrinsic",
-													"name": "number"
-												}
-											}
-										]
-									}
-								},
-								{
-									"id": 1335,
-									"name": "d1",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"shortText": "A list of two numbers, representing the first domain."
-									},
-									"type": {
-										"type": "array",
-										"elementType": {
-											"type": "intrinsic",
-											"name": "number"
-										}
-									}
-								},
-								{
-									"id": 1336,
-									"name": "d2",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"shortText": "A list of two numbers, representing the second domain."
-									},
-									"type": {
-										"type": "array",
-										"elementType": {
-											"type": "intrinsic",
-											"name": "number"
-										}
-									}
-								}
-							],
-							"type": {
-								"type": "union",
-								"types": [
-									{
-										"type": "intrinsic",
-										"name": "number"
-									},
-									{
-										"type": "array",
-										"elementType": {
-											"type": "intrinsic",
-											"name": "number"
-										}
-									}
-								]
-							}
-						}
-					]
-				},
-				{
-					"id": 1291,
-					"name": "round",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {},
-					"sources": [
-						{
-							"fileName": "inline/arithmetic/round.ts",
-							"line": 8,
-							"character": 17
-						}
-					],
-					"signatures": [
-						{
-							"id": 1292,
-							"name": "round",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "The value of the given number rounded to the nearest integer.",
-								"returns": "An integer or list of integers.\n"
-							},
-							"parameters": [
-								{
-									"id": 1293,
-									"name": "num",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"shortText": "A number or list of numbers."
-									},
-									"type": {
-										"type": "union",
-										"types": [
-											{
-												"type": "intrinsic",
-												"name": "number"
-											},
-											{
-												"type": "array",
-												"elementType": {
-													"type": "intrinsic",
-													"name": "number"
-												}
-											}
-										]
-									}
-								},
-								{
-									"id": 1294,
-									"name": "dec_pla",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"shortText": "The number of decimal places."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									},
-									"defaultValue": "0"
-								}
-							],
-							"type": {
-								"type": "union",
-								"types": [
-									{
-										"type": "intrinsic",
-										"name": "number"
-									},
-									{
-										"type": "array",
-										"elementType": {
-											"type": "intrinsic",
-											"name": "number"
-										}
-									}
-								]
-							}
-						}
-					]
-				},
-				{
-					"id": 1295,
-					"name": "sigFig",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {},
-					"sources": [
-						{
-							"fileName": "inline/arithmetic/sigFig.ts",
-							"line": 10,
-							"character": 17
-						}
-					],
-					"signatures": [
-						{
-							"id": 1296,
-							"name": "sigFig",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Returns the value of the given number converted to the specified number of significant figures.",
-								"returns": "A number.\n"
-							},
-							"parameters": [
-								{
-									"id": 1297,
-									"name": "num",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"shortText": "A number or list of numbers."
-									},
-									"type": {
-										"type": "union",
-										"types": [
-											{
-												"type": "intrinsic",
-												"name": "number"
-											},
-											{
-												"type": "array",
-												"elementType": {
-													"type": "intrinsic",
-													"name": "number"
-												}
-											}
-										]
-									}
-								},
-								{
-									"id": 1298,
-									"name": "sig_figs",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"shortText": "The number of significant figures."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
 									}
 								}
 							],
@@ -2386,27 +1257,27 @@
 				},
 				{
 					"id": 1279,
-					"name": "sqrt",
+					"name": "ceil",
 					"kind": 64,
 					"kindString": "Function",
 					"flags": {},
 					"sources": [
 						{
-							"fileName": "inline/arithmetic/sqrt.ts",
-							"line": 7,
+							"fileName": "inline/arithmetic/ceil.ts",
+							"line": 15,
 							"character": 17
 						}
 					],
 					"signatures": [
 						{
 							"id": 1280,
-							"name": "sqrt",
+							"name": "ceil",
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {},
 							"comment": {
-								"shortText": "Returns the square root of the given number. If the number is negative, NaN is returned.",
-								"returns": "A number or a list of numbers.\n"
+								"shortText": "Returns the smallest integer greater than or equal to the given number.\n```\nceil(.95);    // 1\nceil(4);      // 4\nceil(7.004);  // 8\nceil(-0.95);  // -0\nceil(-4);     // -4\nceil(-7.004); // -7\n```",
+								"returns": "An integer or list of integers.\n"
 							},
 							"parameters": [
 								{
@@ -2456,7 +1327,1212 @@
 					]
 				},
 				{
-					"id": 1269,
+					"id": 1252,
+					"name": "cube",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "inline/arithmetic/cube.ts",
+							"line": 15,
+							"character": 17
+						}
+					],
+					"signatures": [
+						{
+							"id": 1253,
+							"name": "cube",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the cube of the number.\n\\n\nIf the input is a list, the result will also be a list.\n\\n\n```\ncube([1, 2, 3, 4])   // [1, 8, 27, 64]\ncube(5)              // 125\n```",
+								"returns": "A number or a list containing numbers.\n"
+							},
+							"parameters": [
+								{
+									"id": 1254,
+									"name": "list",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "A number or a list containing numbers."
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "number"
+											},
+											{
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "number"
+												}
+											}
+										]
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					]
+				},
+				{
+					"id": 1262,
+					"name": "exp",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "inline/arithmetic/exp.ts",
+							"line": 7,
+							"character": 17
+						}
+					],
+					"signatures": [
+						{
+							"id": 1263,
+							"name": "exp",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns a number representing e raised to the power of x, where e is Euler's number and x is the argument.",
+								"returns": "A number or a list of numbers.\n"
+							},
+							"parameters": [
+								{
+									"id": 1264,
+									"name": "num",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "A number or list of numbers."
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "number"
+											},
+											{
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "number"
+												}
+											}
+										]
+									}
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "number"
+									},
+									{
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 1282,
+					"name": "floor",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "inline/arithmetic/floor.ts",
+							"line": 14,
+							"character": 17
+						}
+					],
+					"signatures": [
+						{
+							"id": 1283,
+							"name": "floor",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the largest integer less than or equal to the specified number.\n```\nfloor( 45.95); //  45\nfloor( 45.05); //  45\nfloor(  4   ); //   4\nfloor(-45.05); // -46\nfloor(-45.95); // -46\n```",
+								"returns": "An integer or list of integers.\n"
+							},
+							"parameters": [
+								{
+									"id": 1284,
+									"name": "num",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "A number or list of numbers."
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "number"
+											},
+											{
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "number"
+												}
+											}
+										]
+									}
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "number"
+									},
+									{
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 1291,
+					"name": "hypot",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "inline/arithmetic/hypot.ts",
+							"line": 8,
+							"character": 17
+						}
+					],
+					"signatures": [
+						{
+							"id": 1292,
+							"name": "hypot",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the hypotenuse (square root of the sum of squares and its arguments) of all values in a list.",
+								"returns": "A number (The hypotenuse).\n"
+							},
+							"parameters": [
+								{
+									"id": 1293,
+									"name": "list",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "A number or list containing numbers."
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "number"
+											},
+											{
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "number"
+												}
+											}
+										]
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					]
+				},
+				{
+					"id": 1298,
+					"name": "isApprox",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "inline/arithmetic/isApprox.ts",
+							"line": 8,
+							"character": 17
+						}
+					],
+					"signatures": [
+						{
+							"id": 1299,
+							"name": "isApprox",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns true if the absolute difference between the two numbers is less than the tolerance, t.",
+								"returns": "True or False.\n"
+							},
+							"parameters": [
+								{
+									"id": 1300,
+									"name": "n1",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "The first number."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 1301,
+									"name": "n2",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "The second number."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 1302,
+									"name": "t",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "The tolerance, a number."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						}
+					]
+				},
+				{
+					"id": 1303,
+					"name": "isIn",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "inline/arithmetic/isIn.ts",
+							"line": 8,
+							"character": 17
+						}
+					],
+					"signatures": [
+						{
+							"id": 1304,
+							"name": "isIn",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns v1 < v2 < v3 (True/False).",
+								"returns": "True or False.\n"
+							},
+							"parameters": [
+								{
+									"id": 1305,
+									"name": "v1",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "The first value."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								},
+								{
+									"id": 1306,
+									"name": "v2",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "The second value."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								},
+								{
+									"id": 1307,
+									"name": "v3",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "The third value."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						}
+					]
+				},
+				{
+					"id": 1308,
+					"name": "isWithin",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "inline/arithmetic/isWithin.ts",
+							"line": 8,
+							"character": 17
+						}
+					],
+					"signatures": [
+						{
+							"id": 1309,
+							"name": "isWithin",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns v1 <= v2 <= v3 (True/False).",
+								"returns": "True or False.\n"
+							},
+							"parameters": [
+								{
+									"id": 1310,
+									"name": "v1",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "The first value."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								},
+								{
+									"id": 1311,
+									"name": "v2",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "The second value."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								},
+								{
+									"id": 1312,
+									"name": "v3",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "The third value."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "any"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						}
+					]
+				},
+				{
+					"id": 1265,
+					"name": "log",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "inline/arithmetic/log.ts",
+							"line": 15,
+							"character": 17
+						}
+					],
+					"signatures": [
+						{
+							"id": 1266,
+							"name": "log",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the natural logarithm (base e) of the given number or list of numbers. If the number is negative, NaN is returned.\n\\n\nIf a custom base is needed, using `log(y) / log(x)` will return the logarithm of `y` with base `x`. (log x (y))\n\\n\n```\nlog(-1);  // NaN, out of range\nlog(0);   // -Infinity\nlog(1);   // 0\nlog(10);  // 2.302585092994046\n```",
+								"returns": "A number, list of numbers, `Infinity` or `NaN`.\n"
+							},
+							"parameters": [
+								{
+									"id": 1267,
+									"name": "base",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "A number or list of numbers."
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "number"
+											},
+											{
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "number"
+												}
+											}
+										]
+									}
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "number"
+									},
+									{
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 1268,
+					"name": "log10",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "inline/arithmetic/log10.ts",
+							"line": 17,
+							"character": 17
+						}
+					],
+					"signatures": [
+						{
+							"id": 1269,
+							"name": "log10",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the base 10 logarithm of the given number or list of numbers. If the number is negative, NaN is returned.\n\\n\nIf a custom base is needed, using `log10(y) / log10(x)` will return the logarithm of `y` with base `x`. (log x (y))\n\\n\n```\nMath.log10(2);       // 0.3010299956639812\nMath.log10(1);       // 0\nMath.log10(0);       // -Infinity\nMath.log10(-2);      // NaN\nMath.log10(100000);  // 5\n```",
+								"returns": "A number, list of numbers, `Infinity` or `NaN`.\n"
+							},
+							"parameters": [
+								{
+									"id": 1270,
+									"name": "base",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "A number or list of numbers."
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "number"
+											},
+											{
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "number"
+												}
+											}
+										]
+									}
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "number"
+									},
+									{
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 1294,
+					"name": "norm",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "inline/arithmetic/norm.ts",
+							"line": 28,
+							"character": 17
+						}
+					],
+					"signatures": [
+						{
+							"id": 1295,
+							"name": "norm",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the norm of a number or list of numbers. The norm of a mathematical object is a quantity\nthat generally describes the length, size, or extent of the object.\n\\n\nThe norm (length) of a vector should not be confused with a normal vector (a vector perpendicular\nto a surface).",
+								"text": "```\nnorm(-3.5)                        // returns 3.5\n\nnorm([1, 2, -3], Infinity)        // returns 3\nnorm([1, 2, -3], -Infinity)       // returns 1\nnorm([3, 4], 2)                   // returns 5\n\nnorm([[1, 2], [3, 4]], 1)         // returns 6\n```\n`p`: A vector space is a set that is closed under finite vector addition and scalar\nmultiplication. The basic example is `n`-dimensional Euclidean space, ie. by default, this\nfunction will calculate the length of the input in 2D space.\n",
+								"returns": "A number (The norm).\n"
+							},
+							"parameters": [
+								{
+									"id": 1296,
+									"name": "list",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "A number or list of numbers."
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "number"
+											},
+											{
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "number"
+												}
+											}
+										]
+									}
+								},
+								{
+									"id": 1297,
+									"name": "p",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"shortText": "(Optional) Vector space, a number. Its default value is 2.\nOther supported numbers include `Infinity` and `-Infinity`."
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "intrinsic",
+												"name": "number"
+											}
+										]
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					]
+				},
+				{
+					"id": 1255,
+					"name": "pow",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "inline/arithmetic/pow.ts",
+							"line": 19,
+							"character": 17
+						}
+					],
+					"signatures": [
+						{
+							"id": 1256,
+							"name": "pow",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns a number representing the given base taken to the power of the given exponent.\n\\n\n```\npow(7, 2);    // 49\npow(4, 0.5);  // 2 (square root of 4)\npow(8, -1/3); // 0.5\npow(-7, 2);   // 49 (squares are positive)\npow(-7, 3);   // -343 (cubes can be negative)",
+								"text": "pow(-7, 0.5); // NaN (negative numbers don't have a real square root)\npow(-7, 1/3); // NaN (negative bases with fractional exponents always return NaN)\n```\n",
+								"returns": "A number or a list of numbers.\n"
+							},
+							"parameters": [
+								{
+									"id": 1257,
+									"name": "base",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "A number or list of numbers."
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "number"
+											},
+											{
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "number"
+												}
+											}
+										]
+									}
+								},
+								{
+									"id": 1258,
+									"name": "xp",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "The exponent used to raise the base."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "number"
+									},
+									{
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 1288,
+					"name": "prod",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "inline/arithmetic/prod.ts",
+							"line": 14,
+							"character": 17
+						}
+					],
+					"signatures": [
+						{
+							"id": 1289,
+							"name": "prod",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the product of all values in a list.\n\\n\n```\nprod([2, 3])             // 6\nprod([2, 3, 4])          // 24\nprod([[2, 5], [4, 3]])   // 120\n```",
+								"returns": "A number (The total product).\n"
+							},
+							"parameters": [
+								{
+									"id": 1290,
+									"name": "list",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "A list containing numbers."
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "number"
+											},
+											{
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "number"
+												}
+											}
+										]
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					]
+				},
+				{
+					"id": 1313,
+					"name": "remap",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "inline/arithmetic/remap.ts",
+							"line": 17,
+							"character": 17
+						}
+					],
+					"signatures": [
+						{
+							"id": 1314,
+							"name": "remap",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Maps a number from the d1 domain to the d2 domain.\n\\n\nThis can be thought of as a percentage.\nThe percentage of num in d1's range is calculated,\nthen used to find the equivalent value for num in d2.\n\\n\n```\nremap(10, [0, 100], [100,200]) // 10 is 10% of 0-100. Hence, 10% of 100-200 is 110.\nremap(40, [20, 80], [0, 30])   // 40 is 33.3% of 20-80. Hence, 33.3% of 0-30 is 10.\n```",
+								"returns": "The remapped number.\n"
+							},
+							"parameters": [
+								{
+									"id": 1315,
+									"name": "num",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "The number/integer to be remapped."
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "number"
+											},
+											{
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "number"
+												}
+											}
+										]
+									}
+								},
+								{
+									"id": 1316,
+									"name": "d1",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "A list of two numbers, representing the first domain."
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								},
+								{
+									"id": 1317,
+									"name": "d2",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "A list of two numbers, representing the second domain."
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "number"
+									},
+									{
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 1271,
+					"name": "round",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "inline/arithmetic/round.ts",
+							"line": 15,
+							"character": 17
+						}
+					],
+					"signatures": [
+						{
+							"id": 1272,
+							"name": "round",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "The value of the given number rounded to the nearest integer.\n```\nround( 20.49); //  20\nround( 20.5 ); //  21\nround( 42   ); //  42\nround(-20.5 ); // -20\nround(-20.51); // -21\n```",
+								"returns": "An integer or list of integers.\n"
+							},
+							"parameters": [
+								{
+									"id": 1273,
+									"name": "num",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "A number or list of numbers."
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "number"
+											},
+											{
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "number"
+												}
+											}
+										]
+									}
+								},
+								{
+									"id": 1274,
+									"name": "dec_pla",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "Set as 0 by default. (Should not be changed. Use `sigFig()` for more customizability.)"
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									},
+									"defaultValue": "0"
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "number"
+									},
+									{
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 1275,
+					"name": "sigFig",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "inline/arithmetic/sigFig.ts",
+							"line": 10,
+							"character": 17
+						}
+					],
+					"signatures": [
+						{
+							"id": 1276,
+							"name": "sigFig",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the value of the given number converted to the specified number of significant figures.",
+								"returns": "A number.\n"
+							},
+							"parameters": [
+								{
+									"id": 1277,
+									"name": "num",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "A number or list of numbers."
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "number"
+											},
+											{
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "number"
+												}
+											}
+										]
+									}
+								},
+								{
+									"id": 1278,
+									"name": "sig_figs",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "An integer. The number of significant figures."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "number"
+									},
+									{
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 1259,
+					"name": "sqrt",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "inline/arithmetic/sqrt.ts",
+							"line": 17,
+							"character": 17
+						}
+					],
+					"signatures": [
+						{
+							"id": 1260,
+							"name": "sqrt",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the square root of the given number. If the number is negative, NaN is returned.\n\\n\n```\nsqrt(9); // 3\nsqrt(2); // 1.414213562373095",
+								"text": "sqrt(1);  // 1\nsqrt(0);  // 0\nsqrt(-1); // NaN\nsqrt(-0); // -0\n```\n",
+								"returns": "A number, NaN, or a list of numbers.\n"
+							},
+							"parameters": [
+								{
+									"id": 1261,
+									"name": "num",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"shortText": "A number or list of numbers."
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "number"
+											},
+											{
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "number"
+												}
+											}
+										]
+									}
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "intrinsic",
+										"name": "number"
+									},
+									{
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								]
+							}
+						}
+					]
+				},
+				{
+					"id": 1249,
 					"name": "square",
 					"kind": 64,
 					"kindString": "Function",
@@ -2470,7 +2546,7 @@
 					],
 					"signatures": [
 						{
-							"id": 1270,
+							"id": 1250,
 							"name": "square",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -2481,7 +2557,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1271,
+									"id": 1251,
 									"name": "list",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2490,8 +2566,20 @@
 										"shortText": "A number or a list containing numbers."
 									},
 									"type": {
-										"type": "intrinsic",
-										"name": "number"
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "number"
+											},
+											{
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "number"
+												}
+											}
+										]
 									}
 								}
 							],
@@ -2503,7 +2591,7 @@
 					]
 				},
 				{
-					"id": 1305,
+					"id": 1285,
 					"name": "sum",
 					"kind": 64,
 					"kindString": "Function",
@@ -2517,7 +2605,7 @@
 					],
 					"signatures": [
 						{
-							"id": 1306,
+							"id": 1286,
 							"name": "sum",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -2528,7 +2616,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1307,
+									"id": 1287,
 									"name": "list",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2537,8 +2625,20 @@
 										"shortText": "A list containing numbers."
 									},
 									"type": {
-										"type": "intrinsic",
-										"name": "number"
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "number"
+											},
+											{
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "number"
+												}
+											}
+										]
 									}
 								}
 							],
@@ -2555,33 +2655,33 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						1337
+						1318
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						1266,
-						1299,
-						1272,
-						1282,
-						1302,
-						1311,
-						1317,
-						1322,
-						1327,
-						1285,
-						1288,
-						1314,
-						1275,
-						1308,
-						1332,
-						1291,
-						1295,
+						1246,
 						1279,
-						1269,
-						1305
+						1252,
+						1262,
+						1282,
+						1291,
+						1298,
+						1303,
+						1308,
+						1265,
+						1268,
+						1294,
+						1255,
+						1288,
+						1313,
+						1271,
+						1275,
+						1259,
+						1249,
+						1285
 					]
 				}
 			],
@@ -2594,21 +2694,21 @@
 			]
 		},
 		{
-			"id": 1153,
+			"id": 1140,
 			"name": "colors",
 			"kind": 4,
 			"kindString": "Namespace",
 			"flags": {},
 			"children": [
 				{
-					"id": 1168,
+					"id": 1155,
 					"name": "colorsClass",
 					"kind": 128,
 					"kindString": "Class",
 					"flags": {},
 					"children": [
 						{
-							"id": 1169,
+							"id": 1156,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -2622,14 +2722,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1170,
+									"id": 1157,
 									"name": "new colorsClass",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1171,
+											"id": 1158,
 											"name": "debug",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2642,14 +2742,14 @@
 									],
 									"type": {
 										"type": "reference",
-										"id": 1168,
+										"id": 1155,
 										"name": "colorsClass"
 									}
 								}
 							]
 						},
 						{
-							"id": 1172,
+							"id": 1159,
 							"name": "__debug__",
 							"kind": 1024,
 							"kindString": "Property",
@@ -2667,7 +2767,7 @@
 							}
 						},
 						{
-							"id": 1173,
+							"id": 1160,
 							"name": "colFalse",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2681,14 +2781,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1174,
+									"id": 1161,
 									"name": "colFalse",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1175,
+											"id": 1162,
 											"name": "vals",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2699,7 +2799,7 @@
 											}
 										},
 										{
-											"id": 1176,
+											"id": 1163,
 											"name": "min",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2710,7 +2810,7 @@
 											}
 										},
 										{
-											"id": 1177,
+											"id": 1164,
 											"name": "max",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2741,7 +2841,7 @@
 							]
 						},
 						{
-							"id": 1184,
+							"id": 1171,
 							"name": "colFromStr",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2755,14 +2855,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1185,
+									"id": 1172,
 									"name": "colFromStr",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1186,
+											"id": 1173,
 											"name": "col_str",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2793,7 +2893,7 @@
 							]
 						},
 						{
-							"id": 1178,
+							"id": 1165,
 							"name": "colScale",
 							"kind": 2048,
 							"kindString": "Method",
@@ -2807,14 +2907,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1179,
+									"id": 1166,
 									"name": "colScale",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1180,
+											"id": 1167,
 											"name": "vals",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2825,7 +2925,7 @@
 											}
 										},
 										{
-											"id": 1181,
+											"id": 1168,
 											"name": "min",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2836,7 +2936,7 @@
 											}
 										},
 										{
-											"id": 1182,
+											"id": 1169,
 											"name": "max",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2847,7 +2947,7 @@
 											}
 										},
 										{
-											"id": 1183,
+											"id": 1170,
 											"name": "scale",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2883,23 +2983,23 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								1169
+								1156
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1172
+								1159
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								1173,
-								1184,
-								1178
+								1160,
+								1171,
+								1165
 							]
 						}
 					],
@@ -2912,7 +3012,7 @@
 					]
 				},
 				{
-					"id": 1154,
+					"id": 1141,
 					"name": "colFalse",
 					"kind": 64,
 					"kindString": "Function",
@@ -2926,7 +3026,7 @@
 					],
 					"signatures": [
 						{
-							"id": 1155,
+							"id": 1142,
 							"name": "colFalse",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -2938,7 +3038,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1156,
+									"id": 1143,
 									"name": "vals",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2964,7 +3064,7 @@
 									}
 								},
 								{
-									"id": 1157,
+									"id": 1144,
 									"name": "min",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2978,7 +3078,7 @@
 									}
 								},
 								{
-									"id": 1158,
+									"id": 1145,
 									"name": "max",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -3012,7 +3112,7 @@
 					]
 				},
 				{
-					"id": 1165,
+					"id": 1152,
 					"name": "colFromStr",
 					"kind": 64,
 					"kindString": "Function",
@@ -3026,7 +3126,7 @@
 					],
 					"signatures": [
 						{
-							"id": 1166,
+							"id": 1153,
 							"name": "colFromStr",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -3038,7 +3138,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1167,
+									"id": 1154,
 									"name": "col_str",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -3082,7 +3182,7 @@
 					]
 				},
 				{
-					"id": 1159,
+					"id": 1146,
 					"name": "colScale",
 					"kind": 64,
 					"kindString": "Function",
@@ -3096,7 +3196,7 @@
 					],
 					"signatures": [
 						{
-							"id": 1160,
+							"id": 1147,
 							"name": "colScale",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -3108,7 +3208,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1161,
+									"id": 1148,
 									"name": "vals",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -3134,7 +3234,7 @@
 									}
 								},
 								{
-									"id": 1162,
+									"id": 1149,
 									"name": "min",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -3148,7 +3248,7 @@
 									}
 								},
 								{
-									"id": 1163,
+									"id": 1150,
 									"name": "max",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -3162,7 +3262,7 @@
 									}
 								},
 								{
-									"id": 1164,
+									"id": 1151,
 									"name": "scale",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -3201,16 +3301,16 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						1168
+						1155
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						1154,
-						1165,
-						1159
+						1141,
+						1152,
+						1146
 					]
 				}
 			],
@@ -3223,21 +3323,21 @@
 			]
 		},
 		{
-			"id": 1012,
+			"id": 1007,
 			"name": "common",
 			"kind": 4,
 			"kindString": "Namespace",
 			"flags": {},
 			"children": [
 				{
-					"id": 1026,
+					"id": 1021,
 					"name": "commonClass",
 					"kind": 128,
 					"kindString": "Class",
 					"flags": {},
 					"children": [
 						{
-							"id": 1027,
+							"id": 1022,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -3251,14 +3351,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1028,
+									"id": 1023,
 									"name": "new commonClass",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1029,
+											"id": 1024,
 											"name": "debug",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3271,14 +3371,14 @@
 									],
 									"type": {
 										"type": "reference",
-										"id": 1026,
+										"id": 1021,
 										"name": "commonClass"
 									}
 								}
 							]
 						},
 						{
-							"id": 1030,
+							"id": 1025,
 							"name": "__debug__",
 							"kind": 1024,
 							"kindString": "Property",
@@ -3296,7 +3396,7 @@
 							}
 						},
 						{
-							"id": 1034,
+							"id": 1029,
 							"name": "copy",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3310,14 +3410,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1035,
+									"id": 1030,
 									"name": "copy",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1036,
+											"id": 1031,
 											"name": "data",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3336,7 +3436,7 @@
 							]
 						},
 						{
-							"id": 1037,
+							"id": 1032,
 							"name": "equal",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3350,14 +3450,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1038,
+									"id": 1033,
 									"name": "equal",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1039,
+											"id": 1034,
 											"name": "data1",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3368,7 +3468,7 @@
 											}
 										},
 										{
-											"id": 1040,
+											"id": 1035,
 											"name": "data2",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3387,7 +3487,7 @@
 							]
 						},
 						{
-							"id": 1031,
+							"id": 1026,
 							"name": "len",
 							"kind": 2048,
 							"kindString": "Method",
@@ -3401,14 +3501,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1032,
+									"id": 1027,
 									"name": "len",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1033,
+											"id": 1028,
 											"name": "data",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3432,23 +3532,23 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								1027
+								1022
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1030
+								1025
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								1034,
-								1037,
-								1031
+								1029,
+								1032,
+								1026
 							]
 						}
 					],
@@ -3461,7 +3561,7 @@
 					]
 				},
 				{
-					"id": 1017,
+					"id": 1012,
 					"name": "copy",
 					"kind": 64,
 					"kindString": "Function",
@@ -3475,7 +3575,7 @@
 					],
 					"signatures": [
 						{
-							"id": 1018,
+							"id": 1013,
 							"name": "copy",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -3486,7 +3586,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1019,
+									"id": 1014,
 									"name": "debug",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -3497,7 +3597,7 @@
 									}
 								},
 								{
-									"id": 1020,
+									"id": 1015,
 									"name": "data",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -3519,7 +3619,7 @@
 					]
 				},
 				{
-					"id": 1021,
+					"id": 1016,
 					"name": "equal",
 					"kind": 64,
 					"kindString": "Function",
@@ -3533,7 +3633,7 @@
 					],
 					"signatures": [
 						{
-							"id": 1022,
+							"id": 1017,
 							"name": "equal",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -3544,7 +3644,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1023,
+									"id": 1018,
 									"name": "debug",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -3555,7 +3655,7 @@
 									}
 								},
 								{
-									"id": 1024,
+									"id": 1019,
 									"name": "data1",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -3566,7 +3666,7 @@
 									}
 								},
 								{
-									"id": 1025,
+									"id": 1020,
 									"name": "data2",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -3585,7 +3685,7 @@
 					]
 				},
 				{
-					"id": 1013,
+					"id": 1008,
 					"name": "len",
 					"kind": 64,
 					"kindString": "Function",
@@ -3599,7 +3699,7 @@
 					],
 					"signatures": [
 						{
-							"id": 1014,
+							"id": 1009,
 							"name": "len",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -3610,7 +3710,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1015,
+									"id": 1010,
 									"name": "debug",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -3621,7 +3721,7 @@
 									}
 								},
 								{
-									"id": 1016,
+									"id": 1011,
 									"name": "data",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -3648,16 +3748,16 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						1026
+						1021
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						1017,
-						1021,
-						1013
+						1012,
+						1016,
+						1008
 					]
 				}
 			],
@@ -3670,14 +3770,14 @@
 			]
 		},
 		{
-			"id": 1250,
+			"id": 1230,
 			"name": "constants",
 			"kind": 4,
 			"kindString": "Namespace",
 			"flags": {},
 			"children": [
 				{
-					"id": 1251,
+					"id": 1231,
 					"name": "PI",
 					"kind": 32,
 					"kindString": "Variable",
@@ -3701,7 +3801,7 @@
 					"defaultValue": "Math.PI"
 				},
 				{
-					"id": 1262,
+					"id": 1242,
 					"name": "RX",
 					"kind": 32,
 					"kindString": "Variable",
@@ -3725,7 +3825,7 @@
 					"defaultValue": "XRAY"
 				},
 				{
-					"id": 1263,
+					"id": 1243,
 					"name": "RY",
 					"kind": 32,
 					"kindString": "Variable",
@@ -3749,7 +3849,7 @@
 					"defaultValue": "YRAY"
 				},
 				{
-					"id": 1264,
+					"id": 1244,
 					"name": "RZ",
 					"kind": 32,
 					"kindString": "Variable",
@@ -3773,7 +3873,7 @@
 					"defaultValue": "ZRAY"
 				},
 				{
-					"id": 1261,
+					"id": 1241,
 					"name": "VO",
 					"kind": 32,
 					"kindString": "Variable",
@@ -3797,7 +3897,7 @@
 					"defaultValue": "OVEC"
 				},
 				{
-					"id": 1258,
+					"id": 1238,
 					"name": "VX",
 					"kind": 32,
 					"kindString": "Variable",
@@ -3821,7 +3921,7 @@
 					"defaultValue": "XVEC"
 				},
 				{
-					"id": 1259,
+					"id": 1239,
 					"name": "VY",
 					"kind": 32,
 					"kindString": "Variable",
@@ -3845,7 +3945,7 @@
 					"defaultValue": "YVEC"
 				},
 				{
-					"id": 1260,
+					"id": 1240,
 					"name": "VZ",
 					"kind": 32,
 					"kindString": "Variable",
@@ -3869,7 +3969,7 @@
 					"defaultValue": "ZVEC"
 				},
 				{
-					"id": 1252,
+					"id": 1232,
 					"name": "XY",
 					"kind": 32,
 					"kindString": "Variable",
@@ -3893,7 +3993,7 @@
 					"defaultValue": "XYPLANE"
 				},
 				{
-					"id": 1257,
+					"id": 1237,
 					"name": "XZ",
 					"kind": 32,
 					"kindString": "Variable",
@@ -3917,7 +4017,7 @@
 					"defaultValue": "XZPLANE"
 				},
 				{
-					"id": 1255,
+					"id": 1235,
 					"name": "YX",
 					"kind": 32,
 					"kindString": "Variable",
@@ -3941,7 +4041,7 @@
 					"defaultValue": "YXPLANE"
 				},
 				{
-					"id": 1253,
+					"id": 1233,
 					"name": "YZ",
 					"kind": 32,
 					"kindString": "Variable",
@@ -3965,7 +4065,7 @@
 					"defaultValue": "YZPLANE"
 				},
 				{
-					"id": 1254,
+					"id": 1234,
 					"name": "ZX",
 					"kind": 32,
 					"kindString": "Variable",
@@ -3989,7 +4089,7 @@
 					"defaultValue": "ZXPLANE"
 				},
 				{
-					"id": 1256,
+					"id": 1236,
 					"name": "ZY",
 					"kind": 32,
 					"kindString": "Variable",
@@ -4018,20 +4118,20 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						1251,
-						1262,
-						1263,
-						1264,
-						1261,
-						1258,
-						1259,
-						1260,
-						1252,
-						1257,
-						1255,
-						1253,
-						1254,
-						1256
+						1231,
+						1242,
+						1243,
+						1244,
+						1241,
+						1238,
+						1239,
+						1240,
+						1232,
+						1237,
+						1235,
+						1233,
+						1234,
+						1236
 					]
 				}
 			],
@@ -4044,21 +4144,21 @@
 			]
 		},
 		{
-			"id": 1187,
+			"id": 1174,
 			"name": "conversion",
 			"kind": 4,
 			"kindString": "Namespace",
 			"flags": {},
 			"children": [
 				{
-					"id": 1220,
+					"id": 1200,
 					"name": "conversionClass",
 					"kind": 128,
 					"kindString": "Class",
 					"flags": {},
 					"children": [
 						{
-							"id": 1221,
+							"id": 1201,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -4066,20 +4166,20 @@
 							"sources": [
 								{
 									"fileName": "inline/conversion.ts",
-									"line": 144,
+									"line": 21,
 									"character": 4
 								}
 							],
 							"signatures": [
 								{
-									"id": 1222,
+									"id": 1202,
 									"name": "new conversionClass",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1223,
+											"id": 1203,
 											"name": "debug",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4092,14 +4192,14 @@
 									],
 									"type": {
 										"type": "reference",
-										"id": 1220,
+										"id": 1200,
 										"name": "conversionClass"
 									}
 								}
 							]
 						},
 						{
-							"id": 1224,
+							"id": 1204,
 							"name": "__debug__",
 							"kind": 1024,
 							"kindString": "Property",
@@ -4107,7 +4207,7 @@
 							"sources": [
 								{
 									"fileName": "inline/conversion.ts",
-									"line": 143,
+									"line": 20,
 									"character": 4
 								}
 							],
@@ -4117,7 +4217,7 @@
 							}
 						},
 						{
-							"id": 1225,
+							"id": 1205,
 							"name": "boolean",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4125,20 +4225,20 @@
 							"sources": [
 								{
 									"fileName": "inline/conversion.ts",
-									"line": 148,
+									"line": 25,
 									"character": 4
 								}
 							],
 							"signatures": [
 								{
-									"id": 1226,
+									"id": 1206,
 									"name": "boolean",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1227,
+											"id": 1207,
 											"name": "val",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4157,7 +4257,7 @@
 							]
 						},
 						{
-							"id": 1237,
+							"id": 1217,
 							"name": "degToRad",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4165,20 +4265,20 @@
 							"sources": [
 								{
 									"fileName": "inline/conversion.ts",
-									"line": 164,
+									"line": 53,
 									"character": 4
 								}
 							],
 							"signatures": [
 								{
-									"id": 1238,
+									"id": 1218,
 									"name": "degToRad",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1239,
+											"id": 1219,
 											"name": "deg",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4209,7 +4309,7 @@
 							]
 						},
 						{
-							"id": 1245,
+							"id": 1225,
 							"name": "numToCurr",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4217,20 +4317,20 @@
 							"sources": [
 								{
 									"fileName": "inline/conversion.ts",
-									"line": 172,
+									"line": 67,
 									"character": 4
 								}
 							],
 							"signatures": [
 								{
-									"id": 1246,
+									"id": 1226,
 									"name": "numToCurr",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1247,
+											"id": 1227,
 											"name": "num",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4241,7 +4341,7 @@
 											}
 										},
 										{
-											"id": 1248,
+											"id": 1228,
 											"name": "currency",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4252,7 +4352,7 @@
 											}
 										},
 										{
-											"id": 1249,
+											"id": 1229,
 											"name": "locale",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4285,7 +4385,7 @@
 							]
 						},
 						{
-							"id": 1240,
+							"id": 1220,
 							"name": "numToStr",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4293,20 +4393,20 @@
 							"sources": [
 								{
 									"fileName": "inline/conversion.ts",
-									"line": 168,
+									"line": 60,
 									"character": 4
 								}
 							],
 							"signatures": [
 								{
-									"id": 1241,
+									"id": 1221,
 									"name": "numToStr",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1242,
+											"id": 1222,
 											"name": "num",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4317,7 +4417,7 @@
 											}
 										},
 										{
-											"id": 1243,
+											"id": 1223,
 											"name": "frac_digits",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4330,7 +4430,7 @@
 											}
 										},
 										{
-											"id": 1244,
+											"id": 1224,
 											"name": "locale",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4363,7 +4463,7 @@
 							]
 						},
 						{
-							"id": 1228,
+							"id": 1208,
 							"name": "number",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4371,20 +4471,20 @@
 							"sources": [
 								{
 									"fileName": "inline/conversion.ts",
-									"line": 152,
+									"line": 32,
 									"character": 4
 								}
 							],
 							"signatures": [
 								{
-									"id": 1229,
+									"id": 1209,
 									"name": "number",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1230,
+											"id": 1210,
 											"name": "val",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4403,7 +4503,7 @@
 							]
 						},
 						{
-							"id": 1234,
+							"id": 1214,
 							"name": "radToDeg",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4411,20 +4511,20 @@
 							"sources": [
 								{
 									"fileName": "inline/conversion.ts",
-									"line": 160,
+									"line": 46,
 									"character": 4
 								}
 							],
 							"signatures": [
 								{
-									"id": 1235,
+									"id": 1215,
 									"name": "radToDeg",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1236,
+											"id": 1216,
 											"name": "rad",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4455,7 +4555,7 @@
 							]
 						},
 						{
-							"id": 1231,
+							"id": 1211,
 							"name": "string",
 							"kind": 2048,
 							"kindString": "Method",
@@ -4463,20 +4563,20 @@
 							"sources": [
 								{
 									"fileName": "inline/conversion.ts",
-									"line": 156,
+									"line": 39,
 									"character": 4
 								}
 							],
 							"signatures": [
 								{
-									"id": 1232,
+									"id": 1212,
 									"name": "string",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1233,
+											"id": 1213,
 											"name": "val",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4500,54 +4600,54 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								1221
+								1201
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1224
+								1204
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
+								1205,
+								1217,
 								1225,
-								1237,
-								1245,
-								1240,
-								1228,
-								1234,
-								1231
+								1220,
+								1208,
+								1214,
+								1211
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "inline/conversion.ts",
-							"line": 142,
+							"line": 19,
 							"character": 13
 						}
 					]
 				},
 				{
-					"id": 1188,
+					"id": 1175,
 					"name": "boolean",
 					"kind": 64,
 					"kindString": "Function",
 					"flags": {},
 					"sources": [
 						{
-							"fileName": "inline/conversion.ts",
-							"line": 13,
+							"fileName": "inline/conversion/boolean.ts",
+							"line": 12,
 							"character": 17
 						}
 					],
 					"signatures": [
 						{
-							"id": 1189,
+							"id": 1176,
 							"name": "boolean",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -4558,18 +4658,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1190,
-									"name": "debug",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"type": {
-										"type": "intrinsic",
-										"name": "boolean"
-									}
-								},
-								{
-									"id": 1191,
+									"id": 1177,
 									"name": "val",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -4591,43 +4680,32 @@
 					]
 				},
 				{
-					"id": 1204,
+					"id": 1187,
 					"name": "degToRad",
 					"kind": 64,
 					"kindString": "Function",
 					"flags": {},
 					"sources": [
 						{
-							"fileName": "inline/conversion.ts",
-							"line": 69,
-							"character": 16
+							"fileName": "inline/conversion/degToRad.ts",
+							"line": 10,
+							"character": 17
 						}
 					],
 					"signatures": [
 						{
-							"id": 1205,
+							"id": 1188,
 							"name": "degToRad",
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {},
 							"comment": {
-								"shortText": "Converts degrees to radians.\n```\nradToDeg(PI)         // 180\nradToDeg(PI / 2)     // 90\n```",
+								"shortText": "Converts degrees to radians.\n```\ndegToRad(45)   // 0.7853981633974483 (PI/4)\ndegToRad(180)  // 3.141592653589793 (PI)\n```",
 								"returns": "A number (representing radians).\n"
 							},
 							"parameters": [
 								{
-									"id": 1206,
-									"name": "debug",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"type": {
-										"type": "intrinsic",
-										"name": "boolean"
-									}
-								},
-								{
-									"id": 1207,
+									"id": 1189,
 									"name": "deg",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -4673,43 +4751,32 @@
 					]
 				},
 				{
-					"id": 1214,
+					"id": 1195,
 					"name": "numToCurr",
 					"kind": 64,
 					"kindString": "Function",
 					"flags": {},
 					"sources": [
 						{
-							"fileName": "inline/conversion.ts",
-							"line": 123,
-							"character": 16
+							"fileName": "inline/conversion/numToCurr.ts",
+							"line": 16,
+							"character": 17
 						}
 					],
 					"signatures": [
 						{
-							"id": 1215,
+							"id": 1196,
 							"name": "numToCurr",
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {},
 							"comment": {
-								"shortText": "Converts the number to a string representing currency, with numbers formatted based on locale.\n```\nnumToCurr(232.4, \"Usd\", \"en-AU\")       // USD 234.40\nnumToCurr(1000000000, \"sgd\", \"en-GB\")  // SGD 1,000,000,000.00\nnumToCurr(10, \"EUR\")                   // €10.00\n```\nSee <a href=\"https://www.w3schools.com/jsref/jsref_tolocalestring_number.asp\" target=\"_blank\">\nw3schools' full list of locales.</a>",
+								"shortText": "Converts the number to a string representing currency, with numbers formatted based on locale.\n```\nnumToCurr(232.4, \"Usd\", \"en-AU\")       // USD 232.40\nnumToCurr(1000000000, \"sgd\", \"en-GB\")  // SGD 1,000,000,000.00\nnumToCurr(10, \"EUR\")                   // €10.00\n```\nSee <a href=\"https://www.w3schools.com/jsref/jsref_tolocalestring_number.asp\" target=\"_blank\">\nw3schools' full list of locales.</a>",
 								"returns": "A string.\n"
 							},
 							"parameters": [
 								{
-									"id": 1216,
-									"name": "debug",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"type": {
-										"type": "intrinsic",
-										"name": "boolean"
-									}
-								},
-								{
-									"id": 1217,
+									"id": 1197,
 									"name": "num",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -4735,7 +4802,7 @@
 									}
 								},
 								{
-									"id": 1218,
+									"id": 1198,
 									"name": "currency",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -4749,7 +4816,7 @@
 									}
 								},
 								{
-									"id": 1219,
+									"id": 1199,
 									"name": "locale",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -4785,21 +4852,21 @@
 					]
 				},
 				{
-					"id": 1208,
+					"id": 1190,
 					"name": "numToStr",
 					"kind": 64,
 					"kindString": "Function",
 					"flags": {},
 					"sources": [
 						{
-							"fileName": "inline/conversion.ts",
-							"line": 91,
-							"character": 16
+							"fileName": "inline/conversion/numToStr.ts",
+							"line": 16,
+							"character": 17
 						}
 					],
 					"signatures": [
 						{
-							"id": 1209,
+							"id": 1191,
 							"name": "numToStr",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -4811,18 +4878,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1210,
-									"name": "debug",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"type": {
-										"type": "intrinsic",
-										"name": "boolean"
-									}
-								},
-								{
-									"id": 1211,
+									"id": 1192,
 									"name": "num",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -4848,7 +4904,7 @@
 									}
 								},
 								{
-									"id": 1212,
+									"id": 1193,
 									"name": "frac_digits",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -4864,7 +4920,7 @@
 									}
 								},
 								{
-									"id": 1213,
+									"id": 1194,
 									"name": "locale",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -4900,21 +4956,21 @@
 					]
 				},
 				{
-					"id": 1192,
+					"id": 1178,
 					"name": "number",
 					"kind": 64,
 					"kindString": "Function",
 					"flags": {},
 					"sources": [
 						{
-							"fileName": "inline/conversion.ts",
-							"line": 25,
-							"character": 16
+							"fileName": "inline/conversion/number.ts",
+							"line": 9,
+							"character": 17
 						}
 					],
 					"signatures": [
 						{
-							"id": 1193,
+							"id": 1179,
 							"name": "number",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -4925,18 +4981,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1194,
-									"name": "debug",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"type": {
-										"type": "intrinsic",
-										"name": "boolean"
-									}
-								},
-								{
-									"id": 1195,
+									"id": 1180,
 									"name": "val",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -4946,7 +4991,7 @@
 									},
 									"type": {
 										"type": "intrinsic",
-										"name": "number"
+										"name": "any"
 									}
 								}
 							],
@@ -4958,43 +5003,32 @@
 					]
 				},
 				{
-					"id": 1200,
+					"id": 1184,
 					"name": "radToDeg",
 					"kind": 64,
 					"kindString": "Function",
 					"flags": {},
 					"sources": [
 						{
-							"fileName": "inline/conversion.ts",
-							"line": 53,
-							"character": 16
+							"fileName": "inline/conversion/radToDeg.ts",
+							"line": 10,
+							"character": 17
 						}
 					],
 					"signatures": [
 						{
-							"id": 1201,
+							"id": 1185,
 							"name": "radToDeg",
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {},
 							"comment": {
-								"shortText": "Converts radians to degrees.\n```\ndegToRad(45)   // 0.7853981633974483 (PI/4)\ndegToRad(180)  // 3.141592653589793 (PI)\n```",
+								"shortText": "Converts radians to degrees.\n```\nradToDeg(PI)         // 180\nradToDeg(PI / 2)     // 90\n```",
 								"returns": "A number (representing degrees).\n"
 							},
 							"parameters": [
 								{
-									"id": 1202,
-									"name": "debug",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"type": {
-										"type": "intrinsic",
-										"name": "boolean"
-									}
-								},
-								{
-									"id": 1203,
+									"id": 1186,
 									"name": "rad",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -5040,21 +5074,21 @@
 					]
 				},
 				{
-					"id": 1196,
+					"id": 1181,
 					"name": "string",
 					"kind": 64,
 					"kindString": "Function",
 					"flags": {},
 					"sources": [
 						{
-							"fileName": "inline/conversion.ts",
-							"line": 37,
-							"character": 16
+							"fileName": "inline/conversion/string.ts",
+							"line": 9,
+							"character": 17
 						}
 					],
 					"signatures": [
 						{
-							"id": 1197,
+							"id": 1182,
 							"name": "string",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -5065,18 +5099,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1198,
-									"name": "debug",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"type": {
-										"type": "intrinsic",
-										"name": "boolean"
-									}
-								},
-								{
-									"id": 1199,
+									"id": 1183,
 									"name": "val",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -5086,7 +5109,7 @@
 									},
 									"type": {
 										"type": "intrinsic",
-										"name": "number"
+										"name": "any"
 									}
 								}
 							],
@@ -5103,20 +5126,20 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						1220
+						1200
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						1188,
-						1204,
-						1214,
-						1208,
-						1192,
-						1200,
-						1196
+						1175,
+						1187,
+						1195,
+						1190,
+						1178,
+						1184,
+						1181
 					]
 				}
 			],
@@ -5129,21 +5152,21 @@
 			]
 		},
 		{
-			"id": 1041,
+			"id": 1036,
 			"name": "dict",
 			"kind": 4,
 			"kindString": "Namespace",
 			"flags": {},
 			"children": [
 				{
-					"id": 1079,
+					"id": 1066,
 					"name": "dictClass",
 					"kind": 128,
 					"kindString": "Class",
 					"flags": {},
 					"children": [
 						{
-							"id": 1080,
+							"id": 1067,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -5151,20 +5174,20 @@
 							"sources": [
 								{
 									"fileName": "inline/dict.ts",
-									"line": 148,
+									"line": 28,
 									"character": 4
 								}
 							],
 							"signatures": [
 								{
-									"id": 1081,
+									"id": 1068,
 									"name": "new dictClass",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1082,
+											"id": 1069,
 											"name": "debug",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5177,14 +5200,14 @@
 									],
 									"type": {
 										"type": "reference",
-										"id": 1079,
+										"id": 1066,
 										"name": "dictClass"
 									}
 								}
 							]
 						},
 						{
-							"id": 1083,
+							"id": 1070,
 							"name": "__debug__",
 							"kind": 1024,
 							"kindString": "Property",
@@ -5192,7 +5215,7 @@
 							"sources": [
 								{
 									"fileName": "inline/dict.ts",
-									"line": 147,
+									"line": 27,
 									"character": 4
 								}
 							],
@@ -5202,7 +5225,7 @@
 							}
 						},
 						{
-							"id": 1106,
+							"id": 1093,
 							"name": "dictCopy",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5210,20 +5233,20 @@
 							"sources": [
 								{
 									"fileName": "inline/dict.ts",
-									"line": 176,
+									"line": 82,
 									"character": 4
 								}
 							],
 							"signatures": [
 								{
-									"id": 1107,
+									"id": 1094,
 									"name": "dictCopy",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1108,
+											"id": 1095,
 											"name": "dict",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5242,7 +5265,7 @@
 							]
 						},
 						{
-							"id": 1109,
+							"id": 1096,
 							"name": "dictEq",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5250,20 +5273,20 @@
 							"sources": [
 								{
 									"fileName": "inline/dict.ts",
-									"line": 180,
+									"line": 90,
 									"character": 4
 								}
 							],
 							"signatures": [
 								{
-									"id": 1110,
+									"id": 1097,
 									"name": "dictEq",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1111,
+											"id": 1098,
 											"name": "dict1",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5274,7 +5297,7 @@
 											}
 										},
 										{
-											"id": 1112,
+											"id": 1099,
 											"name": "dict2",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5293,7 +5316,7 @@
 							]
 						},
 						{
-							"id": 1102,
+							"id": 1089,
 							"name": "dictFind",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5301,20 +5324,20 @@
 							"sources": [
 								{
 									"fileName": "inline/dict.ts",
-									"line": 172,
+									"line": 74,
 									"character": 4
 								}
 							],
 							"signatures": [
 								{
-									"id": 1103,
+									"id": 1090,
 									"name": "dictFind",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1104,
+											"id": 1091,
 											"name": "dict",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5325,7 +5348,7 @@
 											}
 										},
 										{
-											"id": 1105,
+											"id": 1092,
 											"name": "val",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5344,7 +5367,7 @@
 							]
 						},
 						{
-							"id": 1084,
+							"id": 1071,
 							"name": "dictGet",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5352,20 +5375,20 @@
 							"sources": [
 								{
 									"fileName": "inline/dict.ts",
-									"line": 152,
+									"line": 32,
 									"character": 4
 								}
 							],
 							"signatures": [
 								{
-									"id": 1085,
+									"id": 1072,
 									"name": "dictGet",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1086,
+											"id": 1073,
 											"name": "dict",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5376,7 +5399,7 @@
 											}
 										},
 										{
-											"id": 1087,
+											"id": 1074,
 											"name": "key",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5395,7 +5418,7 @@
 							]
 						},
 						{
-							"id": 1094,
+							"id": 1081,
 							"name": "dictHasKey",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5403,20 +5426,20 @@
 							"sources": [
 								{
 									"fileName": "inline/dict.ts",
-									"line": 164,
+									"line": 57,
 									"character": 4
 								}
 							],
 							"signatures": [
 								{
-									"id": 1095,
+									"id": 1082,
 									"name": "dictHasKey",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1096,
+											"id": 1083,
 											"name": "dict",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5427,7 +5450,7 @@
 											}
 										},
 										{
-											"id": 1097,
+											"id": 1084,
 											"name": "key",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5458,7 +5481,7 @@
 							]
 						},
 						{
-							"id": 1098,
+							"id": 1085,
 							"name": "dictHasVal",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5466,20 +5489,20 @@
 							"sources": [
 								{
 									"fileName": "inline/dict.ts",
-									"line": 168,
+									"line": 66,
 									"character": 4
 								}
 							],
 							"signatures": [
 								{
-									"id": 1099,
+									"id": 1086,
 									"name": "dictHasVal",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1100,
+											"id": 1087,
 											"name": "dict",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5490,7 +5513,7 @@
 											}
 										},
 										{
-											"id": 1101,
+											"id": 1088,
 											"name": "val",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5509,7 +5532,7 @@
 							]
 						},
 						{
-							"id": 1088,
+							"id": 1075,
 							"name": "dictKeys",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5517,20 +5540,20 @@
 							"sources": [
 								{
 									"fileName": "inline/dict.ts",
-									"line": 156,
+									"line": 41,
 									"character": 4
 								}
 							],
 							"signatures": [
 								{
-									"id": 1089,
+									"id": 1076,
 									"name": "dictKeys",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1090,
+											"id": 1077,
 											"name": "dict",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5552,7 +5575,7 @@
 							]
 						},
 						{
-							"id": 1091,
+							"id": 1078,
 							"name": "dictVals",
 							"kind": 2048,
 							"kindString": "Method",
@@ -5560,20 +5583,20 @@
 							"sources": [
 								{
 									"fileName": "inline/dict.ts",
-									"line": 160,
+									"line": 49,
 									"character": 4
 								}
 							],
 							"signatures": [
 								{
-									"id": 1092,
+									"id": 1079,
 									"name": "dictVals",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1093,
+											"id": 1080,
 											"name": "dict",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5600,55 +5623,55 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								1080
+								1067
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1083
+								1070
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								1106,
-								1109,
-								1102,
-								1084,
-								1094,
-								1098,
-								1088,
-								1091
+								1093,
+								1096,
+								1089,
+								1071,
+								1081,
+								1085,
+								1075,
+								1078
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "inline/dict.ts",
-							"line": 146,
+							"line": 26,
 							"character": 13
 						}
 					]
 				},
 				{
-					"id": 1070,
+					"id": 1059,
 					"name": "dictCopy",
 					"kind": 64,
 					"kindString": "Function",
 					"flags": {},
 					"sources": [
 						{
-							"fileName": "inline/dict.ts",
-							"line": 120,
-							"character": 16
+							"fileName": "inline/dict/dictCopy.ts",
+							"line": 11,
+							"character": 17
 						}
 					],
 					"signatures": [
 						{
-							"id": 1071,
+							"id": 1060,
 							"name": "dictCopy",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -5659,18 +5682,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1072,
-									"name": "debug",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"type": {
-										"type": "intrinsic",
-										"name": "boolean"
-									}
-								},
-								{
-									"id": 1073,
+									"id": 1061,
 									"name": "dict",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -5692,44 +5704,32 @@
 					]
 				},
 				{
-					"id": 1074,
+					"id": 1062,
 					"name": "dictEq",
 					"kind": 64,
 					"kindString": "Function",
 					"flags": {},
 					"sources": [
 						{
-							"fileName": "inline/dict.ts",
-							"line": 136,
-							"character": 16
+							"fileName": "inline/dict/dictEq.ts",
+							"line": 12,
+							"character": 17
 						}
 					],
 					"signatures": [
 						{
-							"id": 1075,
+							"id": 1063,
 							"name": "dictEq",
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {},
 							"comment": {
-								"shortText": "Returns true if the values in the two dictionaries are equal.",
-								"text": "Performs a deep comparison between values to determine if they are equivalent.\n",
+								"shortText": "Returns true if the values in the two dictionaries are equal.\n\\n\nPerforms a deep comparison between values to determine if they are equivalent.",
 								"returns": "True or False.\n"
 							},
 							"parameters": [
 								{
-									"id": 1076,
-									"name": "debug",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"type": {
-										"type": "intrinsic",
-										"name": "boolean"
-									}
-								},
-								{
-									"id": 1077,
+									"id": 1064,
 									"name": "dict1",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -5746,7 +5746,7 @@
 									}
 								},
 								{
-									"id": 1078,
+									"id": 1065,
 									"name": "dict2",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -5771,44 +5771,32 @@
 					]
 				},
 				{
-					"id": 1065,
+					"id": 1055,
 					"name": "dictFind",
 					"kind": 64,
 					"kindString": "Function",
 					"flags": {},
 					"sources": [
 						{
-							"fileName": "inline/dict.ts",
-							"line": 102,
-							"character": 16
+							"fileName": "inline/dict/dictFind.ts",
+							"line": 10,
+							"character": 17
 						}
 					],
 					"signatures": [
 						{
-							"id": 1066,
+							"id": 1056,
 							"name": "dictFind",
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {},
 							"comment": {
-								"shortText": "Returns the first key in the dictionary that has the given value.",
-								"text": "If the value does not exist, returns null.\n",
+								"shortText": "Returns the first key in the dictionary that has the given value.\n\\n\nIf the value does not exist, returns null.",
 								"returns": "The first key, or null.\n"
 							},
 							"parameters": [
 								{
-									"id": 1067,
-									"name": "debug",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"type": {
-										"type": "intrinsic",
-										"name": "boolean"
-									}
-								},
-								{
-									"id": 1068,
+									"id": 1057,
 									"name": "dict",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -5822,7 +5810,7 @@
 									}
 								},
 								{
-									"id": 1069,
+									"id": 1058,
 									"name": "val",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -5844,44 +5832,32 @@
 					]
 				},
 				{
-					"id": 1042,
+					"id": 1037,
 					"name": "dictGet",
 					"kind": 64,
 					"kindString": "Function",
 					"flags": {},
 					"sources": [
 						{
-							"fileName": "inline/dict.ts",
-							"line": 19,
-							"character": 16
+							"fileName": "inline/dict/dictGet.ts",
+							"line": 11,
+							"character": 17
 						}
 					],
 					"signatures": [
 						{
-							"id": 1043,
+							"id": 1038,
 							"name": "dictGet",
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {},
 							"comment": {
-								"shortText": "Returns the item in the dictionary specified by key.\nIf the key does not exist, undefined is returned.",
-								"text": "If a list of keys is provided, then a list of values will be returned.\n",
+								"shortText": "Returns the item in the dictionary specified by key.\n\\n\nIf the key does not exist, undefined is returned.\nIf a list of keys is provided, then a list of values will be returned.",
 								"returns": "The value (or list of values) associated with the given key.\n"
 							},
 							"parameters": [
 								{
-									"id": 1044,
-									"name": "debug",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"type": {
-										"type": "intrinsic",
-										"name": "boolean"
-									}
-								},
-								{
-									"id": 1045,
+									"id": 1039,
 									"name": "dict",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -5895,7 +5871,7 @@
 									}
 								},
 								{
-									"id": 1046,
+									"id": 1040,
 									"name": "key",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -5941,44 +5917,32 @@
 					]
 				},
 				{
-					"id": 1055,
+					"id": 1047,
 					"name": "dictHasKey",
 					"kind": 64,
 					"kindString": "Function",
 					"flags": {},
 					"sources": [
 						{
-							"fileName": "inline/dict.ts",
-							"line": 70,
-							"character": 16
+							"fileName": "inline/dict/dictHasKey.ts",
+							"line": 10,
+							"character": 17
 						}
 					],
 					"signatures": [
 						{
-							"id": 1056,
+							"id": 1048,
 							"name": "dictHasKey",
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {},
 							"comment": {
-								"shortText": "Returns true if the dictionary contains the given key, false otherwsie.",
-								"text": "If a list of keys is given, a list of true/false values will be returned.\n",
+								"shortText": "Returns true if the dictionary contains the given key, false otherwise.\n\\n\nIf a list of keys is given, a list of true/false values will be returned.",
 								"returns": "True or False, or a list of True/False values.\n"
 							},
 							"parameters": [
 								{
-									"id": 1057,
-									"name": "debug",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"type": {
-										"type": "intrinsic",
-										"name": "boolean"
-									}
-								},
-								{
-									"id": 1058,
+									"id": 1049,
 									"name": "dict",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -5992,7 +5956,7 @@
 									}
 								},
 								{
-									"id": 1059,
+									"id": 1050,
 									"name": "key",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -6038,21 +6002,21 @@
 					]
 				},
 				{
-					"id": 1060,
+					"id": 1051,
 					"name": "dictHasVal",
 					"kind": 64,
 					"kindString": "Function",
 					"flags": {},
 					"sources": [
 						{
-							"fileName": "inline/dict.ts",
-							"line": 86,
-							"character": 16
+							"fileName": "inline/dict/dictHasVal.ts",
+							"line": 8,
+							"character": 17
 						}
 					],
 					"signatures": [
 						{
-							"id": 1061,
+							"id": 1052,
 							"name": "dictHasVal",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -6063,18 +6027,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1062,
-									"name": "debug",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"type": {
-										"type": "intrinsic",
-										"name": "boolean"
-									}
-								},
-								{
-									"id": 1063,
+									"id": 1053,
 									"name": "dict",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -6088,7 +6041,7 @@
 									}
 								},
 								{
-									"id": 1064,
+									"id": 1054,
 									"name": "val",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -6110,44 +6063,32 @@
 					]
 				},
 				{
-					"id": 1047,
+					"id": 1041,
 					"name": "dictKeys",
 					"kind": 64,
 					"kindString": "Function",
 					"flags": {},
 					"sources": [
 						{
-							"fileName": "inline/dict.ts",
-							"line": 38,
-							"character": 16
+							"fileName": "inline/dict/dictKeys.ts",
+							"line": 13,
+							"character": 17
 						}
 					],
 					"signatures": [
 						{
-							"id": 1048,
+							"id": 1042,
 							"name": "dictKeys",
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {},
 							"comment": {
-								"shortText": "Returns an array of all the keys in a dictionary.",
-								"text": "- dict1 = {\"key1\": 1, \"key2\": 2}\n- dictKeys(dict1)        \\\\ [\"key1\", \"key2\"]\n",
+								"shortText": "Returns an array of all the keys in a dictionary.\n\\n\n```\ndict1                   = {\"key1\": 1, \"key2\": 2}\ndictKeys(dict1)        \\\\ [\"key1\", \"key2\"]\n```",
 								"returns": "A list.\n"
 							},
 							"parameters": [
 								{
-									"id": 1049,
-									"name": "debug",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"type": {
-										"type": "intrinsic",
-										"name": "boolean"
-									}
-								},
-								{
-									"id": 1050,
+									"id": 1043,
 									"name": "dict",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -6172,44 +6113,32 @@
 					]
 				},
 				{
-					"id": 1051,
+					"id": 1044,
 					"name": "dictVals",
 					"kind": 64,
 					"kindString": "Function",
 					"flags": {},
 					"sources": [
 						{
-							"fileName": "inline/dict.ts",
-							"line": 54,
-							"character": 16
+							"fileName": "inline/dict/dictVals.ts",
+							"line": 12,
+							"character": 17
 						}
 					],
 					"signatures": [
 						{
-							"id": 1052,
+							"id": 1045,
 							"name": "dictVals",
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {},
 							"comment": {
-								"shortText": "Returns an array of all the values in a dictionary.",
-								"text": "- dict1 = {\"key1\": 1, \"key2\": 2}\n- dictVals(dict1)        \\\\ [1, 2]\n",
+								"shortText": "Returns an array of all the values in a dictionary.\n\\n\n```\ndict1                   = {\"key1\": 1, \"key2\": 2}\ndictVals(dict1)        \\\\ [1, 2]\n```",
 								"returns": "A list.\n"
 							},
 							"parameters": [
 								{
-									"id": 1053,
-									"name": "debug",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"type": {
-										"type": "intrinsic",
-										"name": "boolean"
-									}
-								},
-								{
-									"id": 1054,
+									"id": 1046,
 									"name": "dict",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -6239,28 +6168,28 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						1079
+						1066
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						1070,
-						1074,
-						1065,
-						1042,
+						1059,
+						1062,
 						1055,
-						1060,
+						1037,
 						1047,
-						1051
+						1051,
+						1041,
+						1044
 					]
 				}
 			],
 			"sources": [
 				{
 					"fileName": "inline/dict.ts",
-					"line": 4,
+					"line": 5,
 					"character": 0
 				}
 			]
@@ -6273,14 +6202,14 @@
 			"flags": {},
 			"children": [
 				{
-					"id": 853,
+					"id": 848,
 					"name": "geometryClass",
 					"kind": 128,
 					"kindString": "Class",
 					"flags": {},
 					"children": [
 						{
-							"id": 854,
+							"id": 849,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -6288,20 +6217,20 @@
 							"sources": [
 								{
 									"fileName": "inline/geometry.ts",
-									"line": 112,
+									"line": 20,
 									"character": 4
 								}
 							],
 							"signatures": [
 								{
-									"id": 855,
+									"id": 850,
 									"name": "new geometryClass",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 856,
+											"id": 851,
 											"name": "debug",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -6314,14 +6243,14 @@
 									],
 									"type": {
 										"type": "reference",
-										"id": 853,
+										"id": 848,
 										"name": "geometryClass"
 									}
 								}
 							]
 						},
 						{
-							"id": 857,
+							"id": 852,
 							"name": "__debug__",
 							"kind": 1024,
 							"kindString": "Property",
@@ -6329,7 +6258,7 @@
 							"sources": [
 								{
 									"fileName": "inline/geometry.ts",
-									"line": 111,
+									"line": 19,
 									"character": 4
 								}
 							],
@@ -6339,7 +6268,7 @@
 							}
 						},
 						{
-							"id": 868,
+							"id": 863,
 							"name": "distance",
 							"kind": 2048,
 							"kindString": "Method",
@@ -6347,20 +6276,20 @@
 							"sources": [
 								{
 									"fileName": "inline/geometry.ts",
-									"line": 124,
+									"line": 38,
 									"character": 4
 								}
 							],
 							"signatures": [
 								{
-									"id": 869,
+									"id": 864,
 									"name": "distance",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 870,
+											"id": 865,
 											"name": "c1",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -6371,7 +6300,7 @@
 											}
 										},
 										{
-											"id": 871,
+											"id": 866,
 											"name": "c2",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -6390,7 +6319,7 @@
 							]
 						},
 						{
-							"id": 872,
+							"id": 867,
 							"name": "distanceM",
 							"kind": 2048,
 							"kindString": "Method",
@@ -6398,20 +6327,20 @@
 							"sources": [
 								{
 									"fileName": "inline/geometry.ts",
-									"line": 128,
+									"line": 45,
 									"character": 4
 								}
 							],
 							"signatures": [
 								{
-									"id": 873,
+									"id": 868,
 									"name": "distanceM",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 874,
+											"id": 869,
 											"name": "c1",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -6422,7 +6351,7 @@
 											}
 										},
 										{
-											"id": 875,
+											"id": 870,
 											"name": "c2",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -6441,7 +6370,7 @@
 							]
 						},
 						{
-							"id": 876,
+							"id": 871,
 							"name": "distanceMS",
 							"kind": 2048,
 							"kindString": "Method",
@@ -6449,20 +6378,20 @@
 							"sources": [
 								{
 									"fileName": "inline/geometry.ts",
-									"line": 132,
+									"line": 52,
 									"character": 4
 								}
 							],
 							"signatures": [
 								{
-									"id": 877,
+									"id": 872,
 									"name": "distanceMS",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 878,
+											"id": 873,
 											"name": "c1",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -6473,7 +6402,7 @@
 											}
 										},
 										{
-											"id": 879,
+											"id": 874,
 											"name": "c2",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -6492,7 +6421,7 @@
 							]
 						},
 						{
-							"id": 858,
+							"id": 853,
 							"name": "intersect",
 							"kind": 2048,
 							"kindString": "Method",
@@ -6500,20 +6429,20 @@
 							"sources": [
 								{
 									"fileName": "inline/geometry.ts",
-									"line": 116,
+									"line": 24,
 									"character": 4
 								}
 							],
 							"signatures": [
 								{
-									"id": 859,
+									"id": 854,
 									"name": "intersect",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 860,
+											"id": 855,
 											"name": "r1",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -6524,8 +6453,70 @@
 											}
 										},
 										{
-											"id": 861,
+											"id": 856,
 											"name": "r2",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										},
+										{
+											"id": 857,
+											"name": "met",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "Txyz"
+									}
+								}
+							]
+						},
+						{
+							"id": 858,
+							"name": "project",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "inline/geometry.ts",
+									"line": 31,
+									"character": 4
+								}
+							],
+							"signatures": [
+								{
+									"id": 859,
+									"name": "project",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 860,
+											"name": "c",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										},
+										{
+											"id": 861,
+											"name": "r",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
@@ -6552,68 +6543,6 @@
 									}
 								}
 							]
-						},
-						{
-							"id": 863,
-							"name": "project",
-							"kind": 2048,
-							"kindString": "Method",
-							"flags": {},
-							"sources": [
-								{
-									"fileName": "inline/geometry.ts",
-									"line": 120,
-									"character": 4
-								}
-							],
-							"signatures": [
-								{
-									"id": 864,
-									"name": "project",
-									"kind": 4096,
-									"kindString": "Call signature",
-									"flags": {},
-									"parameters": [
-										{
-											"id": 865,
-											"name": "c",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {},
-											"type": {
-												"type": "intrinsic",
-												"name": "any"
-											}
-										},
-										{
-											"id": 866,
-											"name": "r",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {},
-											"type": {
-												"type": "intrinsic",
-												"name": "any"
-											}
-										},
-										{
-											"id": 867,
-											"name": "met",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {},
-											"type": {
-												"type": "intrinsic",
-												"name": "any"
-											}
-										}
-									],
-									"type": {
-										"type": "reference",
-										"name": "Txyz"
-									}
-								}
-							]
 						}
 					],
 					"groups": [
@@ -6621,52 +6550,52 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								854
+								849
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								857
+								852
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								868,
-								872,
-								876,
-								858,
-								863
+								863,
+								867,
+								871,
+								853,
+								858
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "inline/geometry.ts",
-							"line": 110,
+							"line": 18,
 							"character": 13
 						}
 					]
 				},
 				{
-					"id": 838,
+					"id": 836,
 					"name": "distance",
 					"kind": 64,
 					"kindString": "Function",
 					"flags": {},
 					"sources": [
 						{
-							"fileName": "inline/geometry.ts",
-							"line": 63,
-							"character": 16
+							"fileName": "inline/geometry/distance.ts",
+							"line": 17,
+							"character": 17
 						}
 					],
 					"signatures": [
 						{
-							"id": 839,
+							"id": 837,
 							"name": "distance",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -6678,18 +6607,7 @@
 							},
 							"parameters": [
 								{
-									"id": 840,
-									"name": "debug",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"type": {
-										"type": "intrinsic",
-										"name": "boolean"
-									}
-								},
-								{
-									"id": 841,
+									"id": 838,
 									"name": "a",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -6703,7 +6621,7 @@
 									}
 								},
 								{
-									"id": 842,
+									"id": 839,
 									"name": "b",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -6716,15 +6634,15 @@
 										"types": [
 											{
 												"type": "reference",
+												"name": "Txyz"
+											},
+											{
+												"type": "reference",
 												"name": "TRay"
 											},
 											{
 												"type": "reference",
 												"name": "TPlane"
-											},
-											{
-												"type": "reference",
-												"name": "Txyz"
 											}
 										]
 									}
@@ -6738,21 +6656,21 @@
 					]
 				},
 				{
-					"id": 843,
+					"id": 840,
 					"name": "distanceM",
 					"kind": 64,
 					"kindString": "Function",
 					"flags": {},
 					"sources": [
 						{
-							"fileName": "inline/geometry.ts",
-							"line": 82,
-							"character": 16
+							"fileName": "inline/geometry/distanceM.ts",
+							"line": 20,
+							"character": 17
 						}
 					],
 					"signatures": [
 						{
-							"id": 844,
+							"id": 841,
 							"name": "distanceM",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -6764,18 +6682,7 @@
 							},
 							"parameters": [
 								{
-									"id": 845,
-									"name": "debug",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"type": {
-										"type": "intrinsic",
-										"name": "boolean"
-									}
-								},
-								{
-									"id": 846,
+									"id": 842,
 									"name": "a",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -6789,7 +6696,7 @@
 									}
 								},
 								{
-									"id": 847,
+									"id": 843,
 									"name": "b",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -6802,15 +6709,15 @@
 										"types": [
 											{
 												"type": "reference",
+												"name": "Txyz"
+											},
+											{
+												"type": "reference",
 												"name": "TRay"
 											},
 											{
 												"type": "reference",
 												"name": "TPlane"
-											},
-											{
-												"type": "reference",
-												"name": "Txyz"
 											}
 										]
 									}
@@ -6824,21 +6731,21 @@
 					]
 				},
 				{
-					"id": 848,
+					"id": 844,
 					"name": "distanceMS",
 					"kind": 64,
 					"kindString": "Function",
 					"flags": {},
 					"sources": [
 						{
-							"fileName": "inline/geometry.ts",
-							"line": 101,
-							"character": 16
+							"fileName": "inline/geometry/distanceMS.ts",
+							"line": 19,
+							"character": 17
 						}
 					],
 					"signatures": [
 						{
-							"id": 849,
+							"id": 845,
 							"name": "distanceMS",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -6850,18 +6757,7 @@
 							},
 							"parameters": [
 								{
-									"id": 850,
-									"name": "debug",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"type": {
-										"type": "intrinsic",
-										"name": "boolean"
-									}
-								},
-								{
-									"id": 851,
+									"id": 846,
 									"name": "a",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -6875,7 +6771,7 @@
 									}
 								},
 								{
-									"id": 852,
+									"id": 847,
 									"name": "b",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -6888,15 +6784,15 @@
 										"types": [
 											{
 												"type": "reference",
+												"name": "Txyz"
+											},
+											{
+												"type": "reference",
 												"name": "TRay"
 											},
 											{
 												"type": "reference",
 												"name": "TPlane"
-											},
-											{
-												"type": "reference",
-												"name": "Txyz"
 											}
 										]
 									}
@@ -6917,9 +6813,9 @@
 					"flags": {},
 					"sources": [
 						{
-							"fileName": "inline/geometry.ts",
-							"line": 28,
-							"character": 16
+							"fileName": "inline/geometry/intersect.ts",
+							"line": 26,
+							"character": 17
 						}
 					],
 					"signatures": [
@@ -6930,24 +6826,13 @@
 							"kindString": "Call signature",
 							"flags": {},
 							"comment": {
-								"shortText": "Returns the intersection xyz between two rays or a ray and a plane, where...\n\\n\n- 'intersect(r1, r2)', Returns the intersection xyz between two infinite rays.\n- 'intersect(r1, r2, m)', 'Returns the intersection xyz between two rays, where:\n     - if m=2, rays are infinite in both directions\n     - if m=1 rays are infinite in one direction\n     - if m=0, rays are not infinite.",
-								"text": "- 'intersect(r, p)', Returns the intersection xyz between an infinite ray r and an infinite plane p,\n- 'intersect(r, p, m)', Returns the intersection xyz between a ray r and an infinite plane p, where:\n     - if m=2, the ray is infinite in both directions,\n     - if m=1 the ray is infinite in one direction,\n     - and if m=0, the ray is not infinite.\n",
-								"returns": "The intersection, xyz (a list that represents a point/position) between two ways.\n"
+								"shortText": "Returns the intersection xyz between two rays or a ray and a plane, where...\n\\n\n- `intersect(r1, r2)`, Returns the intersection xyz between two infinite rays.\n- `intersect(r1, r2, m)`, Returns the intersection xyz between two rays, where:\n     - if `m=2`, rays are infinite in both directions\n     - if `m=1` rays are infinite in one direction\n     - if `m=0`, rays are not infinite.",
+								"text": "- `intersect(r, p)`, Returns the intersection xyz between an infinite ray r and an infinite plane p,\n- `intersect(r, p, m)`, Returns the intersection xyz between a ray r and an infinite plane p, where:\n     - if `m=2`, the ray is infinite in both directions,\n     - if `m=1` the ray is infinite in one direction,\n     - and if `m=0`, the ray is not infinite.\n",
+								"returns": "The xyz coordinates of the intersection between two rays.\n"
 							},
 							"parameters": [
 								{
 									"id": 828,
-									"name": "debug",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"type": {
-										"type": "intrinsic",
-										"name": "boolean"
-									}
-								},
-								{
-									"id": 829,
 									"name": "r1",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -6961,7 +6846,7 @@
 									}
 								},
 								{
-									"id": 830,
+									"id": 829,
 									"name": "r2",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -6984,7 +6869,7 @@
 									}
 								},
 								{
-									"id": 831,
+									"id": 830,
 									"name": "met",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -7007,49 +6892,38 @@
 					]
 				},
 				{
-					"id": 832,
+					"id": 831,
 					"name": "project",
 					"kind": 64,
 					"kindString": "Function",
 					"flags": {},
 					"sources": [
 						{
-							"fileName": "inline/geometry.ts",
-							"line": 47,
-							"character": 16
+							"fileName": "inline/geometry/project.ts",
+							"line": 20,
+							"character": 17
 						}
 					],
 					"signatures": [
 						{
-							"id": 833,
+							"id": 832,
 							"name": "project",
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {},
 							"comment": {
-								"shortText": "Returns the xyz from projecting an xyz c onto an infinite ray r...\n- 'project(c, r)', 'Returns the xyz from projecting an xyz c onto an infinite ray r,\n- 'project(c, r, m)', 'Returns the xyz from projecting an xyz c onto an infinite ray r, where:\n   - if m=2, the ray is infinite in both directions,\nif m=1 the ray is infinite in one direction, s\nand if m=0, the ray is not infinite.\n'project(c, p)', Returns the xyz from projecting an xyz c onto an infinite plane p.",
-								"returns": "A list of 3 numbers, representing the xyz point.\n"
+								"shortText": "Returns the xyz from projecting an xyz c onto an infinite ray r...\n\\n\n- `project(c, r)`, Returns the xyz from projecting an xyz c onto an infinite ray r,\n- `project(c, r, m)`, Returns the xyz from projecting an xyz c onto an infinite ray r, where:\n     - if `m=2`, the ray is infinite in both directions,\n     - if `m=1`, the ray is infinite in one direction,\n     - and if `m=0`, the ray is not infinite.\n- `project(c, p)`, Returns the xyz from projecting an xyz c onto an infinite plane p.",
+								"returns": "An xyz coordinate.\n"
 							},
 							"parameters": [
 								{
-									"id": 834,
-									"name": "debug",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"type": {
-										"type": "intrinsic",
-										"name": "boolean"
-									}
-								},
-								{
-									"id": 835,
+									"id": 833,
 									"name": "c",
 									"kind": 32768,
 									"kindString": "Parameter",
 									"flags": {},
 									"comment": {
-										"shortText": "A point/position."
+										"shortText": "An xyz coordinate."
 									},
 									"type": {
 										"type": "reference",
@@ -7057,13 +6931,13 @@
 									}
 								},
 								{
-									"id": 836,
+									"id": 834,
 									"name": "r",
 									"kind": 32768,
 									"kindString": "Parameter",
 									"flags": {},
 									"comment": {
-										"shortText": "A ray."
+										"shortText": "A ray or a plane."
 									},
 									"type": {
 										"type": "union",
@@ -7080,7 +6954,7 @@
 									}
 								},
 								{
-									"id": 837,
+									"id": 835,
 									"name": "met",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -7108,18 +6982,18 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						853
+						848
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						838,
-						843,
-						848,
+						836,
+						840,
+						844,
 						826,
-						832
+						831
 					]
 				}
 			],
@@ -7132,14 +7006,14 @@
 			]
 		},
 		{
-			"id": 880,
+			"id": 875,
 			"name": "list",
 			"kind": 4,
 			"kindString": "Namespace",
 			"flags": {},
 			"children": [
 				{
-					"id": 944,
+					"id": 939,
 					"name": "listClass",
 					"kind": 128,
 					"kindString": "Class",
@@ -7149,7 +7023,7 @@
 					},
 					"children": [
 						{
-							"id": 945,
+							"id": 940,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -7163,14 +7037,14 @@
 							],
 							"signatures": [
 								{
-									"id": 946,
+									"id": 941,
 									"name": "new listClass",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 947,
+											"id": 942,
 											"name": "debug",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7183,14 +7057,14 @@
 									],
 									"type": {
 										"type": "reference",
-										"id": 944,
+										"id": 939,
 										"name": "listClass"
 									}
 								}
 							]
 						},
 						{
-							"id": 948,
+							"id": 943,
 							"name": "__debug__",
 							"kind": 1024,
 							"kindString": "Property",
@@ -7208,7 +7082,7 @@
 							}
 						},
 						{
-							"id": 949,
+							"id": 944,
 							"name": "listCopy",
 							"kind": 2048,
 							"kindString": "Method",
@@ -7222,14 +7096,14 @@
 							],
 							"signatures": [
 								{
-									"id": 950,
+									"id": 945,
 									"name": "listCopy",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 951,
+											"id": 946,
 											"name": "list",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7251,7 +7125,7 @@
 							]
 						},
 						{
-							"id": 952,
+							"id": 947,
 							"name": "listCount",
 							"kind": 2048,
 							"kindString": "Method",
@@ -7265,14 +7139,14 @@
 							],
 							"signatures": [
 								{
-									"id": 953,
+									"id": 948,
 									"name": "listCount",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 954,
+											"id": 949,
 											"name": "list",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7283,7 +7157,7 @@
 											}
 										},
 										{
-											"id": 955,
+											"id": 950,
 											"name": "val",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7302,7 +7176,7 @@
 							]
 						},
 						{
-							"id": 956,
+							"id": 951,
 							"name": "listCull",
 							"kind": 2048,
 							"kindString": "Method",
@@ -7316,14 +7190,14 @@
 							],
 							"signatures": [
 								{
-									"id": 957,
+									"id": 952,
 									"name": "listCull",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 958,
+											"id": 953,
 											"name": "list1",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7334,7 +7208,7 @@
 											}
 										},
 										{
-											"id": 959,
+											"id": 954,
 											"name": "list2",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7356,7 +7230,7 @@
 							]
 						},
 						{
-							"id": 960,
+							"id": 955,
 							"name": "listEq",
 							"kind": 2048,
 							"kindString": "Method",
@@ -7370,14 +7244,14 @@
 							],
 							"signatures": [
 								{
-									"id": 961,
+									"id": 956,
 									"name": "listEq",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 962,
+											"id": 957,
 											"name": "list1",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7388,7 +7262,7 @@
 											}
 										},
 										{
-											"id": 963,
+											"id": 958,
 											"name": "list2",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7407,7 +7281,7 @@
 							]
 						},
 						{
-							"id": 964,
+							"id": 959,
 							"name": "listFind",
 							"kind": 2048,
 							"kindString": "Method",
@@ -7421,14 +7295,14 @@
 							],
 							"signatures": [
 								{
-									"id": 965,
+									"id": 960,
 									"name": "listFind",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 966,
+											"id": 961,
 											"name": "list",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7439,7 +7313,7 @@
 											}
 										},
 										{
-											"id": 967,
+											"id": 962,
 											"name": "val",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7458,7 +7332,7 @@
 							]
 						},
 						{
-							"id": 968,
+							"id": 963,
 							"name": "listFlat",
 							"kind": 2048,
 							"kindString": "Method",
@@ -7472,14 +7346,14 @@
 							],
 							"signatures": [
 								{
-									"id": 969,
+									"id": 964,
 									"name": "listFlat",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 970,
+											"id": 965,
 											"name": "list",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7490,7 +7364,7 @@
 											}
 										},
 										{
-											"id": 971,
+											"id": 966,
 											"name": "depth",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7512,7 +7386,7 @@
 							]
 						},
 						{
-							"id": 972,
+							"id": 967,
 							"name": "listGet",
 							"kind": 2048,
 							"kindString": "Method",
@@ -7526,14 +7400,14 @@
 							],
 							"signatures": [
 								{
-									"id": 973,
+									"id": 968,
 									"name": "listGet",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 974,
+											"id": 969,
 											"name": "list",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7544,7 +7418,7 @@
 											}
 										},
 										{
-											"id": 975,
+											"id": 970,
 											"name": "idx",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7563,7 +7437,7 @@
 							]
 						},
 						{
-							"id": 976,
+							"id": 971,
 							"name": "listHas",
 							"kind": 2048,
 							"kindString": "Method",
@@ -7577,14 +7451,14 @@
 							],
 							"signatures": [
 								{
-									"id": 977,
+									"id": 972,
 									"name": "listHas",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 978,
+											"id": 973,
 											"name": "list",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7595,7 +7469,7 @@
 											}
 										},
 										{
-											"id": 979,
+											"id": 974,
 											"name": "val",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7614,7 +7488,7 @@
 							]
 						},
 						{
-							"id": 980,
+							"id": 975,
 							"name": "listJoin",
 							"kind": 2048,
 							"kindString": "Method",
@@ -7628,14 +7502,14 @@
 							],
 							"signatures": [
 								{
-									"id": 981,
+									"id": 976,
 									"name": "listJoin",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 982,
+											"id": 977,
 											"name": "lists",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7662,7 +7536,7 @@
 							]
 						},
 						{
-							"id": 983,
+							"id": 978,
 							"name": "listRep",
 							"kind": 2048,
 							"kindString": "Method",
@@ -7676,14 +7550,14 @@
 							],
 							"signatures": [
 								{
-									"id": 984,
+									"id": 979,
 									"name": "listRep",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 985,
+											"id": 980,
 											"name": "list",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7694,7 +7568,7 @@
 											}
 										},
 										{
-											"id": 986,
+											"id": 981,
 											"name": "n",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7716,7 +7590,7 @@
 							]
 						},
 						{
-							"id": 987,
+							"id": 982,
 							"name": "listRev",
 							"kind": 2048,
 							"kindString": "Method",
@@ -7730,14 +7604,14 @@
 							],
 							"signatures": [
 								{
-									"id": 988,
+									"id": 983,
 									"name": "listRev",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 989,
+											"id": 984,
 											"name": "list",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7759,7 +7633,7 @@
 							]
 						},
 						{
-							"id": 990,
+							"id": 985,
 							"name": "listRot",
 							"kind": 2048,
 							"kindString": "Method",
@@ -7773,14 +7647,14 @@
 							],
 							"signatures": [
 								{
-									"id": 991,
+									"id": 986,
 									"name": "listRot",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 992,
+											"id": 987,
 											"name": "list",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7791,7 +7665,7 @@
 											}
 										},
 										{
-											"id": 993,
+											"id": 988,
 											"name": "rot",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7813,7 +7687,7 @@
 							]
 						},
 						{
-							"id": 994,
+							"id": 989,
 							"name": "listSlice",
 							"kind": 2048,
 							"kindString": "Method",
@@ -7827,14 +7701,14 @@
 							],
 							"signatures": [
 								{
-									"id": 995,
+									"id": 990,
 									"name": "listSlice",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 996,
+											"id": 991,
 											"name": "list",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7845,7 +7719,7 @@
 											}
 										},
 										{
-											"id": 997,
+											"id": 992,
 											"name": "start",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7856,7 +7730,7 @@
 											}
 										},
 										{
-											"id": 998,
+											"id": 993,
 											"name": "end",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7878,7 +7752,7 @@
 							]
 						},
 						{
-							"id": 999,
+							"id": 994,
 							"name": "listSort",
 							"kind": 2048,
 							"kindString": "Method",
@@ -7892,14 +7766,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1000,
+									"id": 995,
 									"name": "listSort",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1001,
+											"id": 996,
 											"name": "list1",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7910,7 +7784,7 @@
 											}
 										},
 										{
-											"id": 1002,
+											"id": 997,
 											"name": "list2",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7932,7 +7806,7 @@
 							]
 						},
 						{
-							"id": 1003,
+							"id": 998,
 							"name": "listZip",
 							"kind": 2048,
 							"kindString": "Method",
@@ -7946,14 +7820,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1004,
+									"id": 999,
 									"name": "listZip",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1005,
+											"id": 1000,
 											"name": "list1",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7964,7 +7838,7 @@
 											}
 										},
 										{
-											"id": 1006,
+											"id": 1001,
 											"name": "list2",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -7986,7 +7860,7 @@
 							]
 						},
 						{
-							"id": 1007,
+							"id": 1002,
 							"name": "range",
 							"kind": 2048,
 							"kindString": "Method",
@@ -8000,14 +7874,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1008,
+									"id": 1003,
 									"name": "range",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1009,
+											"id": 1004,
 											"name": "start",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -8018,7 +7892,7 @@
 											}
 										},
 										{
-											"id": 1010,
+											"id": 1005,
 											"name": "end",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -8029,7 +7903,7 @@
 											}
 										},
 										{
-											"id": 1011,
+											"id": 1006,
 											"name": "step",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -8056,36 +7930,36 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								945
+								940
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								948
+								943
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								949,
-								952,
-								956,
-								960,
-								964,
-								968,
-								972,
-								976,
-								980,
-								983,
-								987,
-								990,
+								944,
+								947,
+								951,
+								955,
+								959,
+								963,
+								967,
+								971,
+								975,
+								978,
+								982,
+								985,
+								989,
 								994,
-								999,
-								1003,
-								1007
+								998,
+								1002
 							]
 						}
 					],
@@ -8098,7 +7972,7 @@
 					]
 				},
 				{
-					"id": 881,
+					"id": 876,
 					"name": "listCopy",
 					"kind": 64,
 					"kindString": "Function",
@@ -8112,7 +7986,7 @@
 					],
 					"signatures": [
 						{
-							"id": 882,
+							"id": 877,
 							"name": "listCopy",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -8123,7 +7997,7 @@
 							},
 							"parameters": [
 								{
-									"id": 883,
+									"id": 878,
 									"name": "list",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8151,7 +8025,7 @@
 					]
 				},
 				{
-					"id": 884,
+					"id": 879,
 					"name": "listCount",
 					"kind": 64,
 					"kindString": "Function",
@@ -8165,7 +8039,7 @@
 					],
 					"signatures": [
 						{
-							"id": 885,
+							"id": 880,
 							"name": "listCount",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -8176,7 +8050,7 @@
 							},
 							"parameters": [
 								{
-									"id": 886,
+									"id": 881,
 									"name": "list",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8193,7 +8067,7 @@
 									}
 								},
 								{
-									"id": 887,
+									"id": 882,
 									"name": "val",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8215,7 +8089,7 @@
 					]
 				},
 				{
-					"id": 888,
+					"id": 883,
 					"name": "listCull",
 					"kind": 64,
 					"kindString": "Function",
@@ -8229,7 +8103,7 @@
 					],
 					"signatures": [
 						{
-							"id": 889,
+							"id": 884,
 							"name": "listCull",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -8241,7 +8115,7 @@
 							},
 							"parameters": [
 								{
-									"id": 890,
+									"id": 885,
 									"name": "list1",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8258,7 +8132,7 @@
 									}
 								},
 								{
-									"id": 891,
+									"id": 886,
 									"name": "list2",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8288,7 +8162,7 @@
 					]
 				},
 				{
-					"id": 892,
+					"id": 887,
 					"name": "listEq",
 					"kind": 64,
 					"kindString": "Function",
@@ -8302,7 +8176,7 @@
 					],
 					"signatures": [
 						{
-							"id": 893,
+							"id": 888,
 							"name": "listEq",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -8313,7 +8187,7 @@
 							},
 							"parameters": [
 								{
-									"id": 894,
+									"id": 889,
 									"name": "list1",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8330,7 +8204,7 @@
 									}
 								},
 								{
-									"id": 895,
+									"id": 890,
 									"name": "list2",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8355,7 +8229,7 @@
 					]
 				},
 				{
-					"id": 896,
+					"id": 891,
 					"name": "listFind",
 					"kind": 64,
 					"kindString": "Function",
@@ -8369,7 +8243,7 @@
 					],
 					"signatures": [
 						{
-							"id": 897,
+							"id": 892,
 							"name": "listFind",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -8381,7 +8255,7 @@
 							},
 							"parameters": [
 								{
-									"id": 898,
+									"id": 893,
 									"name": "list",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8398,7 +8272,7 @@
 									}
 								},
 								{
-									"id": 899,
+									"id": 894,
 									"name": "val",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8420,7 +8294,7 @@
 					]
 				},
 				{
-					"id": 900,
+					"id": 895,
 					"name": "listFlat",
 					"kind": 64,
 					"kindString": "Function",
@@ -8434,7 +8308,7 @@
 					],
 					"signatures": [
 						{
-							"id": 901,
+							"id": 896,
 							"name": "listFlat",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -8446,7 +8320,7 @@
 							},
 							"parameters": [
 								{
-									"id": 902,
+									"id": 897,
 									"name": "list",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8463,7 +8337,7 @@
 									}
 								},
 								{
-									"id": 903,
+									"id": 898,
 									"name": "depth",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8490,7 +8364,7 @@
 					]
 				},
 				{
-					"id": 904,
+					"id": 899,
 					"name": "listGet",
 					"kind": 64,
 					"kindString": "Function",
@@ -8504,7 +8378,7 @@
 					],
 					"signatures": [
 						{
-							"id": 905,
+							"id": 900,
 							"name": "listGet",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -8516,7 +8390,7 @@
 							},
 							"parameters": [
 								{
-									"id": 906,
+									"id": 901,
 									"name": "list",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8533,7 +8407,7 @@
 									}
 								},
 								{
-									"id": 907,
+									"id": 902,
 									"name": "idx",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8579,7 +8453,7 @@
 					]
 				},
 				{
-					"id": 908,
+					"id": 903,
 					"name": "listHas",
 					"kind": 64,
 					"kindString": "Function",
@@ -8593,7 +8467,7 @@
 					],
 					"signatures": [
 						{
-							"id": 909,
+							"id": 904,
 							"name": "listHas",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -8604,7 +8478,7 @@
 							},
 							"parameters": [
 								{
-									"id": 910,
+									"id": 905,
 									"name": "list",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8621,7 +8495,7 @@
 									}
 								},
 								{
-									"id": 911,
+									"id": 906,
 									"name": "val",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8643,7 +8517,7 @@
 					]
 				},
 				{
-					"id": 912,
+					"id": 907,
 					"name": "listJoin",
 					"kind": 64,
 					"kindString": "Function",
@@ -8657,7 +8531,7 @@
 					],
 					"signatures": [
 						{
-							"id": 913,
+							"id": 908,
 							"name": "listJoin",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -8703,7 +8577,7 @@
 							},
 							"parameters": [
 								{
-									"id": 914,
+									"id": 909,
 									"name": "lists",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8733,7 +8607,7 @@
 					]
 				},
 				{
-					"id": 915,
+					"id": 910,
 					"name": "listRep",
 					"kind": 64,
 					"kindString": "Function",
@@ -8747,7 +8621,7 @@
 					],
 					"signatures": [
 						{
-							"id": 916,
+							"id": 911,
 							"name": "listRep",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -8758,7 +8632,7 @@
 							},
 							"parameters": [
 								{
-									"id": 917,
+									"id": 912,
 									"name": "list",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8772,7 +8646,7 @@
 									}
 								},
 								{
-									"id": 918,
+									"id": 913,
 									"name": "n",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8797,7 +8671,7 @@
 					]
 				},
 				{
-					"id": 919,
+					"id": 914,
 					"name": "listRev",
 					"kind": 64,
 					"kindString": "Function",
@@ -8811,7 +8685,7 @@
 					],
 					"signatures": [
 						{
-							"id": 920,
+							"id": 915,
 							"name": "listRev",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -8822,7 +8696,7 @@
 							},
 							"parameters": [
 								{
-									"id": 921,
+									"id": 916,
 									"name": "list",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8850,7 +8724,7 @@
 					]
 				},
 				{
-					"id": 922,
+					"id": 917,
 					"name": "listRot",
 					"kind": 64,
 					"kindString": "Function",
@@ -8864,7 +8738,7 @@
 					],
 					"signatures": [
 						{
-							"id": 923,
+							"id": 918,
 							"name": "listRot",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -8875,7 +8749,7 @@
 							},
 							"parameters": [
 								{
-									"id": 924,
+									"id": 919,
 									"name": "list",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8892,7 +8766,7 @@
 									}
 								},
 								{
-									"id": 925,
+									"id": 920,
 									"name": "rot",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8917,7 +8791,7 @@
 					]
 				},
 				{
-					"id": 926,
+					"id": 921,
 					"name": "listSlice",
 					"kind": 64,
 					"kindString": "Function",
@@ -8931,7 +8805,7 @@
 					],
 					"signatures": [
 						{
-							"id": 927,
+							"id": 922,
 							"name": "listSlice",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -8942,7 +8816,7 @@
 							},
 							"parameters": [
 								{
-									"id": 928,
+									"id": 923,
 									"name": "list",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8959,7 +8833,7 @@
 									}
 								},
 								{
-									"id": 929,
+									"id": 924,
 									"name": "start",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -8973,7 +8847,7 @@
 									}
 								},
 								{
-									"id": 930,
+									"id": 925,
 									"name": "end",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -9000,7 +8874,7 @@
 					]
 				},
 				{
-					"id": 931,
+					"id": 926,
 					"name": "listSort",
 					"kind": 64,
 					"kindString": "Function",
@@ -9014,7 +8888,7 @@
 					],
 					"signatures": [
 						{
-							"id": 932,
+							"id": 927,
 							"name": "listSort",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -9026,7 +8900,7 @@
 							},
 							"parameters": [
 								{
-									"id": 933,
+									"id": 928,
 									"name": "list1",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -9043,7 +8917,7 @@
 									}
 								},
 								{
-									"id": 934,
+									"id": 929,
 									"name": "list2",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -9073,7 +8947,7 @@
 					]
 				},
 				{
-					"id": 935,
+					"id": 930,
 					"name": "listZip",
 					"kind": 64,
 					"kindString": "Function",
@@ -9087,7 +8961,7 @@
 					],
 					"signatures": [
 						{
-							"id": 936,
+							"id": 931,
 							"name": "listZip",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -9099,7 +8973,7 @@
 							},
 							"parameters": [
 								{
-									"id": 937,
+									"id": 932,
 									"name": "list1",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -9116,7 +8990,7 @@
 									}
 								},
 								{
-									"id": 938,
+									"id": 933,
 									"name": "list2",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -9146,7 +9020,7 @@
 					]
 				},
 				{
-					"id": 939,
+					"id": 934,
 					"name": "range",
 					"kind": 64,
 					"kindString": "Function",
@@ -9160,7 +9034,7 @@
 					],
 					"signatures": [
 						{
-							"id": 940,
+							"id": 935,
 							"name": "range",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -9171,7 +9045,7 @@
 							},
 							"parameters": [
 								{
-									"id": 941,
+									"id": 936,
 									"name": "start",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -9185,7 +9059,7 @@
 									}
 								},
 								{
-									"id": 942,
+									"id": 937,
 									"name": "end",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -9201,7 +9075,7 @@
 									}
 								},
 								{
-									"id": 943,
+									"id": 938,
 									"name": "step",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -9233,29 +9107,29 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						944
+						939
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						881,
-						884,
-						888,
-						892,
-						896,
-						900,
-						904,
-						908,
-						912,
-						915,
-						919,
-						922,
+						876,
+						879,
+						883,
+						887,
+						891,
+						895,
+						899,
+						903,
+						907,
+						910,
+						914,
+						917,
+						921,
 						926,
-						931,
-						935,
-						939
+						930,
+						934
 					]
 				}
 			],
@@ -13256,21 +13130,21 @@
 			]
 		},
 		{
-			"id": 1113,
+			"id": 1100,
 			"name": "set",
 			"kind": 4,
 			"kindString": "Namespace",
 			"flags": {},
 			"children": [
 				{
-					"id": 1133,
+					"id": 1120,
 					"name": "setClass",
 					"kind": 128,
 					"kindString": "Class",
 					"flags": {},
 					"children": [
 						{
-							"id": 1134,
+							"id": 1121,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -13284,14 +13158,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1135,
+									"id": 1122,
 									"name": "new setClass",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1136,
+											"id": 1123,
 											"name": "debug",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -13304,14 +13178,14 @@
 									],
 									"type": {
 										"type": "reference",
-										"id": 1133,
+										"id": 1120,
 										"name": "setClass"
 									}
 								}
 							]
 						},
 						{
-							"id": 1137,
+							"id": 1124,
 							"name": "__debug__",
 							"kind": 1024,
 							"kindString": "Property",
@@ -13329,7 +13203,7 @@
 							}
 						},
 						{
-							"id": 1149,
+							"id": 1136,
 							"name": "setDif",
 							"kind": 2048,
 							"kindString": "Method",
@@ -13343,14 +13217,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1150,
+									"id": 1137,
 									"name": "setDif",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1151,
+											"id": 1138,
 											"name": "list1",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -13361,7 +13235,7 @@
 											}
 										},
 										{
-											"id": 1152,
+											"id": 1139,
 											"name": "list2",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -13383,7 +13257,7 @@
 							]
 						},
 						{
-							"id": 1145,
+							"id": 1132,
 							"name": "setInt",
 							"kind": 2048,
 							"kindString": "Method",
@@ -13397,14 +13271,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1146,
+									"id": 1133,
 									"name": "setInt",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1147,
+											"id": 1134,
 											"name": "list1",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -13415,7 +13289,7 @@
 											}
 										},
 										{
-											"id": 1148,
+											"id": 1135,
 											"name": "list2",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -13437,7 +13311,7 @@
 							]
 						},
 						{
-							"id": 1138,
+							"id": 1125,
 							"name": "setMake",
 							"kind": 2048,
 							"kindString": "Method",
@@ -13451,14 +13325,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1139,
+									"id": 1126,
 									"name": "setMake",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1140,
+											"id": 1127,
 											"name": "list",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -13480,7 +13354,7 @@
 							]
 						},
 						{
-							"id": 1141,
+							"id": 1128,
 							"name": "setUni",
 							"kind": 2048,
 							"kindString": "Method",
@@ -13494,14 +13368,14 @@
 							],
 							"signatures": [
 								{
-									"id": 1142,
+									"id": 1129,
 									"name": "setUni",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 1143,
+											"id": 1130,
 											"name": "list1",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -13512,7 +13386,7 @@
 											}
 										},
 										{
-											"id": 1144,
+											"id": 1131,
 											"name": "list2",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -13539,24 +13413,24 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								1134
+								1121
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								1137
+								1124
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								1149,
-								1145,
-								1138,
-								1141
+								1136,
+								1132,
+								1125,
+								1128
 							]
 						}
 					],
@@ -13569,7 +13443,7 @@
 					]
 				},
 				{
-					"id": 1128,
+					"id": 1115,
 					"name": "setDif",
 					"kind": 64,
 					"kindString": "Function",
@@ -13583,7 +13457,7 @@
 					],
 					"signatures": [
 						{
-							"id": 1129,
+							"id": 1116,
 							"name": "setDif",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -13594,7 +13468,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1130,
+									"id": 1117,
 									"name": "debug",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -13605,7 +13479,7 @@
 									}
 								},
 								{
-									"id": 1131,
+									"id": 1118,
 									"name": "list1",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -13622,7 +13496,7 @@
 									}
 								},
 								{
-									"id": 1132,
+									"id": 1119,
 									"name": "list2",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -13650,7 +13524,7 @@
 					]
 				},
 				{
-					"id": 1123,
+					"id": 1110,
 					"name": "setInt",
 					"kind": 64,
 					"kindString": "Function",
@@ -13664,7 +13538,7 @@
 					],
 					"signatures": [
 						{
-							"id": 1124,
+							"id": 1111,
 							"name": "setInt",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -13675,7 +13549,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1125,
+									"id": 1112,
 									"name": "debug",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -13686,7 +13560,7 @@
 									}
 								},
 								{
-									"id": 1126,
+									"id": 1113,
 									"name": "list1",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -13703,7 +13577,7 @@
 									}
 								},
 								{
-									"id": 1127,
+									"id": 1114,
 									"name": "list2",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -13731,7 +13605,7 @@
 					]
 				},
 				{
-					"id": 1114,
+					"id": 1101,
 					"name": "setMake",
 					"kind": 64,
 					"kindString": "Function",
@@ -13745,7 +13619,7 @@
 					],
 					"signatures": [
 						{
-							"id": 1115,
+							"id": 1102,
 							"name": "setMake",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -13756,7 +13630,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1116,
+									"id": 1103,
 									"name": "debug",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -13767,7 +13641,7 @@
 									}
 								},
 								{
-									"id": 1117,
+									"id": 1104,
 									"name": "list",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -13795,7 +13669,7 @@
 					]
 				},
 				{
-					"id": 1118,
+					"id": 1105,
 					"name": "setUni",
 					"kind": 64,
 					"kindString": "Function",
@@ -13809,7 +13683,7 @@
 					],
 					"signatures": [
 						{
-							"id": 1119,
+							"id": 1106,
 							"name": "setUni",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -13820,7 +13694,7 @@
 							},
 							"parameters": [
 								{
-									"id": 1120,
+									"id": 1107,
 									"name": "debug",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -13831,7 +13705,7 @@
 									}
 								},
 								{
-									"id": 1121,
+									"id": 1108,
 									"name": "list1",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -13848,7 +13722,7 @@
 									}
 								},
 								{
-									"id": 1122,
+									"id": 1109,
 									"name": "list2",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -13881,17 +13755,17 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						1133
+						1120
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						1128,
-						1123,
-						1114,
-						1118
+						1115,
+						1110,
+						1101,
+						1105
 					]
 				}
 			],
@@ -13926,7 +13800,7 @@
 							"sources": [
 								{
 									"fileName": "inline/statistics.ts",
-									"line": 128,
+									"line": 129,
 									"character": 4
 								}
 							],
@@ -13967,7 +13841,7 @@
 							"sources": [
 								{
 									"fileName": "inline/statistics.ts",
-									"line": 127,
+									"line": 128,
 									"character": 4
 								}
 							],
@@ -13985,7 +13859,7 @@
 							"sources": [
 								{
 									"fileName": "inline/statistics.ts",
-									"line": 140,
+									"line": 141,
 									"character": 4
 								}
 							],
@@ -14025,7 +13899,7 @@
 							"sources": [
 								{
 									"fileName": "inline/statistics.ts",
-									"line": 136,
+									"line": 137,
 									"character": 4
 								}
 							],
@@ -14065,7 +13939,7 @@
 							"sources": [
 								{
 									"fileName": "inline/statistics.ts",
-									"line": 144,
+									"line": 145,
 									"character": 4
 								}
 							],
@@ -14105,7 +13979,7 @@
 							"sources": [
 								{
 									"fileName": "inline/statistics.ts",
-									"line": 148,
+									"line": 149,
 									"character": 4
 								}
 							],
@@ -14145,7 +14019,7 @@
 							"sources": [
 								{
 									"fileName": "inline/statistics.ts",
-									"line": 132,
+									"line": 133,
 									"character": 4
 								}
 							],
@@ -14185,7 +14059,7 @@
 							"sources": [
 								{
 									"fileName": "inline/statistics.ts",
-									"line": 152,
+									"line": 153,
 									"character": 4
 								}
 							],
@@ -14225,7 +14099,7 @@
 							"sources": [
 								{
 									"fileName": "inline/statistics.ts",
-									"line": 156,
+									"line": 157,
 									"character": 4
 								}
 							],
@@ -14265,7 +14139,7 @@
 							"sources": [
 								{
 									"fileName": "inline/statistics.ts",
-									"line": 160,
+									"line": 161,
 									"character": 4
 								}
 							],
@@ -14330,7 +14204,7 @@
 					"sources": [
 						{
 							"fileName": "inline/statistics.ts",
-							"line": 126,
+							"line": 127,
 							"character": 13
 						}
 					]
@@ -14464,7 +14338,7 @@
 					"sources": [
 						{
 							"fileName": "inline/statistics.ts",
-							"line": 74,
+							"line": 75,
 							"character": 16
 						}
 					],
@@ -14476,7 +14350,7 @@
 							"kindString": "Call signature",
 							"flags": {},
 							"comment": {
-								"shortText": "Returns the mean value of the list.",
+								"shortText": "Returns the mean value of the list.\nIf the list contains sublists, then the returned list will have the same number of sublists.",
 								"returns": "A number (The mean).\n"
 							},
 							"parameters": [
@@ -14522,7 +14396,7 @@
 					"sources": [
 						{
 							"fileName": "inline/statistics.ts",
-							"line": 85,
+							"line": 86,
 							"character": 16
 						}
 					],
@@ -14638,7 +14512,7 @@
 					"sources": [
 						{
 							"fileName": "inline/statistics.ts",
-							"line": 96,
+							"line": 97,
 							"character": 16
 						}
 					],
@@ -14696,7 +14570,7 @@
 					"sources": [
 						{
 							"fileName": "inline/statistics.ts",
-							"line": 108,
+							"line": 109,
 							"character": 16
 						}
 					],
@@ -14757,7 +14631,7 @@
 					"sources": [
 						{
 							"fileName": "inline/statistics.ts",
-							"line": 119,
+							"line": 120,
 							"character": 16
 						}
 					],
@@ -24021,7 +23895,7 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1337,
+						"id": 1318,
 						"name": "arithmeticClass"
 					}
 				},
@@ -24040,7 +23914,7 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1168,
+						"id": 1155,
 						"name": "colorsClass"
 					}
 				},
@@ -24059,7 +23933,7 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1026,
+						"id": 1021,
 						"name": "commonClass"
 					}
 				},
@@ -24295,7 +24169,7 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1220,
+						"id": 1200,
 						"name": "conversionClass"
 					}
 				},
@@ -24314,7 +24188,7 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1079,
+						"id": 1066,
 						"name": "dictClass"
 					}
 				},
@@ -24333,7 +24207,7 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 853,
+						"id": 848,
 						"name": "geometryClass"
 					}
 				},
@@ -24352,7 +24226,7 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 944,
+						"id": 939,
 						"name": "listClass"
 					}
 				},
@@ -24428,7 +24302,7 @@
 					],
 					"type": {
 						"type": "reference",
-						"id": 1133,
+						"id": 1120,
 						"name": "setClass"
 					}
 				},
@@ -24575,18 +24449,18 @@
 			"title": "Namespaces",
 			"kind": 4,
 			"children": [
-				1265,
-				1153,
-				1012,
-				1250,
-				1187,
-				1041,
+				1245,
+				1140,
+				1007,
+				1230,
+				1174,
+				1036,
 				825,
-				880,
+				875,
 				738,
 				428,
 				651,
-				1113,
+				1100,
 				135,
 				318,
 				38,

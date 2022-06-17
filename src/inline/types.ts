@@ -1,3 +1,37 @@
+import { isNum } from "./types/isNum";
+import { isInt } from "./types/isInt";
+import { isFlt } from "./types/isFlt";
+import { isBool } from "./types/isBool";
+import { isStr } from "./types/isStr";
+import { isList } from "./types/isList";
+import { isDict } from "./types/isDict";
+import { isVec2 } from "./types/isVec2";
+import { isVec3 } from "./types/isVec3";
+import { isCol } from "./types/isCol";
+import { isRay } from "./types/isRay";
+import { isPln } from "./types/isPln";
+import { isNaN } from "./types/isNaN"
+import { isNull } from "./types/isNull";
+import { isUndef } from "./types/isUndef";
+import { _isWithin } from "./types/common";
+
+export { isNum }
+export { isInt }
+export { isFlt }
+export { isBool }
+export { isStr }
+export { isList }
+export { isDict }
+export { isVec2 }
+export { isVec3 }
+export { isCol }
+export { isRay }
+export { isPln }
+export { isNaN }
+export { isNull }
+export { isUndef }
+export { _isWithin }
+
 /**
  * Functions to check types.
  * @module
@@ -19,141 +53,7 @@
 // ['isNull(v)', 'Returns true is the value is null, false otherwise.'],
 // ['isUndef(v)', 'Returns true is the value is undefined, false otherwise.'],
 
-/**
- * Returns true if the value is a number, false otherwise.
- * @param v Value to be checked.
- * @returns True or False.
- */
-export function isNum(debug: boolean, v: any): boolean {
-    return typeof v === 'number';
-}
-/**
- * Returns true if the value is a integer, false otherwise.
- * @param v Value to be checked.
- * @returns True or False.
- */
-export function isInt(debug: boolean, v: any): boolean {
-    return Number.isInteger(v);
-}
-/**
- * Returns true if the value is a floating point number, false otherwise.
- * @param v Value to be checked.
- * @returns True or False.
- */
-export function isFlt(debug: boolean, v: any): boolean {
-    // return !Number.isNaN(v) && v % 1 > 0;
-    return typeof v === 'number';
-}
-/**
- * Returns true if the value is a boolean, false otherwise.
- * @param v Value to be checked.
- * @returns True or False.
- */
-export function isBool(debug: boolean, v: any): boolean {
-    return typeof v === 'boolean';
-}
-/**
- * Returns true if the value is a string, false otherwise.
- * @param v Value to be checked.
- * @returns True or False.
- */
-export function isStr(debug: boolean, v: any): boolean {
-    return typeof v === 'string';
-}
-/**
- * Returns true if the value is a list, false otherwise.
- * @param v Value to be checked.
- * @returns True or False.
- */
-export function isList(debug: boolean, v: any): boolean {
-    return Array.isArray(v);
-}
-/**
- * Returns true if the value is a dictionary, false otherwise.
- * @param v Value to be checked.
- * @returns True or False.
- */
-export function isDict(debug: boolean, v: any): boolean {
-    // return typeof v === 'object' && !Array.isArray(v);
-    return v.constructor === Object;
-}
-/**
- * Returns true if the value is a list of two numbers, false otherwise.
- * @param v Value to be checked.
- * @returns True or False.
- */
-export function isVec2(debug: boolean, v: any): boolean {
-    return Array.isArray(v) && v.length === 2 &&
-        typeof v[0] === 'number' && typeof v[1] === 'number';
-}
-/**
- * Returns true if the value is a list of three numbers, false otherwise.
- * @param v Value to be checked.
- * @returns True or False.
- */
-export function isVec3(debug: boolean, v: any): boolean {
-    return Array.isArray(v) && v.length === 3 &&
-        typeof v[0] === 'number' && typeof v[1] === 'number' && typeof v[2] === 'number';
-}
-/**
- * Returns true if the value is a list of three numbers in the range [0, 1], false otherwise.
- * @param v Value to be checked.
- * @returns True or False.
- */
-export function isCol(debug: boolean, v: any): boolean {
-    return isVec3(debug, v) && _isWithin(0, v[0], 1) && _isWithin(0, v[1], 1) && _isWithin(0, v[2], 1);
-}
-/**
- * Returns true if the value is a ray, false otherwise.
- * @param v Value to be checked.
- * @returns True or False.
- */
-export function isRay(debug: boolean, v: any): boolean {
-    return Array.isArray(v) && v.length === 2 && isVec3(debug, v[0]) && isVec3(debug, v[1]);
-}
-/**
- * Returns true if the value is a plane, false otherwise.
- * @param v Value to be checked.
- * @returns True or False.
- */
-export function isPln(debug: boolean, v: any): boolean {
-    return Array.isArray(v) && v.length === 3 && isVec3(debug, v[0]) && isVec3(debug, v[1]) && isVec3(debug, v[2]);
-}
-/**
- * Returns true is the value is not a number (NaN), false otherwise.
- * @param v Value to be checked.
- * @returns True or False.
- */
-export function isNaN(debug: boolean, v: any): boolean {
-    return Number.isNaN(v);
-}
-/**
- * Returns true is the value is null, false otherwise.
- * @param v Value to be checked.
- * @returns True or False.
- */
-export function isNull(debug: boolean, v: any): boolean {
-    return v === null;
-}
-/**
- * Returns true is the value is undefined, false otherwise.
- * @param v Value to be checked.
- * 
- */
-export function isUndef(debug: boolean, v: any): boolean {
-    return v === undefined;
-}
 
-/**
- * Needed for isCol above
- * @param v1 
- * @param v2 
- * @param v3 
- */
-export function _isWithin(v1: any, v2: any, v3: any): boolean {
-    return typeof v1 === 'number' && typeof v2 === 'number' && typeof v3 === 'number' &&
-    v1 <= v2 && v2 <= v3;
-}
 
 export class typesClass {
     __debug__: boolean
@@ -161,67 +61,67 @@ export class typesClass {
         this.__debug__ = debug
     }
 
-    isNum(v) {
-        return isNum(this.__debug__, v);
+    isNum(v: any) {
+        return isNum(v);
     }
 
-    isInt(v) {
-        return isInt(this.__debug__, v);
+    isInt(v: any) {
+        return isInt(v);
     }
 
-    isFlt(v) {
-        return isFlt(this.__debug__, v);
+    isFlt(v: any) {
+        return isFlt(v);
     }
 
-    isBool(v) {
-        return isBool(this.__debug__, v);
+    isBool(v: any) {
+        return isBool(v);
     }
 
-    isStr(v) {
-        return isStr(this.__debug__, v);
+    isStr(v: any) {
+        return isStr(v);
     }
 
-    isList(v) {
-        return isList(this.__debug__, v);
+    isList(v: any) {
+        return isList(v);
     }
 
-    isDict(v) {
-        return isDict(this.__debug__, v);
+    isDict(v: any) {
+        return isDict(v);
     }
 
-    isVec2(v) {
-        return isVec2(this.__debug__, v);
+    isVec2(v: any) {
+        return isVec2(v);
     }
 
-    isVec3(v) {
-        return isVec3(this.__debug__, v);
+    isVec3(v: any) {
+        return isVec3(v);
     }
 
-    isCol(v) {
-        return isCol(this.__debug__, v);
+    isCol(v: any) {
+        return isCol(v);
     }
 
-    isRay(v) {
-        return isRay(this.__debug__, v);
+    isRay(v: any) {
+        return isRay(v);
     }
 
-    isPln(v) {
-        return isPln(this.__debug__, v);
+    isPln(v: any) {
+        return isPln(v);
     }
 
-    isNaN(v) {
-        return isNaN(this.__debug__, v);
+    isNaN(v: any) {
+        return isNaN(v);
     }
 
-    isNull(v) {
-        return isNull(this.__debug__, v);
+    isNull(v: any) {
+        return isNull(v);
     }
 
-    isUndef(v) {
-        return isUndef(this.__debug__, v);
+    isUndef(v: any) {
+        return isUndef(v);
     }
 
-    _isWithin(v1, v2, v3) {
+    _isWithin(v1: any, v2: any, v3: any) {
         return _isWithin(v1, v2, v3);
     }
 }

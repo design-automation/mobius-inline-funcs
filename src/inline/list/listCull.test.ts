@@ -17,5 +17,6 @@ test('Cull a list with 3 arguments error', () => {
 
 test('Cull a list with invalid argument 2 error', () => {
     const list_class = new listClass(true);
+    //@ts-ignore
     expect( () => {list_class.listCull([1,2,3], false)} ).toThrow();
 }); 

@@ -1,4 +1,4 @@
-import { checkNumArgs, checkNumArgs_noDebug } from '../_check_inline_args';
+import { checkNumArgs_noDebug } from '../_check_inline_args';
 
 import { boolean } from './conversion/boolean';
 import { number } from './conversion/number';
@@ -22,49 +22,49 @@ export class conversionClass {
         this.__debug__ = debug
     }
 
-    boolean(val) {
+    boolean(val: number) {
         if (this.__debug__) {
             checkNumArgs_noDebug('boolean', arguments, 1);
         }
         return boolean(val);
     }
 
-    number(val) {
+    number(val: any) {
         if (this.__debug__) {
             checkNumArgs_noDebug('number', arguments, 1);
         }
         return number(val);
     }
 
-    string(val) {
+    string(val: any) {
         if (this.__debug__) {
             checkNumArgs_noDebug('string', arguments, 1);
         }
         return string(val);
     }
 
-    radToDeg(rad) {
+    radToDeg(rad: number | number[]) {
         if (this.__debug__) {
             checkNumArgs_noDebug('radToDeg', arguments, 1);
         }
         return radToDeg(rad);
     }
 
-    degToRad(deg) {
+    degToRad(deg: number | number[]) {
         if (this.__debug__) {
             checkNumArgs_noDebug('degToRad', arguments, 1);
         }
         return degToRad(deg);
     }
 
-    numToStr(num, frac_digits?, locale?) {
+    numToStr(num: number | number[], frac_digits?: number, locale?: string) {
         if (this.__debug__) {
             checkNumArgs_noDebug('numToStr', arguments, 3, 1);
         }
         return numToStr(num, frac_digits, locale);
     }
 
-    numToCurr(num, currency, locale?) {
+    numToCurr(num: number | number[], currency: string, locale?: string) {
         if (this.__debug__) {
             checkNumArgs_noDebug('numToCurr', arguments, 3, 2);
         }

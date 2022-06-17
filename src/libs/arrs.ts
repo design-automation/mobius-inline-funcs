@@ -1,8 +1,8 @@
 import lodash from 'lodash';
 /**
  * Remove an item from an array
- * Return teh index where the item was removed.
- * Returns -1 if teh item was not found.
+ * Return the index where the item was removed.
+ * Returns -1 if the item was not found.
  * @param arr
  * @param item
  */

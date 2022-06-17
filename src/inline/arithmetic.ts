@@ -1,4 +1,5 @@
 import { checkNumArgs_noDebug } from '../_check_inline_args';
+import * as chk from '../_check_types';
 
 import { abs } from './arithmetic/abs';
 import { square } from './arithmetic/square';
@@ -47,139 +48,140 @@ export class arithmeticClass {
         this.__debug__ = debug
     }
 
-    abs(num) {
+    abs(num: number | number[]) {
         if (this.__debug__) {
             checkNumArgs_noDebug('abs', arguments, 1);
+            chk.checkArgs('abs', 'num', num, [chk.isNum]);
         }
         return abs(num);
     }
 
-    square(list) {
+    square(list: number | number[]) {
         if (this.__debug__) {
             checkNumArgs_noDebug('square', arguments, 1);
         }
         return square(list);
     }
 
-    cube(list) {
+    cube(list: number | number[]) {
         if (this.__debug__) {
             checkNumArgs_noDebug('cube', arguments, 1);
         }
         return cube(list);
     }
     
-    pow(base, xp) {
+    pow(base: number | number[], xp: number) {
         if (this.__debug__) {
             checkNumArgs_noDebug('pow', arguments, 2);
         }
         return pow(base, xp);
     }
 
-    sqrt(num) {
+    sqrt(num: number | number[]) {
         if (this.__debug__) {
             checkNumArgs_noDebug('sqrt', arguments, 1);
         }
         return sqrt(num);
     }
 
-    exp(num) {
+    exp(num: number | number[]) {
         if (this.__debug__) {
             checkNumArgs_noDebug('exp', arguments, 1);
         }
         return exp(num);
     }
 
-    log(base) {
+    log(base: number | number[]) {
         if (this.__debug__) {
             checkNumArgs_noDebug('log', arguments, 1);
         }
         return log(base);
     }
 
-    log10(base) {
+    log10(base: number | number[]) {
         if (this.__debug__) {
             checkNumArgs_noDebug('log10', arguments, 1);
         }
         return log10(base);
     }
 
-    round(num, dec_pla = 0) {
+    round(num: number | number[], dec_pla = 0) {
         if (this.__debug__) {
             checkNumArgs_noDebug('round', arguments, 1);
         }
         return round(num, dec_pla = 0);
     }
 
-    sigFig(num, sig_figs) {
+    sigFig(num: number | number[], sig_figs: number) {
         if (this.__debug__) {
             checkNumArgs_noDebug('sigFig', arguments, 2);
         }
         return sigFig(num, sig_figs);
     }
 
-    ceil(num) {
+    ceil(num: number | number[]) {
         if (this.__debug__) {
             checkNumArgs_noDebug('ceil', arguments, 1);
         }
         return ceil(num);
     }
 
-    floor(num) {
+    floor(num: number | number[]) {
         if (this.__debug__) {
             checkNumArgs_noDebug('floor', arguments, 1);
         }
         return floor(num);
     }
 
-    sum(list) {
+    sum(list: number | number[]) {
         if (this.__debug__) {
             checkNumArgs_noDebug('sum', arguments, 1);
         }
         return sum(list);
     }
 
-    prod(list) {
+    prod(list: number | number[]) {
         if (this.__debug__) {
             checkNumArgs_noDebug('prod', arguments, 1);
         }
         return prod(list);
     }
 
-    hypot(list) {
+    hypot(list: number | number[]) {
         if (this.__debug__) {
             checkNumArgs_noDebug('hypot', arguments, 1);
         }
         return hypot(list);
     }
 
-    norm(list) {
+    norm(list: number | number[]) {
         if (this.__debug__) {
             checkNumArgs_noDebug('norm', arguments, 1, 2);
         }
         return norm(list);
     }
 
-    isApprox(n1, n2, t) {
+    isApprox(n1: number, n2: number, t: number) {
         if (this.__debug__) {
             checkNumArgs_noDebug('isApprox', arguments, 3);
         }
         return isApprox(n1, n2, t);
     }
 
-    isIn(v1, v2, v3) {
+    isIn(v1: any, v2: any, v3: any) {
         if (this.__debug__) {
             checkNumArgs_noDebug('isIn', arguments, 3);
         }
         return isIn(v1, v2, v3);
     }
 
-    isWithin(v1, v2, v3) {
+    isWithin(v1: any, v2: any, v3: any) {
         if (this.__debug__) {
             checkNumArgs_noDebug('isWithin', arguments, 3);
         }
         return isWithin(v1, v2, v3);
     }
-    remap(num, d1, d2) {
+    remap(num: number | number[], d1: number[], d2: number[]) {
         if (this.__debug__) {
             checkNumArgs_noDebug('remap', arguments, 3);
         }

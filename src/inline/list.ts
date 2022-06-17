@@ -43,21 +43,21 @@ export class listClass {
     constructor(debug: boolean) {
         this.__debug__ = debug
     }
-    listCopy(list) {
+    listCopy(list: any[]) {
         if (this.__debug__) {
             checkNumArgs_noDebug('listCopy', arguments, 1);
             chk.checkArgs('listCopy', 'list', list, [chk.isList]);
         }
         return listCopy(list);
     }
-    listCount(list, val) {
+    listCount(list: any[], val: number) {
         if (this.__debug__) {
             checkNumArgs_noDebug('listCount', arguments, 2);
             chk.checkArgs('listCount', 'list', list, [chk.isList]);
         }
         return listCount(list, val);
     }
-    listCull(list1, list2) {
+    listCull(list1: any[], list2: any[]) {
         if (this.__debug__) {
             checkNumArgs_noDebug('listCull', arguments, 2, 1);
             chk.checkArgs('listCull', 'list1', list1, [chk.isList]);
@@ -65,7 +65,7 @@ export class listClass {
         }
         return listCull(list1, list2);
     }
-    listEq(list1, list2) {
+    listEq(list1: any[], list2: any[]) {
         if (this.__debug__) {
             checkNumArgs_noDebug('listEq', arguments, 2);
             chk.checkArgs('listEq', 'list1', list1, [chk.isList]);
@@ -73,14 +73,14 @@ export class listClass {
         }
         return listEq(list1, list2);
     }
-    listFind(list, val) {
+    listFind(list: any[], val: string) {
         if (this.__debug__) {
             checkNumArgs_noDebug('listFind', arguments, 2);
             chk.checkArgs('listFind', 'list', list, [chk.isList]);
         }
         return listFind(list, val);
     }
-    listFlat(list, depth) {
+    listFlat(list: any[], depth: number) {
         if (this.__debug__) {
             checkNumArgs_noDebug('listFlat', arguments, 2, 1);
             chk.checkArgs('listFlat', 'list', list, [chk.isList]);
@@ -88,7 +88,7 @@ export class listClass {
         }
         return listFlat(list, depth);
     }
-    listGet(list, idx) {
+    listGet(list: any[], idx: number | number[]) {
         if (this.__debug__) {
             checkNumArgs_noDebug('listGet', arguments, 2);
             chk.checkArgs('listGet', 'list', list, [chk.isList]);
@@ -96,34 +96,34 @@ export class listClass {
         }
         return listGet(list, idx);
     }
-    listHas(list, val) {
+    listHas(list: any[], val: undefined) {
         if (this.__debug__) {
             checkNumArgs_noDebug('listHas', arguments, 2);
             chk.checkArgs('listHas', 'list', list, [chk.isList]);
         }
         return listHas(list, val);
     }
-    listJoin(...lists) {
+    listJoin(...lists: any[]) {
         if (this.__debug__) {
             // nothing to check
         }
         return listJoin(...lists);
     }
-    listRep(list, n) {
+    listRep(list: number[], n: number) {
         if (this.__debug__) {
             checkNumArgs_noDebug('listRep', arguments, 2);
             chk.checkArgs('listRep', 'n', n, [chk.isInt]);
         }
         return listRep(list, n);
     }
-    listRev(list) {
+    listRev(list: any[]) {
         if (this.__debug__) {
             checkNumArgs_noDebug('listRev', arguments, 1);
             chk.checkArgs('listRev', 'list', list, [chk.isList]);
         }
         return listRev(list);
     }
-    listRot(list, rot) {
+    listRot(list: any[], rot: number) {
         if (this.__debug__) {
             checkNumArgs_noDebug('listRot', arguments, 2);
             chk.checkArgs('listRot', 'list', list, [chk.isList]);
@@ -131,7 +131,7 @@ export class listClass {
         }
         return listRot(list, rot);
     }
-    listSlice(list, start, end) {
+    listSlice(list: any[], start: number, end: number) {
         if (this.__debug__) {
             checkNumArgs_noDebug('listSlice', arguments, 3, 2);
             chk.checkArgs('listSlice', 'list', list, [chk.isList]);
@@ -140,7 +140,7 @@ export class listClass {
         }
         return listSlice(list, start, end);
     }
-    listSort(list1, list2) {
+    listSort(list1: any[], list2: any[]) {
         if (this.__debug__) {
             checkNumArgs_noDebug('listSort', arguments, 2, 1);
             chk.checkArgs('listSort', 'list1', list1, [chk.isList]);
@@ -151,7 +151,7 @@ export class listClass {
         }
         return listSort(list1, list2);
     }
-    listZip(list1, list2) {
+    listZip(list1: any[], list2: any[]) {
         if (this.__debug__) {
             if (list2 === undefined) {
                 chk.checkArgs('listZip', 'list1', list1, [chk.isLList]);
@@ -163,7 +163,7 @@ export class listClass {
         }
         return listZip(list1, list2);
     }
-    range(start, end, step) {
+    range(start: number, end: number, step: number) {
         if (this.__debug__) {
             checkNumArgs_noDebug('range', arguments, 3, 1);
             chk.checkArgs('range', 'start', start, [chk.isNum]);
