@@ -9,6 +9,11 @@ test('Zip a list with arg2 list ', () => {
     expect(listZip(['a', 'b'], [1, 2])).toStrictEqual([['a', 1,], ['b', 2]]);
 }); 
 
+test('Zip a list with arg3 list ', () => {
+    //@ts-ignore
+    expect(listZip(['a', 'b'], [1, 2], [true, false])).toStrictEqual([['a', 1, true], ['b', 2, false]]);
+}); 
+
 test('Zip a list wrong number of args', () => {
     const list_class = new listClass(true);
     //@ts-ignore

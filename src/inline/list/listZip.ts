@@ -1,4 +1,5 @@
 import lodash from 'lodash';
+import { getArrDepth } from '../../../src/libs/arrs';
 /**
  * Converts a set of lists from rows into columns.
  *
@@ -9,14 +10,14 @@ import lodash from 'lodash';
  *
  * This function also accepts additional lists of arguments.
  *
- * @param list1  The list of lists, or first row list.
- * @param list2  (Optional) The second row list, which must have the same length as the first.
+ * @param lists  The list of lists, or first row list.
  * @returns A new list. 
  */
- export function listZip(list1: any[], list2?: any[]): any[] {
-    if (arguments.length === 1) {
-        return lodash.unzip(list1);
+ export function listZip(...lists: any[]): any[] {
+    if (lists.length === 1) {
+        // list 1 should be a list of lists
+        return lodash.zip(...lists[0]); 
     }
-    const lists = Array.from(arguments);
+    // there are 2 or more args and list 1 is just a list 
     return lodash.zip(...lists);
 }
