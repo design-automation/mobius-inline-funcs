@@ -1,5 +1,5 @@
 import { norm } from "./norm";
-import { arithmeticClass } from '../arithmetic';
+import { InlineFuncs } from '../../index';
 
 test('Check norm one integer', () => {
     expect(norm(-5)).toStrictEqual(5);
@@ -14,7 +14,7 @@ test('Check norm list of 3 nums with -inifinity arg', () => {
 }); 
 
 test('Check norm 3 args error', () => {
-    const math_class = new arithmeticClass(true);
+    const math_class = new InlineFuncs(true);
     //@ts-ignore
     expect( () => {math_class.norm(123, 2, 1)}).toThrow();
 });

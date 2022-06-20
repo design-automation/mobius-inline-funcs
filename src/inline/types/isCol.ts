@@ -1,4 +1,4 @@
-import { isVec3, _isWithin } from "../types";
+import { isVec3, _isWithin } from "../../index";
 
 /**
  * Returns true if the value is a list of three numbers in the range [0, 1], false otherwise.

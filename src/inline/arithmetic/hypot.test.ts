@@ -1,5 +1,4 @@
 import { hypot } from './hypot';
-import { arithmeticClass } from '../arithmetic';
 
 test('Check hypot of 2 numbers', () => {
     expect(hypot([3, 4])).toStrictEqual(5);

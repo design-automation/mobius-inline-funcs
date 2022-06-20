@@ -1,5 +1,5 @@
 import { listCount } from './listCount';
-import { listClass } from '../list';
+import { InlineFuncs } from '../../index';
 
 test('Count a number in alist', () => {
     expect(listCount([1,2,3,3,3,3], 3)).toStrictEqual(4);
@@ -11,7 +11,7 @@ test('Count a number in alist', () => {
 // ^ currently legitimately fails 
 
 test('More than 2 arguments error', () => {
-    const list_class = new listClass(true);
+    const list_class = new InlineFuncs(true);
     //@ts-ignore
     expect( () => {list_class.listCount([1,2,3], 1, 0)} ).toThrow();
 });

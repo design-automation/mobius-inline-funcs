@@ -9,6 +9,6 @@ import * as Mathjs from 'mathjs';
  * @param val A value of any type.
  * @returns True or False. 
  */
- export function boolean(val: number) {
+ export function boolean(val: number | string) {
     return Mathjs.boolean(val);
 }

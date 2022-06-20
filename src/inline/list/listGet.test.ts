@@ -1,5 +1,5 @@
 import { listGet } from './listGet';
-import { listClass } from '../list';
+import { InlineFuncs } from '../../index';
 
 test('Check Two layers of listGet', () => {
     expect(listGet(listGet([0, [1, 2, 3] ], 1), 2)).toStrictEqual(3);
@@ -14,7 +14,7 @@ test('Check listGet with a list of indexes', () => {
 }); 
 
 test('Check listGet 3 args error', () => {
-    const list_class = new listClass(true);
+    const list_class = new InlineFuncs(true);
     //@ts-ignore
     expect( () => {list_class.listGet([1,2,3], 1, 6)} ).toThrow();
 });

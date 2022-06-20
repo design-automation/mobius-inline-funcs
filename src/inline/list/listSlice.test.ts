@@ -1,5 +1,5 @@
 import { listSlice } from './listSlice';
-import { listClass } from '../list';
+import { InlineFuncs } from '../../index';
 
 test('Slice a list with no end', () => {
     expect(listSlice([0,1,2,3,4,5], 3)).toStrictEqual([3, 4, 5]);
@@ -10,7 +10,7 @@ test('Slice a list with end', () => {
 }); 
 
 test('listSlice if arg 1 is not a list error', () => {
-    const list_class = new listClass(true);
+    const list_class = new InlineFuncs(true);
     //@ts-ignore
     expect( () => {list_class.listSlice(5, 3, 5)} ).toThrow();
 }); 

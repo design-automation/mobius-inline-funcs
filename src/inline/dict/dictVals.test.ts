@@ -1,5 +1,5 @@
 import { dictVals } from './dictVals';
-import { dictClass } from '../dict';
+import { InlineFuncs } from '../../index';
 
 const dict1 = {'key1': 1, 'key2': 2}
 
@@ -8,7 +8,7 @@ test('Check dictVals', () => {
 }); 
 
 test('Check dictVals 2 arg error', () => {
-    const dict_class = new dictClass(true);
+    const dict_class = new InlineFuncs(true);
     //@ts-ignore
     expect( () => {dict_class.dictVals(dict1, 2)} ).toThrow();
 });

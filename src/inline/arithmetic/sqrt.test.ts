@@ -1,5 +1,5 @@
 import { sqrt } from './sqrt';
-import { arithmeticClass } from '../arithmetic';
+import { InlineFuncs } from '../../index';
 
 test('Check sqrt number', () => {
     expect(sqrt(2)).toStrictEqual(1.4142135623730951);
@@ -10,7 +10,7 @@ test('Check sqrt list', () => {
 }); 
 
 test('Check sqrt 2 args', () => {
-    const math_class = new arithmeticClass(true);
+    const math_class = new InlineFuncs(true);
     //@ts-ignore
     expect( () => {math_class.sqrt(123, 2)}).toThrow();
 }); 

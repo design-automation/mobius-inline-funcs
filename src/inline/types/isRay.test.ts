@@ -1,5 +1,5 @@
 import { isRay } from "./isRay";
-import { rayMake } from '../ray'
+import { rayMake } from '../../index'
 
 test('Check isRay T/F', () => {
     const Ray1 = rayMake([0,0,0], [1,0,0])

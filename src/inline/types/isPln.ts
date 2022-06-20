@@ -1,4 +1,4 @@
-import { isVec3 } from "../types";
+import { isVec3 } from "../../index";
 
 /**
  * Returns true if the value is a plane, false otherwise.
