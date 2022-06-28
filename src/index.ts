@@ -381,8 +381,12 @@ export { copy, equal, len };
 
 export class InlineFuncs {
     __debug__: boolean
-    constructor(debug: boolean) {
-        this.__debug__ = debug
+    constructor(debug?: boolean) {
+        if (debug === undefined) { 
+            this.__debug__ = true
+        } else {
+            this.__debug__ = debug;
+        }
     }
 
     // CONSTANTS ===================================================================================
