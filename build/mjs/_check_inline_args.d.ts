@@ -7,6 +7,13 @@
 export declare function checkNumArgs(fn_name: string, args: IArguments, max: number, min?: number): void;
 /**
  *
+ * @param fn_names
+ * @param args
+ * @param expected
+ */
+export declare function checkNumArgs_noDebug(fn_name: string, args: IArguments, max: number, min?: number): void;
+/**
+ *
  * @param fn_name
  * @param args
  */

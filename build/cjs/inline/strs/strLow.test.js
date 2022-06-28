@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const strLow_1 = require("./strLow");
+const str1 = 'TesTING';
+const str2 = 'Test2';
+test('Check strLow', () => {
+    expect((0, strLow_1.strLow)(str1)).toStrictEqual('testing');
+});
+test('Check strLow overloaded', () => {
+    expect((0, strLow_1.strLow)([str1, str2])).toStrictEqual(['testing', 'test2']);
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3RyTG93LnRlc3QuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi8uLi9zcmMvaW5saW5lL3N0cnMvc3RyTG93LnRlc3QudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSxxQ0FBa0M7QUFFbEMsTUFBTSxJQUFJLEdBQUcsU0FBUyxDQUFBO0FBQ3RCLE1BQU0sSUFBSSxHQUFHLE9BQU8sQ0FBQTtBQUVwQixJQUFJLENBQUMsY0FBYyxFQUFFLEdBQUcsRUFBRTtJQUN0QixNQUFNLENBQUMsSUFBQSxlQUFNLEVBQUMsSUFBSSxDQUFDLENBQUMsQ0FBQyxhQUFhLENBQUMsU0FBUyxDQUFDLENBQUM7QUFDbEQsQ0FBQyxDQUFDLENBQUM7QUFFSCxJQUFJLENBQUMseUJBQXlCLEVBQUUsR0FBRyxFQUFFO0lBQ2pDLE1BQU0sQ0FBQyxJQUFBLGVBQU0sRUFBQyxDQUFDLElBQUksRUFBRSxJQUFJLENBQUMsQ0FBQyxDQUFDLENBQUMsYUFBYSxDQUFDLENBQUMsU0FBUyxFQUFFLE9BQU8sQ0FBQyxDQUFDLENBQUM7QUFDckUsQ0FBQyxDQUFDLENBQUMifQ==

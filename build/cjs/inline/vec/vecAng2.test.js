@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const vecAng2_1 = require("./vecAng2");
+const constants_1 = require("../constants");
+test('Check vecAng2', () => {
+    const vec1 = (0, vecAng2_1.vecAng2)(constants_1.VY, constants_1.VX, constants_1.VZ);
+    expect(vec1).toStrictEqual(constants_1.PI * 3 / 2);
+});
+test('Check vecAng2 overloaded', () => {
+    const vec2 = (0, vecAng2_1.vecAng2)([constants_1.VY, constants_1.VX], [constants_1.VX, constants_1.VZ], [constants_1.VX, constants_1.VY]);
+    expect(vec2).toStrictEqual([0, constants_1.PI * 3 / 2]);
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidmVjQW5nMi50ZXN0LmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vLi4vc3JjL2lubGluZS92ZWMvdmVjQW5nMi50ZXN0LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsdUNBQW9DO0FBQ3BDLDRDQUE4QztBQUU5QyxJQUFJLENBQUMsZUFBZSxFQUFFLEdBQUcsRUFBRTtJQUN2QixNQUFNLElBQUksR0FBRyxJQUFBLGlCQUFPLEVBQUMsY0FBRSxFQUFFLGNBQUUsRUFBRSxjQUFFLENBQUMsQ0FBQTtJQUNoQyxNQUFNLENBQUMsSUFBSSxDQUFDLENBQUMsYUFBYSxDQUFDLGNBQUUsR0FBRyxDQUFDLEdBQUcsQ0FBQyxDQUFDLENBQUM7QUFDM0MsQ0FBQyxDQUFDLENBQUM7QUFFSCxJQUFJLENBQUMsMEJBQTBCLEVBQUUsR0FBRyxFQUFFO0lBQ2xDLE1BQU0sSUFBSSxHQUFHLElBQUEsaUJBQU8sRUFBQyxDQUFDLGNBQUUsRUFBRSxjQUFFLENBQUMsRUFBRSxDQUFDLGNBQUUsRUFBRSxjQUFFLENBQUMsRUFBRSxDQUFDLGNBQUUsRUFBRSxjQUFFLENBQUMsQ0FBQyxDQUFBO0lBQ2xELE1BQU0sQ0FBQyxJQUFJLENBQUMsQ0FBQyxhQUFhLENBQUMsQ0FBQyxDQUFDLEVBQUUsY0FBRSxHQUFHLENBQUMsR0FBRyxDQUFDLENBQUMsQ0FBQyxDQUFDO0FBQ2hELENBQUMsQ0FBQyxDQUFDIn0=

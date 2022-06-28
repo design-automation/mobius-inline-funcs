@@ -3,6 +3,14 @@
  */
 export declare const PI: number;
 /**
+ * The mathematical constant E.
+ */
+export declare const EUL: number;
+/**
+ * PI * 2.
+ */
+export declare const PI2: number;
+/**
  * A plane at the origin, aligned with the XY plane, i.e. `[[0, 0, 0],[1, 0, 0],[0, 1, 0]]`.
  */
 export declare const XY: import("../libs/common").TPlane;
@@ -27,19 +35,19 @@ export declare const ZY: import("../libs/common").TPlane;
  */
 export declare const XZ: import("../libs/common").TPlane;
 /**
- * A vector `[1, 0, 0]`.
+ * A vector `[1,0,0]`.
  */
 export declare const VX: import("../libs/common").Txyz;
 /**
- * A vector `[0, 1, 0]`.
+ * A vector `[0,1,0]`.
  */
 export declare const VY: import("../libs/common").Txyz;
 /**
-* A vector `[0, 0, 1]`.
+* A vector `[0,0,1]`.
 */
 export declare const VZ: import("../libs/common").Txyz;
 /**
-* An origin `[0, 0, 0]`.
+* An origin `[0,0,0]`.
 */
 export declare const VO: import("../libs/common").Txyz;
 /**

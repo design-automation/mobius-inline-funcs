@@ -1,0 +1,17 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const dictFind_1 = require("./dictFind");
+const index_1 = require("../../index");
+const dict1 = { 'key1': 1, 'key2': 2 };
+test('Find "key2" from a dict', () => {
+    expect((0, dictFind_1.dictFind)(dict1, 2)).toStrictEqual('key2');
+});
+test('Return null if cannot find value', () => {
+    expect((0, dictFind_1.dictFind)(dict1, 3)).toBeNull();
+});
+test('Check for 3 arg error', () => {
+    const dict_class = new index_1.InlineFuncs(true);
+    //@ts-ignore
+    expect(() => { dict_class.dictFind(dict1, 'key2', [1, 2]); }).toThrow();
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZGljdEZpbmQudGVzdC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL3NyYy9pbmxpbmUvZGljdC9kaWN0RmluZC50ZXN0LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEseUNBQXNDO0FBQ3RDLHVDQUEwQztBQUUxQyxNQUFNLEtBQUssR0FBRyxFQUFDLE1BQU0sRUFBRSxDQUFDLEVBQUUsTUFBTSxFQUFFLENBQUMsRUFBQyxDQUFBO0FBRXBDLElBQUksQ0FBQyx5QkFBeUIsRUFBRSxHQUFHLEVBQUU7SUFDakMsTUFBTSxDQUFDLElBQUEsbUJBQVEsRUFBQyxLQUFLLEVBQUUsQ0FBQyxDQUFDLENBQUMsQ0FBQyxhQUFhLENBQUMsTUFBTSxDQUFDLENBQUM7QUFDckQsQ0FBQyxDQUFDLENBQUM7QUFFSCxJQUFJLENBQUMsa0NBQWtDLEVBQUUsR0FBRyxFQUFFO0lBQzFDLE1BQU0sQ0FBQyxJQUFBLG1CQUFRLEVBQUMsS0FBSyxFQUFFLENBQUMsQ0FBQyxDQUFDLENBQUMsUUFBUSxFQUFFLENBQUM7QUFDMUMsQ0FBQyxDQUFDLENBQUM7QUFFSCxJQUFJLENBQUMsdUJBQXVCLEVBQUUsR0FBRyxFQUFFO0lBQy9CLE1BQU0sVUFBVSxHQUFHLElBQUksbUJBQVcsQ0FBQyxJQUFJLENBQUMsQ0FBQztJQUN6QyxZQUFZO0lBQ1osTUFBTSxDQUFFLEdBQUcsRUFBRSxHQUFFLFVBQVUsQ0FBQyxRQUFRLENBQUMsS0FBSyxFQUFFLE1BQU0sRUFBRSxDQUFDLENBQUMsRUFBQyxDQUFDLENBQUMsQ0FBQyxDQUFBLENBQUEsQ0FBQyxDQUFFLENBQUMsT0FBTyxFQUFFLENBQUM7QUFDMUUsQ0FBQyxDQUFDLENBQUMifQ==
