@@ -370,6 +370,9 @@ export class InlineFuncs {
     RY = constants.RY
     RZ = constants.RZ
 
+    EUL = constants.EUL
+    PI2 = constants.PI2
+
     // ARITHMETIC ==================================================================================
 
     abs(num: number | number[]) {
