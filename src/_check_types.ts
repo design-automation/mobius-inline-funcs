@@ -47,7 +47,7 @@ export function checkArgs(fn_name: string, arg_name: string, arg: any, check_fns
         }
         err_msg = err_msg +
             '</ul>' +
-            ' Make sure that the agument passed to the "' + arg_name + '" parameter matches one of the above perimtted data types.';
+            ' Make sure that the argument passed to the "' + arg_name + '" parameter matches one of the above perimtted data types.';
         throw new Error(err_msg);
     }
     return ret;

@@ -9,7 +9,7 @@
  * ```
  * 
  * @param num A number or list of numbers.
- * @param dec_pla Set as 0 by default. (Should not be changed. Use `sigFig()` for more customizability.)
+ * @param dec_pla An integer. Set as 0 by default. 
  * @returns An integer or list of integers. 
  */
  export function round(num: number|number[], dec_pla = 0): number|number[] {

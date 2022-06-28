@@ -444,6 +444,7 @@ export class InlineFuncs {
         if (this.__debug__) {
             checkNumArgs_noDebug('round', arguments, 2, 1);
             chk.checkArgs('round', 'num', num, [chk.isNum, chk.isNumL]);
+            chk.checkArgs('round', 'dec_pla', dec_pla, [chk.isInt]);
         }
         return round(num, dec_pla);
     }
@@ -954,7 +955,6 @@ export class InlineFuncs {
             checkNumArgs_noDebug('rand', arguments, 3, 2);
             chk.checkArgs('rand', 'min', min, [chk.isNum]);
             chk.checkArgs('rand', 'max', max, [chk.isNum]);
-            chk.checkArgs('rand', 'seed', seed, [chk.isNum]);
             }
         return rand(min, max, seed);
     }
@@ -1387,7 +1387,7 @@ export class InlineFuncs {
 
     vecSum(...v: Txyz[]) {
         if (this.__debug__) {
-            checkArgs('vecSum', 'v', v, [chk.isXYZL]);
+            checkArgs('vecSum', 'v', v, [chk.isXYZL, chk.isXYZLL]);
         }
         return vecSum(...v);
     }
