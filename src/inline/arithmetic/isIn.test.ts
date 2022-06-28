@@ -1,5 +1,5 @@
 import { isIn } from "./isIn";
-import { arithmeticClass } from '../arithmetic';
+import { InlineFuncs } from '../../index';
 
 test('Check isIn true', () => {
     expect(isIn(5, 8, 20)).toStrictEqual(true);
@@ -10,7 +10,7 @@ test('Check isIn false', () => {
 }); 
 
 test('Check isIn 2 args/type error', () => {
-    const math_class = new arithmeticClass(true);
+    const math_class = new InlineFuncs(true);
     //@ts-ignore
     expect( () => {math_class.isIn(123, [1,2,3])}).toThrow();
 });

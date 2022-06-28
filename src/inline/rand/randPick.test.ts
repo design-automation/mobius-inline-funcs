@@ -1,5 +1,5 @@
 import { randPick } from "./randPick";
-import { listHas } from "../list";
+import { listHas } from "../../index";
 
 const lst1 = ['a',1,2,3,'b',true]
 

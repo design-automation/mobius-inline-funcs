@@ -1,12 +1,12 @@
 import { dictCopy } from './dictCopy';
-import { dictClass } from '../dict';
+import { InlineFuncs } from '../../index';
 
 test('Copy a dict', () => {
     expect(dictCopy({'key1': 1, 'key2': 2})).toStrictEqual({'key1': 1, 'key2': 2});
 }); 
 
 test('Copy a dict wrong number of args', () => {
-    const dict_class = new dictClass(true);
+    const dict_class = new InlineFuncs(true);
     //@ts-ignore
     expect( () => {dict_class.dictCopy({'key1': 1, 'key2': 2}, 123)} ).toThrow();
 });

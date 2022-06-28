@@ -1,5 +1,5 @@
 import { dictFind } from './dictFind';
-import { dictClass } from '../dict';
+import { InlineFuncs } from '../../index';
 
 const dict1 = {'key1': 1, 'key2': 2}
 
@@ -12,7 +12,7 @@ test('Return null if cannot find value', () => {
 }); 
 
 test('Check for 3 arg error', () => {
-    const dict_class = new dictClass(true);
+    const dict_class = new InlineFuncs(true);
     //@ts-ignore
     expect( () => {dict_class.dictFind(dict1, 'key2', [1,2])} ).toThrow();
 }); 

@@ -1,12 +1,12 @@
 import { listCopy } from './listCopy';
-import { listClass } from '../list';
+import { InlineFuncs } from '../../index';
 
 test('Copy a list', () => {
     expect(listCopy([1,2,3])).toStrictEqual([1,2,3]);
 }); 
 
 test('Copy a list wrong number of args', () => {
-    const list_class = new listClass(true);
+    const list_class = new InlineFuncs(true);
     //@ts-ignore
     expect( () => {list_class.listCopy([1,2,3], 123)} ).toThrow();
 });

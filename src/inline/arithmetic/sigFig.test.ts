@@ -1,5 +1,5 @@
 import { sigFig } from './sigFig';
-import { arithmeticClass } from '../arithmetic';
+import { InlineFuncs } from '../../index';
 
 test('Check sigFig number', () => {
     expect(sigFig([1, 1132, 38746823], 2)).toStrictEqual([1.0, 1100, 39000000]);
@@ -10,7 +10,7 @@ test('Check sigFig list', () => {
 }); 
 
 test('Check sigFig 1 arg', () => {
-    const math_class = new arithmeticClass(true);
+    const math_class = new InlineFuncs(true);
     //@ts-ignore
     expect( () => {math_class.sigFig(123)}).toThrow();
 }); 

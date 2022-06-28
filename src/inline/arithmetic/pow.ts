@@ -13,7 +13,7 @@
  * ```
  * 
  * @param base A number or list of numbers.
- * @param xp The exponent used to raise the base.
+ * @param xp A number, the exponent used to raise the base.
  * @returns A number or a list of numbers.
  */
  export function pow(base: number|number[], xp: number): number|number[] {

@@ -1,5 +1,4 @@
 import { prod } from './prod';
-import { arithmeticClass } from '../arithmetic';
 
 test('Check prod with 2 in list', () => {
     expect(prod([2, 3])).toStrictEqual(6);

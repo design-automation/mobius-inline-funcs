@@ -1,5 +1,4 @@
 import { pow } from './pow';
-import { arithmeticClass } from '../arithmetic';
 
 test('Check pow with decimal xp', () => {
     expect(pow(4, 0.5)).toStrictEqual(2);

@@ -1,5 +1,4 @@
 import { ceil } from './ceil';
-import { arithmeticClass } from '../arithmetic';
 
 test('Check ceil of positive number', () => {
     expect(ceil(0.95)).toStrictEqual(1);

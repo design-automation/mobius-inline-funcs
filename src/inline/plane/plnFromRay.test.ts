@@ -1,5 +1,5 @@
 import { plnFromRay } from "./plnFromRay";
-import { rayMake } from "../ray";
+import { rayMake } from "../../index";
 
 const ray1 = rayMake([0,0,0], [0, 0, 1])
 const ray2 = rayMake([0, 0, 0], [1, 0, 0])

@@ -1,5 +1,5 @@
 import { listRot } from './listRot';
-import { listClass } from '../list';
+import { InlineFuncs } from '../../index';
 
 test('Rotate a list positively', () => {
     expect(listRot([1,2,3,4], 2)).toStrictEqual([3,4,1,2]);
@@ -10,7 +10,7 @@ test('Rotate a list negatively', () => {
 }); 
 
 test('Check listRot 3 args error', () => {
-    const list_class = new listClass(true);
+    const list_class = new InlineFuncs(true);
     //@ts-ignore
     expect( () => {list_class.listRot([1,2,3,4], -5, 6)} ).toThrow();
 }); 

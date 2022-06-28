@@ -1,5 +1,5 @@
 import { square } from './square';
-import { arithmeticClass } from '../arithmetic';
+import { InlineFuncs } from '../../index';
 
 test('Check square list', () => {
     expect(square([1,2,3,4])).toStrictEqual([1,4,9,16]);
@@ -10,7 +10,7 @@ test('Check square num', () => {
 }); 
 
 test('Check square 2 args', () => {
-    const math_class = new arithmeticClass(true);
+    const math_class = new InlineFuncs(true);
     //@ts-ignore
     expect( () => {math_class.square(123, 65)}).toThrow();
 }); 

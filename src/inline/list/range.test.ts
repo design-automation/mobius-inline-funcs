@@ -1,5 +1,5 @@
 import { range } from './range';
-import { listClass } from '../list';
+import { InlineFuncs } from '../../index';
 
 test('Check range from 0-4, 1 arg', () => {
     expect(range(5)).toStrictEqual([0,1,2,3,4]);
@@ -14,13 +14,12 @@ test('Check odd number sequence, 3 args', () => {
 }); 
 
 test('Check wrong value error', () => {
-    const list_class = new listClass(true);
+    const list_class = new InlineFuncs(true);
     //@ts-ignore
     expect( () => {list_class.range([1,3,5])} ).toThrow();
 }); 
 
 test('Check 4 args error', () => {
-    const list_class = new listClass(true);
     //@ts-ignore
     expect( () => {list_class.range(1,2,3,4)} ).toThrow();
 }); 

@@ -1,5 +1,5 @@
 import { listFlat } from './listFlat';
-import { listClass } from '../list';
+import { InlineFuncs } from '../../index';
 
 test('Check flattened list with depth 1', () => {
     expect(listFlat([1,2,3,[4,[5, [6] ], 7] ], 1)).toStrictEqual([1,2,3,4, [5, [6]], 7]);
@@ -10,7 +10,7 @@ test('Check fully flattened list', () => {
 }); 
 
 test('Check 3 args error', () => {
-    const list_class = new listClass(true);
+    const list_class = new InlineFuncs(true);
     //@ts-ignore
     expect( () => {list_class.listFlat([1,2,3], 123, 3)} ).toThrow();
 }); 

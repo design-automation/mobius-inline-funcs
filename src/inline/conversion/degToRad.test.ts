@@ -1,5 +1,4 @@
 import { degToRad } from './degToRad';
-import { conversionClass } from '../conversion'
 
 test('Check degToRad numbers', () => {
     expect(degToRad(180)).toStrictEqual(3.141592653589793);

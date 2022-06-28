@@ -1,6 +1,5 @@
-import { rayCopy } from "../ray";
+import { rayCopy, InlineFuncs } from "../../index";
 import { XY, RY, RX, RZ } from "../constants";
-import { rayClass } from "../ray";
 
 const ray1 = rayCopy(RX)
 const ray_lst = rayCopy([RY, RZ])
@@ -17,7 +16,7 @@ test('Check rayCopy overloaded', () => {
 }); 
 
 test('Check rayCopy wrong input type', () => {
-    const ray_class = new rayClass(true);
+    const ray_class = new InlineFuncs(true);
     //@ts-ignore
     expect( () => {rayClass.rayCopy(XY)}).toThrow();
 }); 
