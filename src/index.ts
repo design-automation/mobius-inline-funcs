@@ -1,10 +1,11 @@
 import { checkListsSameLen, checkNumArgs_noDebug } from './_check_inline_args';
 import { TPlane, TRay, Txyz } from './libs/common';
-import { len } from './inline/common';
+import { copy, equal, len } from './inline/common';
 import { checkArgs } from './_check_types';
 import * as chk from './_check_types';
 
 import * as constants from './inline/constants';
+
 
 import { abs } from './inline/arithmetic/abs';
 import { square } from './inline/arithmetic/square';
@@ -351,9 +352,23 @@ export class InlineFuncs {
 
     // CONSTANTS ===================================================================================
 
-    constants = {
-        ... constants
-    }
+    PI = constants.PI
+
+    XY = constants.XY
+    XZ = constants.XZ
+    YX = constants.YX
+    YZ = constants.YZ
+    ZX = constants.ZX
+    ZY = constants.ZY
+
+    VX = constants.VX
+    VY = constants.VY
+    VZ = constants.VZ
+    VO = constants.VO
+
+    RX = constants.RX
+    RY = constants.RY
+    RZ = constants.RZ
 
     // ARITHMETIC ==================================================================================
 
@@ -424,10 +439,10 @@ export class InlineFuncs {
 
     round(num: number | number[], dec_pla = 0) {
         if (this.__debug__) {
-            checkNumArgs_noDebug('round', arguments, 1);
+            checkNumArgs_noDebug('round', arguments, 2, 1);
             chk.checkArgs('round', 'num', num, [chk.isNum, chk.isNumL]);
         }
-        return round(num, dec_pla = 0);
+        return round(num, dec_pla);
     }
 
     sigFig(num: number | number[], sig_figs: number) {
@@ -1506,6 +1521,20 @@ export class InlineFuncs {
             checkNumArgs_noDebug('vecGtoL', arguments, 2);
         }
         return vecGtoL(v, p);
+    }
+
+    // COMMON ========================================================================================
+
+    len(data) {
+        return len(this.__debug__, data);
+    }
+
+    copy(data) {
+        return copy(this.__debug__, data);
+    }
+
+    equal(data1, data2) {
+        return equal(this.__debug__, data1, data2);
     }
 
 }
