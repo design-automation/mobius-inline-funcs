@@ -31,7 +31,7 @@
   "scripts": {
     "test": "jest",
     "build": "npm run build-del && npm run build-mjs && npm run build-cjs && fixup.sh",
-    "build-del": "del /s /q build\\*",
+    "build-del": "if exist build del /s /q build\\*",
     "build-mjs": "tsc -p tsconfig.json",
     "build-cjs": "tsc -p tsconfig-cjs.json",
     "mobius": "node copy_to_mobius.js",
