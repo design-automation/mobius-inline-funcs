@@ -1,11 +1,43 @@
 import { checkListsSameLen, checkNumArgs_noDebug } from './_check_inline_args';
 import { TPlane, TRay, Txyz } from './libs/common';
-import { copy, equal, len } from './inline/common';
+
 import { checkArgs } from './_check_types';
 import * as chk from './_check_types';
 
-import * as constants from './inline/constants';
+import {PI} from './inline/constants'
+import {XY} from './inline/constants'
+import {XZ} from './inline/constants'
+import {YX} from './inline/constants'
+import {YZ} from './inline/constants'
+import {ZX} from './inline/constants'
+import {ZY} from './inline/constants'
+import {VX} from './inline/constants'
+import {VY} from './inline/constants'
+import {VZ} from './inline/constants'
+import {VO} from './inline/constants'
+import {RX} from './inline/constants'
+import {RY} from './inline/constants'
+import {RZ} from './inline/constants'
+import {EUL} from './inline/constants'
+import {PI2} from './inline/constants'
 
+
+export {PI}
+export {XY}
+export {XZ}
+export {YX}
+export {YZ}
+export {ZX}
+export {ZY}
+export {VX}
+export {VY}
+export {VZ}
+export {VO}
+export {RX}
+export {RY}
+export {RZ}
+export {EUL}
+export {PI2}
 
 import { abs } from './inline/arithmetic/abs';
 import { square } from './inline/arithmetic/square';
@@ -344,6 +376,9 @@ export { vecRev }
 export { vecLtoG }
 export { vecGtoL }
 
+import { copy, equal, len } from './inline/common';
+export { copy, equal, len };
+
 export class InlineFuncs {
     __debug__: boolean
     constructor(debug: boolean) {
@@ -352,26 +387,22 @@ export class InlineFuncs {
 
     // CONSTANTS ===================================================================================
 
-    PI = constants.PI
-
-    XY = constants.XY
-    XZ = constants.XZ
-    YX = constants.YX
-    YZ = constants.YZ
-    ZX = constants.ZX
-    ZY = constants.ZY
-
-    VX = constants.VX
-    VY = constants.VY
-    VZ = constants.VZ
-    VO = constants.VO
-
-    RX = constants.RX
-    RY = constants.RY
-    RZ = constants.RZ
-
-    EUL = constants.EUL
-    PI2 = constants.PI2
+    PI = PI
+    XY = XY
+    XZ = XZ
+    YX = YX
+    YZ = YZ
+    ZX = ZX
+    ZY = ZY
+    VX = VX
+    VY = VY
+    VZ = VZ
+    VO = VO
+    RX = RX
+    RY = RY
+    RZ = RZ
+    EUL = EUL
+    PI2 = PI2
 
     // ARITHMETIC ==================================================================================
 
