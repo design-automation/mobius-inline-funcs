@@ -11032,7 +11032,7 @@
 			"flags": {},
 			"sources": [
 				{
-					"fileName": "inline/Trigonometry/acos.ts",
+					"fileName": "inline/trigonometry/acos.ts",
 					"line": 15,
 					"character": 17
 				}
@@ -11103,7 +11103,7 @@
 			"flags": {},
 			"sources": [
 				{
-					"fileName": "inline/Trigonometry/acosh.ts",
+					"fileName": "inline/trigonometry/acosh.ts",
 					"line": 14,
 					"character": 17
 				}
@@ -11174,7 +11174,7 @@
 			"flags": {},
 			"sources": [
 				{
-					"fileName": "inline/Trigonometry/asin.ts",
+					"fileName": "inline/trigonometry/asin.ts",
 					"line": 15,
 					"character": 17
 				}
@@ -11245,7 +11245,7 @@
 			"flags": {},
 			"sources": [
 				{
-					"fileName": "inline/Trigonometry/asinh.ts",
+					"fileName": "inline/trigonometry/asinh.ts",
 					"line": 11,
 					"character": 17
 				}
@@ -11316,7 +11316,7 @@
 			"flags": {},
 			"sources": [
 				{
-					"fileName": "inline/Trigonometry/atan.ts",
+					"fileName": "inline/trigonometry/atan.ts",
 					"line": 17,
 					"character": 17
 				}
@@ -11387,7 +11387,7 @@
 			"flags": {},
 			"sources": [
 				{
-					"fileName": "inline/Trigonometry/atan2.ts",
+					"fileName": "inline/trigonometry/atan2.ts",
 					"line": 12,
 					"character": 17
 				}
@@ -11476,7 +11476,7 @@
 			"flags": {},
 			"sources": [
 				{
-					"fileName": "inline/Trigonometry/atanh.ts",
+					"fileName": "inline/trigonometry/atanh.ts",
 					"line": 15,
 					"character": 17
 				}
@@ -12016,7 +12016,7 @@
 			"flags": {},
 			"sources": [
 				{
-					"fileName": "inline/Trigonometry/cos.ts",
+					"fileName": "inline/trigonometry/cos.ts",
 					"line": 13,
 					"character": 17
 				}
@@ -12087,7 +12087,7 @@
 			"flags": {},
 			"sources": [
 				{
-					"fileName": "inline/Trigonometry/cosh.ts",
+					"fileName": "inline/trigonometry/cosh.ts",
 					"line": 12,
 					"character": 17
 				}
@@ -19066,7 +19066,7 @@
 			"flags": {},
 			"sources": [
 				{
-					"fileName": "inline/Trigonometry/sin.ts",
+					"fileName": "inline/trigonometry/sin.ts",
 					"line": 12,
 					"character": 17
 				}
@@ -19137,7 +19137,7 @@
 			"flags": {},
 			"sources": [
 				{
-					"fileName": "inline/Trigonometry/sinh.ts",
+					"fileName": "inline/trigonometry/sinh.ts",
 					"line": 11,
 					"character": 17
 				}
@@ -20469,7 +20469,7 @@
 			"flags": {},
 			"sources": [
 				{
-					"fileName": "inline/Trigonometry/tan.ts",
+					"fileName": "inline/trigonometry/tan.ts",
 					"line": 10,
 					"character": 17
 				}
@@ -20540,7 +20540,7 @@
 			"flags": {},
 			"sources": [
 				{
-					"fileName": "inline/Trigonometry/tanh.ts",
+					"fileName": "inline/trigonometry/tanh.ts",
 					"line": 12,
 					"character": 17
 				}
