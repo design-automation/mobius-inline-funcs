@@ -272,19 +272,19 @@ export { strStarts }
 export { strEnds }
 export { strToJSON}
 
-import { sin } from './inline/Trigonometry/sin';
-import { asin } from './inline/Trigonometry/asin';
-import { sinh } from './inline/Trigonometry/sinh';
-import { asinh } from './inline/Trigonometry/asinh';
-import { cos } from './inline/Trigonometry/cos';
-import { acos } from './inline/Trigonometry/acos';
-import { cosh } from './inline/Trigonometry/cosh';
-import { acosh } from './inline/Trigonometry/acosh';
-import { tan } from './inline/Trigonometry/tan';
-import { atan } from './inline/Trigonometry/atan';
-import { atan2 } from './inline/Trigonometry/atan2';
-import { tanh } from './inline/Trigonometry/tanh';
-import { atanh } from './inline/Trigonometry/atanh';
+import { sin } from './inline/trigonometry/sin';
+import { asin } from './inline/trigonometry/asin';
+import { sinh } from './inline/trigonometry/sinh';
+import { asinh } from './inline/trigonometry/asinh';
+import { cos } from './inline/trigonometry/cos';
+import { acos } from './inline/trigonometry/acos';
+import { cosh } from './inline/trigonometry/cosh';
+import { acosh } from './inline/trigonometry/acosh';
+import { tan } from './inline/trigonometry/tan';
+import { atan } from './inline/trigonometry/atan';
+import { atan2 } from './inline/trigonometry/atan2';
+import { tanh } from './inline/trigonometry/tanh';
+import { atanh } from './inline/trigonometry/atanh';
 
 export { sin }
 export { asin }
