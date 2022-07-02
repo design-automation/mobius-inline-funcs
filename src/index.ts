@@ -379,6 +379,9 @@ export { vecGtoL }
 import { copy, equal, len } from './inline/common';
 export { copy, equal, len };
 
+import { htmlColLeg } from './inline/html/htmlColLeg';
+export { htmlColLeg };
+
 export class InlineFuncs {
     __debug__: boolean
     constructor(debug?: boolean) {
@@ -1561,7 +1564,19 @@ export class InlineFuncs {
         return vecGtoL(v, p);
     }
 
-    // COMMON ========================================================================================
+    // HTML ======================================================================================
+
+    htmlColLeg(size: number| [number, number], labels: string[], col_scale: string[] = null) {
+        if (this.__debug__) {
+            checkNumArgs_noDebug('htmlColLeg', arguments, 3, 2);
+            checkArgs('htmlColLeg', 'size', size, [chk.isNum, chk.isNumL]);
+            checkArgs('htmlColLeg', 'labels', labels, [chk.isStrL]);
+            checkArgs('htmlColLeg', 'col_scale', col_scale, [chk.isStrL, isNull]);
+        }
+        return htmlColLeg(size, labels, col_scale);
+    }
+
+    // COMMON ======================================================================================
 
     len(data) {
         return len(this.__debug__, data);
