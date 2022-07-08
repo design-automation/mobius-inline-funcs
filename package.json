@@ -1,6 +1,6 @@
 {
   "name": "@design-automation/mobius-inline-funcs",
-  "version": "0.2.10",
+  "version": "0.2.11",
   "description": "Mobius Spatial Information Model",
   "main": "build/cjs/index.js",
   "module": "build/mjs/index.js",
@@ -35,7 +35,7 @@
     "build-mjs": "tsc -p tsconfig.json",
     "build-cjs": "tsc -p tsconfig-cjs.json",
     "mobius": "node copy_to_mobius.js",
-    "deploy": "npm run build && npm run typedoc && npm publish --access public",
+    "deploy": "npm i && npm run build && npm run typedoc && npm publish --access public",
     "moduleDocs": "npm run typedoc",
     "typedoc": "typedoc --json typedoc-json/doc.json src"
   },
