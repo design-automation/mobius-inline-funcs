@@ -17,6 +17,9 @@
     "three": "^0.137.5"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "^8.3.0",
     "@types/chroma-js": "^2.1.3",
     "@types/jest": "^27.5.1",
     "@types/lodash": "^4.14.175",
@@ -24,6 +27,8 @@
     "@types/three": "^0.137.0",
     "@types/webgl2": "0.0.5",
     "jest": "^28.1.0",
+    "rollup": "^2.60.0",
+    "rollup-plugin-polyfill-node": "^0.8.0",
     "ts-jest": "^28.0.2",
     "typedoc": "^0.22.5",
     "typescript": "^4.4.3"
@@ -35,9 +40,10 @@
     "build-mjs": "tsc -p tsconfig.json",
     "build-cjs": "tsc -p tsconfig-cjs.json",
     "mobius": "node copy_to_mobius.js",
+    "rollup": "rollup --config rollup.config.js",
     "deploy": "npm i && npm run build && npm run typedoc && npm publish --access public",
     "moduleDocs": "npm run typedoc",
-    "typedoc": "typedoc --json typedoc-json/doc.json src"
+    "typedoc": "typedoc --json typedoc-json/doc.json src && npm run rollup"
   },
   "repository": {
     "type": "git",

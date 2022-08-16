@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CSS Template</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link type="text/css" rel="stylesheet" href="example.css" />
+    </head>
+    <body>
+        <script type="module">
+            import { InlineFuncs } from "./mobius-inline-funcs.module.es.js";
+            const a = new InlineFuncs();
+            console.log(a)
+            init();
+            async function init() {
+                const files = await (await fetch("files.json")).json();
+                const sideMenu = document.getElementById("sideMenu");
+                for (const f of files) {
+                    const newLink = createLink(f);
+                    sideMenu.appendChild(newLink);
+                }
+            }
+            function createLink(exampleName) {
+                const template = `<a onclick="loadExample('${exampleName}')">${exampleName}</a>`;
+                const link = createElementFromHTML(template);
+                return link;
+            }
+            function createElementFromHTML(htmlString) {
+                const div = document.createElement("div");
+                div.innerHTML = htmlString.trim();
+                return div.firstChild;
+            }
+            function loadExample(exampleFile) {
+                var xhttp = new XMLHttpRequest();
+                xhttp.onreadystatechange = async function () {
+                    if (this.readyState == 4 && this.status == 200) {
+                        // Typical action to be performed when the document is ready:
+                        document.getElementById("code-block").innerHTML =
+                            xhttp.responseText;
+                        const AsyncFunction = Object.getPrototypeOf(
+                            async function () {}
+                        ).constructor;
+                        const fnString = xhttp.responseText.split(
+                            "-------------------------------"
+                        )[1];
+                        const fn = new AsyncFunction(
+                            "InlineFuncs",
+                            fnString
+                        );
+                        const x = await fn(new InlineFuncs());
+                        const displayWindow = document.getElementById("viewer-iframe");
+                        displayWindow.innerHTML = x;
+                    }
+                };
+                xhttp.open("GET", "./" + exampleFile + ".js", true);
+                xhttp.send();
+            }
+            window.loadExample = loadExample;
+        </script>
+
+        <div id="sideMenu" class="sidenav">
+            <a href='../index.html' class='back'>Back</a>
+        </div>
+
+        <div class="content">
+            <div class="file-code">
+                <pre><code id='code-block'></code></pre>
+            </div>
+            <div id="viewer-iframe" class="viewer-iframe">
+            </div>
+        </div>
+    </body>
+</html>

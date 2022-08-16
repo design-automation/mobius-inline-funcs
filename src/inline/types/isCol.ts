@@ -1,4 +1,5 @@
-import { isVec3, _isWithin } from "../../index";
+import { _isWithin } from "./common";
+import { isVec3 } from "./isVec3";
 
 /**
  * Returns true if the value is a list of three numbers in the range [0, 1], false otherwise.
